@@ -1,7 +1,4 @@
-<table style="width: 100%;">
-  <tr>
-    <td valign="top">
-# Felipe Chaves
+![Felipe Tavares Chaves profile picture](felipe.jpeg){: style="float: right; border-radius: 15px; margin-left: 20px;" width="200" alt="Felipe Tavares Chaves profile picture"}
 
 ## Marketing Technology & Product Marketing Leader
 > Bridging the gap between technology and marketing to create impactful digital experiences
@@ -9,16 +6,14 @@
 I'm a strategic marketing leader with 13+ years of experience developing data-driven campaigns for global tech brands. I excel at translating complex technical concepts into compelling narratives that resonate with diverse audiences.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ftchvs&color=blue&style=flat-square)
-    </td>
-    <td valign="top" align="right">
-      <img src="felipe.jpeg" width="200" style="border-radius: 15px;">
-    </td>
-  </tr>
-</table>
+
+<div style="clear: both;"></div>
 
 <hr>
 
 ## Professional Experience
+
+### Consulting & Contract Experience (2023 - 2024)
 
 - **Marketing Technology Manager** at Intuit (Contract, 2024)
   - Managing data systems and integration for marketing campaigns
@@ -30,6 +25,8 @@ I'm a strategic marketing leader with 13+ years of experience developing data-dr
   - Collaborated across teams to launch the Snapdragon X series products
   - Developed B2B marketing campaigns across digital, content, and events
   - Implemented automated product briefing workflows to accelerate time-to-market
+
+### Meta Platforms, Inc. (fka Facebook) - (2016 - 2023)
 
 - **Product Marketing Manager** at WhatsApp (2019-2023)
   - Led global marketing campaigns including WhatsApp's first brand campaign in Brazil
@@ -48,10 +45,15 @@ I'm a strategic marketing leader with 13+ years of experience developing data-dr
   - Created a real-time revenue monitoring dashboard using SQL and Python
   - Optimized ad spending strategies resulting in 25% increase in ad revenue
 
+### Nike, Inc. - (2014 - 2016)
+
 - **Digital Marketing Specialist** at Nike (2014-2016)
-  - Led campaigns during the World Cup and Olympics, driving 30% increase in revenue
-  - Designed responsive HTML email templates improving open rates by 10%
-  - Optimized e-commerce initiatives resulting in 25% improvement in conversion
+  - Led digital strategy for World Cup and Olympics, aligning marketing to business growth (30% revenue increase).
+  - Developed campaign frameworks that boosted traffic by 20% and improved conversion by 25%.
+  - Applied A/B testing and behavioral insights to optimize customer journeys across digital touchpoints.
+  - Reduced content production costs by 15% through data-driven process optimization.
+
+### Previous Experience (2009 - 2014)
 
 - **E-Commerce Manager** at Marcyn (2012-2014)
   - Managed all aspects of e-commerce operations and digital marketing
@@ -70,7 +72,7 @@ I'm a strategic marketing leader with 13+ years of experience developing data-dr
 
 ---
 
-## Notable Campaigns
+## Career Highlights
 
 - **WhatsApp "It's Between You"** - First global brand campaign launched in Brazil
 - **WhatsApp US Privacy Campaign** - First US campaign highlighting message privacy features
@@ -104,10 +106,11 @@ I'm a strategic marketing leader with 13+ years of experience developing data-dr
 
 ## Education
 
-- Google Advanced Data Analytics Specialization (2024)
-- CORe: Credential of Readiness - Harvard Business School Online (2020)
-- Continuing Studies - Stanford University (2019)
-- Business Administration & Marketing - Anhembi Morumbi University, Brazil (2013)
+- **Google Advanced Data Analytics Certificate** - Google, USA (2024)
+- **Product Management Bootcamp** - General Assembly, San Francisco - USA (2021)
+- **CORe: Business Analytics, Economics for Managers, Financial Accounting** - Harvard Business School Online, USA (2020)
+- **Business and Academic English** - University of Western Australia, Perth - Australia (2009)
+- **Business Administration & Marketing (Bachelor)** - Anhembi Morumbi University, São Paulo - Brazil (2008-2013)
 
 ---
 
@@ -123,7 +126,6 @@ My work centers on leveraging technology, particularly AI, to solve marketing ch
 
 ## Connect
 
-- [LinkedIn](https://www.linkedin.com/in/felipetavaresch/)
-- [Email](mailto:felipetavareschaves@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipetavaresch/) [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:felipetavareschaves@gmail.com)
 
 > "The best results always come when you understand both the technical details and the marketing goals."
