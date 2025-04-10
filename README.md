@@ -1,4 +1,6 @@
-![Felipe Tavares Chaves profile picture](felipe.jpeg){: style="float: right; border-radius: 15px; margin-left: 20px;" width="200" alt="Felipe Tavares Chaves profile picture"}
+<table style="width: 100%;">
+  <tr>
+    <td valign="top">
 
 ## Marketing Technology & Product Marketing Leader
 > Bridging the gap between technology and marketing to create impactful digital experiences
@@ -6,8 +8,12 @@
 I'm a strategic marketing leader with 13+ years of experience developing data-driven campaigns for global tech brands. I excel at translating complex technical concepts into compelling narratives that resonate with diverse audiences.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ftchvs&color=blue&style=flat-square)
-
-<div style="clear: both;"></div>
+    </td>
+    <td valign="top" align="right">
+      <img src="felipe.jpeg" width="200" style="border-radius: 15px;" alt="Felipe Tavares Chaves profile picture">
+    </td>
+  </tr>
+</table>
 
 <hr>
 
