@@ -1,15 +1,15 @@
-<img src="felipe.jpeg" align="right" width="200">
+<img src="felipe.jpeg" align="right" width="200" style="border-radius: 15px;">
 
 # Felipe Chaves
 
 ## Marketing Technology & Product Marketing Leader
 > Bridging the gap between technology and marketing to create impactful digital experiences
 
+<div style="clear: both;"></div>
+
 I'm a strategic marketing leader with 13+ years of experience developing data-driven campaigns for global tech brands. I excel at translating complex technical concepts into compelling narratives that resonate with diverse audiences.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ftchvs&color=blue&style=flat-square)
-
-<br clear="both">
 
 ---
 
