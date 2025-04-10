@@ -9,6 +9,8 @@ I'm a strategic marketing leader with 13+ years of experience developing data-dr
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ftchvs&color=blue&style=flat-square)
 
+<br clear="both">
+
 ---
 
 ## Professional Experience
