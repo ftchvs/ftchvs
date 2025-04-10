@@ -2,10 +2,10 @@
   <tr>
     <td valign="top">
 
-## Marketing Technology & Product Marketing Leader
-> Bridging the gap between technology and marketing to create impactful digital experiences
+## Full-Stack Product Marketing Leader
+> Translating technical complexity into strategic growth.
 
-I'm a strategic marketing leader with 13+ years of experience developing data-driven campaigns for global tech brands. I excel at translating complex technical concepts into compelling narratives that resonate with diverse audiences.
+I’m a strategic marketing leader with 13+ years driving data-driven growth for global tech brands. I blend technical fluency and creative strategy to transform complex technologies into clear narratives and go-to-market frameworks that resonate with diverse audiences and move markets.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ftchvs&color=blue&style=flat-square)
     </td>
@@ -14,6 +14,12 @@ I'm a strategic marketing leader with 13+ years of experience developing data-dr
     </td>
   </tr>
 </table>
+
+## Strengths
+
+- **Builder's Mindset**: I build and deploy end‑to‑end solutions, aligning product, engineering, and GTM teams to unlock new revenue streams.
+- **Strategic Clarity**: I isolate the pivotal constraint, set decisive roadmaps, and drive execution that turns chaos into market share and margin.
+- **Emotional Precision**: I craft data‑backed stories that mobilize stakeholders, accelerate adoption, and turn customers into advocates.
 
 <hr>
 
