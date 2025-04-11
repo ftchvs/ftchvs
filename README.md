@@ -18,7 +18,7 @@ I'm a strategic marketing leader with 13+ years driving data-driven growth for g
 ## Strengths
 
 - **Builder's Mindset**: I build and deploy end‑to‑end solutions, aligning product, engineering, and GTM teams to unlock new revenue streams.
-- **Strategic Clarity**: I isolate the pivotal constraint, set decisive roadmaps, and drive execution that turns chaos into market share and margin.
+- **Systems Thinking**: I connect system-level constraints, build strategic roadmaps, and lead execution to turn complexity into business value.
 - **GTM Strategy**: I craft data‑backed stories that aligns stakeholders, accelerate adoption, and turn customers into advocates.
 
 <hr>
