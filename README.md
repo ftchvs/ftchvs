@@ -27,7 +27,8 @@ I'm a strategic marketing leader with 13+ years driving data-driven growth for g
 
 ### Consulting & Contract Experience (2023 - 2024)
 
-- **Product Marketing Manager, AI** at HCLTech (2025 - )
+- **Digital Marketing Lead, Incubation & Growth ** at Resmed (2025 - )
+- **Product Marketing Manager, AI** at HCLTech (2025 - 2025)
 
 - **Marketing Technology Manager** at Intuit (Contract, 2024)
   - Managing data systems and integration for marketing campaigns
