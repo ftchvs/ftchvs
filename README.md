@@ -25,7 +25,7 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 ## Professional Experience
 
-### Resmed - (2025 - 2025)
+### Resmed - (2025 - )
 - **Digital Marketing Lead, Incubation & Growth** at Resmed (2025 - )
 
 ### HCLTech - (2025 - 2025)
