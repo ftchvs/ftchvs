@@ -85,10 +85,8 @@ def update_readme_section(
         print(f"Error: End marker '{end_marker}' not found in README", file=sys.stderr)
         return False
     
-    # Build new content section - clean replacement
+    # Build new content section - clean replacement (only AI snapshot, no stats)
     new_content = f"{start_marker}\n\n"
-    new_content += stats_markdown.strip()
-    new_content += "\n\n---\n\n"
     new_content += ai_markdown.strip()
     new_content += f"\n\n{end_marker}"
     
