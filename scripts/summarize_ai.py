@@ -114,7 +114,7 @@ def format_ai_markdown(stories: List[Dict], summary: str, date: str) -> str:
     
     for i, story in enumerate(stories, 1):
         lines.append(f"{i}. [{story['title']}]({story['url']})")
-        lines.append(f"   - {story['points']} points | {story['comments']} comments | [Discuss]({story['hn_url']})")
+        lines.append(f"   - 🔥 {story['points']} points | 💬 {story['comments']} comments")
         lines.append("")
     
     lines.extend([
