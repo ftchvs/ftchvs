@@ -16,18 +16,39 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 </table>
 
 
+
 <!--START_SECTION:daily-->
 
 Log saved to logs/2025-11-02.md
-{"date": "2025-11-02", "markdown": "## \ud83d\udcca Daily Dev Activity - 2025-11-02\n\n### Commits & Contributions\n- **Total Commits**: 2\n- **Pull Requests**: 0 (0 open, 0 merged)\n\n### Code Changes\n- **Lines Added**: +1,185\n- **Lines Deleted**: -7\n- **Net Change**: +1,178\n", "stats": {"date": "2025-11-02", "commits": {"total": 2}, "prs": {"total": 0, "open": 0, "merged": 0, "closed": 0}, "lines": {"additions": 1185, "deletions": 7, "net": 1178}}}
+{"date": "2025-11-02", "markdown": "## \ud83d\udcca Daily Dev Activity - 2025-11-02\n\n### Commits & Contributions\n- **Total Commits**: 4\n- **Pull Requests**: 0 (0 open, 0 merged)\n\n### Code Changes\n- **Lines Added**: +1,240\n- **Lines Deleted**: -15\n- **Net Change**: +1,225\n", "stats": {"date": "2025-11-02", "commits": {"total": 4}, "prs": {"total": 0, "open": 0, "merged": 0, "closed": 0}, "lines": {"additions": 1240, "deletions": 15, "net": 1225}}}
 
 ---
 
-## 🤖 AI Industry Snapshot
+## 🤖 AI Industry Snapshot - 2025-11-02
 
-*Error fetching AI news.*
+### Top AI Stories
+
+1. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html)
+   - 3 points | 0 comments | [Discuss](https://news.ycombinator.com/item?id=36381832)
+
+2. [Experiments in LLMs – OpenAI Functions](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html)
+   - 2 points | 0 comments | [Discuss](https://news.ycombinator.com/item?id=36534635)
+
+3. [Experiments in LLMs – Vector DBs and Embeddings](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html)
+   - 2 points | 0 comments | [Discuss](https://news.ycombinator.com/item?id=36447740)
+
+4. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)
+   - 1 points | 0 comments | [Discuss](https://news.ycombinator.com/item?id=39210964)
+
+5. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20)
+   - 5 points | 2 comments | [Discuss](https://news.ycombinator.com/item?id=37954932)
+
+### AI Trends Summary
+
+The recent focus in the AI industry, as highlighted by discussions on Hacker News, revolves significantly around advancements and experiments in Large Language Models (LLMs). Key themes include the exploration of fine-tuning techniques for LLMs, demonstrating a tailored approach to harnessing their capabilities more effectively. Additionally, there is an emerging interest in the integration of LLMs with OpenAI functions and the innovative use of vector databases and embeddings to enhance AI performance. Furthermore, the development of AI-powered tools, such as Twitter filters and the creation of AI/ML weekly digests curated and analyzed by LLMs, indicates a growing trend towards the application of AI in content curation and management. These discussions underscore a broader movement towards practical applications and optimizations of LLMs in various domains.
 
 <!--END_SECTION:daily-->
+
 
 
 ## Strengths
