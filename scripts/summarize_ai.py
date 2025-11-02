@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Fetch top AI stories from Hacker News and generate AI summary via OpenAI.
+Fetch top AI stories from multiple sources (Hacker News, Reddit, TechCrunch)
+and generate AI summary via OpenAI.
 """
 
 import os
