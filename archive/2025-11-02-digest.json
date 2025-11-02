@@ -1,0 +1,226 @@
+{
+  "date": "2025-11-02",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-02\n\n### Top AI Stories\n\n1. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n2. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n3. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n4. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n5. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nThe series on \"Experiments in LLMs\" covers diverse aspects of leveraging Large Language Models (LLMs), including fine-tuning techniques for enhanced performance, utilizing OpenAI's Functions for specific tasks, and integrating Vector Databases and Embeddings for more efficient data handling and retrieval. Additionally, the AI community is showcasing practical applications, such as an AI-powered Twitter filter for improved content curation and a weekly digest curated by LLM, featuring summaries and sentiment analysis of AI/ML developments. These items collectively highlight ongoing innovations in customizing and applying AI technologies for both specific functionalities and broad, accessible information dissemination.\n",
+    "stories": [
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "The series on \"Experiments in LLMs\" covers diverse aspects of leveraging Large Language Models (LLMs), including fine-tuning techniques for enhanced performance, utilizing OpenAI's Functions for specific tasks, and integrating Vector Databases and Embeddings for more efficient data handling and retrieval. Additionally, the AI community is showcasing practical applications, such as an AI-powered Twitter filter for improved content curation and a weekly digest curated by LLM, featuring summaries and sentiment analysis of AI/ML developments. These items collectively highlight ongoing innovations in customizing and applying AI technologies for both specific functionalities and broad, accessible information dissemination."
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-02\n\n### Top Stories\n\n1. [Energy chief warns ‘bigger ramifications’ on the horizon as shutdown threatens to stall nuclear modernization](https://www.foxbusiness.com/media/energy-chief-warns-bigger-ramifications-horizon-shutdown-stalls-nuclear-modernization)\n\n2. [Airlines step up to support federal workers as nearly 13,000 air traffic controllers go unpaid](https://www.foxbusiness.com/fox-news-travel/airlines-step-up-support-federal-workers-nearly-13000-air-traffic-controllers-go-unpaid)\n\n3. [Fraudulent rental applications surge nationwide as housing costs remain elevated](https://www.foxbusiness.com/real-estate/fraudulent-rental-applications-surge-nationwide-housing-costs-remain-elevated)\n\n4. [Nvidia leads America’s AI 'industrial revolution' with major manufacturing move](https://www.foxbusiness.com/media/nvidia-leads-americas-ai-industrial-revolution-major-manufacturing-move)\n\n5. [Bessent says he's 'optimistic' as Supreme Court weighs fate of Trump's entire trade agenda](https://www.foxbusiness.com/politics/bessent-says-hes-optimistic-supreme-court-weighs-fate-trumps-entire-trade-agenda)\n\n6. [Mega Millions jackpot reaches $800 million](https://www.foxbusiness.com/lifestyle/mega-millions-jackpot-reaches-800-million)\n\n7. [Elon Musk teases Tesla flying car: 'Crazy technology'](https://www.foxbusiness.com/technology/elon-musk-teases-tesla-flying-car-crazy-technology)\n\n8. [Uma Thurman's former Manhattan townhouse hits the market for $11.5M](https://www.foxbusiness.com/fox-news-entertainment/uma-thurmans-former-manhattan-townhouse-hits-market-11-5m)\n\n9. [Return to office gaining momentum as AI reshapes corporate strategy](https://www.foxbusiness.com/media/return-office-gaining-momentum-ai-reshapes-corporate-strategy)\n\n10. [MIKE DAVIS: Foreign weight-loss drugmaker seeks fat profits by gobbling up American upstart](https://www.foxbusiness.com/fox-news-opinion/mike-davis-foreign-weight-loss-drugmaker-seeks-fat-profits-gobbling-up-american-upstart)\n\n### Summary\n\nThe energy sector faces potential challenges with warnings from the energy chief about significant impacts from a shutdown affecting nuclear modernization efforts. Amidst this, the airline industry is showing solidarity by supporting federal workers, particularly nearly 13,000 air traffic controllers who are going unpaid. The housing market is experiencing a rise in fraudulent rental applications as costs continue to soar. In the tech world, Nvidia is at the forefront, leading what is being termed as America’s AI 'industrial revolution' with a significant manufacturing initiative. Meanwhile, in the trade sector, there is a sense of optimism from Bessent as the Supreme Court deliberates on the future of Trump's comprehensive trade agenda.\n",
+    "stories": [
+      {
+        "title": "Energy chief warns ‘bigger ramifications’ on the horizon as shutdown threatens to stall nuclear modernization",
+        "url": "https://www.foxbusiness.com/media/energy-chief-warns-bigger-ramifications-horizon-shutdown-stalls-nuclear-modernization",
+        "source": "Fox Business",
+        "author": "Taylor Penley",
+        "published": "Sun, 02 Nov 2025 21:00:30 GMT"
+      },
+      {
+        "title": "Airlines step up to support federal workers as nearly 13,000 air traffic controllers go unpaid",
+        "url": "https://www.foxbusiness.com/fox-news-travel/airlines-step-up-support-federal-workers-nearly-13000-air-traffic-controllers-go-unpaid",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Sun, 02 Nov 2025 19:34:13 GMT"
+      },
+      {
+        "title": "Fraudulent rental applications surge nationwide as housing costs remain elevated",
+        "url": "https://www.foxbusiness.com/real-estate/fraudulent-rental-applications-surge-nationwide-housing-costs-remain-elevated",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Sun, 02 Nov 2025 19:08:05 GMT"
+      },
+      {
+        "title": "Nvidia leads America’s AI 'industrial revolution' with major manufacturing move",
+        "url": "https://www.foxbusiness.com/media/nvidia-leads-americas-ai-industrial-revolution-major-manufacturing-move",
+        "source": "Fox Business",
+        "author": "Taylor Penley",
+        "published": "Sun, 02 Nov 2025 18:22:24 GMT"
+      },
+      {
+        "title": "Bessent says he's 'optimistic' as Supreme Court weighs fate of Trump's entire trade agenda",
+        "url": "https://www.foxbusiness.com/politics/bessent-says-hes-optimistic-supreme-court-weighs-fate-trumps-entire-trade-agenda",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Sun, 02 Nov 2025 16:09:07 GMT"
+      },
+      {
+        "title": "Mega Millions jackpot reaches $800 million",
+        "url": "https://www.foxbusiness.com/lifestyle/mega-millions-jackpot-reaches-800-million",
+        "source": "Fox Business",
+        "author": "Pilar Arias",
+        "published": "Sun, 02 Nov 2025 14:49:23 GMT"
+      },
+      {
+        "title": "Elon Musk teases Tesla flying car: 'Crazy technology'",
+        "url": "https://www.foxbusiness.com/technology/elon-musk-teases-tesla-flying-car-crazy-technology",
+        "source": "Fox Business",
+        "author": "Pilar Arias",
+        "published": "Sun, 02 Nov 2025 13:10:33 GMT"
+      },
+      {
+        "title": "Uma Thurman's former Manhattan townhouse hits the market for $11.5M",
+        "url": "https://www.foxbusiness.com/fox-news-entertainment/uma-thurmans-former-manhattan-townhouse-hits-market-11-5m",
+        "source": "Fox Business",
+        "author": "Lori Bashian",
+        "published": "Sun, 02 Nov 2025 13:00:40 GMT"
+      },
+      {
+        "title": "Return to office gaining momentum as AI reshapes corporate strategy",
+        "url": "https://www.foxbusiness.com/media/return-office-gaining-momentum-ai-reshapes-corporate-strategy",
+        "source": "Fox Business",
+        "author": "Arabella Bennett",
+        "published": "Sun, 02 Nov 2025 12:00:09 GMT"
+      },
+      {
+        "title": "MIKE DAVIS: Foreign weight-loss drugmaker seeks fat profits by gobbling up American upstart",
+        "url": "https://www.foxbusiness.com/fox-news-opinion/mike-davis-foreign-weight-loss-drugmaker-seeks-fat-profits-gobbling-up-american-upstart",
+        "source": "Fox Business",
+        "author": "Mike Davis",
+        "published": "Sun, 02 Nov 2025 11:48:01 GMT"
+      }
+    ],
+    "summary": "The energy sector faces potential challenges with warnings from the energy chief about significant impacts from a shutdown affecting nuclear modernization efforts. Amidst this, the airline industry is showing solidarity by supporting federal workers, particularly nearly 13,000 air traffic controllers who are going unpaid. The housing market is experiencing a rise in fraudulent rental applications as costs continue to soar. In the tech world, Nvidia is at the forefront, leading what is being termed as America’s AI 'industrial revolution' with a significant manufacturing initiative. Meanwhile, in the trade sector, there is a sense of optimism from Bessent as the Supreme Court deliberates on the future of Trump's comprehensive trade agenda."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-02\n\n### Top Stories\n\n1. [Thodex](https://en.wikipedia.org/wiki/Thodex)\n\n2. [The foods that make you smell more attractive](https://www.bbc.com/future/article/20251031-the-foods-that-make-you-smell-more-attractive)\n\n3. [We Used to Read Things in This Country](https://thebaffler.com/salvos/we-used-to-read-things-in-this-country-mccormack)\n\n4. [Facts About Throwing Good Parties](https://www.atvbt.com/21-facts-about-throwing-good-parties/)\n\n5. [Poor Screen, Sleep Hygiene Drying Out Kids' Eyes](https://www.medscape.com/viewarticle/study-poor-screen-sleep-hygiene-drying-out-kids-eyes-2025a1000tu4)\n\n6. [These Men dove to the Edmund Fitzgerald shipwreck decades ago. Their stories](https://www.freep.com/story/news/local/michigan/2025/11/02/edmund-fitzgerald-wreck-diving/86752517007/)\n\n7. [I tested Sora's new 'Character Cameo' feature, and it was borderline disturbing](https://www.zdnet.com/article/i-tested-soras-new-character-cameo-feature-and-it-was-borderline-disturbing/)\n\n8. [The effects of intranasal testosterone on economic preferences in men](https://www.pnas.org/doi/10.1073/pnas.2508519122)\n\n9. [Translation models between English and Chinese](https://whynothugo.nl/journal/2025/11/02/translation-models-between-english-and-chinese/)\n\n10. ['MTV Was a Lot Like Kabul': Tom Freston on MTV's Wild Heyday](https://www.vulture.com/article/mtv-wild-parties-book-excerpt-tom-freston.html)\n\n### Summary\n\n1. **Thodex** is a cryptocurrency exchange embroiled in controversy, possibly indicating a cautionary tale about the volatility and risks associated with digital currency investments.\n\n2. **The foods that make you smell more attractive** suggests that certain diets or specific foods can influence body odor in a way that is perceived as more appealing, highlighting an intriguing intersection between nutrition and social interaction.\n\n3. **We Used to Read Things in This Country** laments the decline in traditional reading habits, pointing to a broader cultural shift towards digital consumption and the potential impacts on cognition and comprehension.\n\n4. **Facts About Throwing Good Parties** likely offers insights into the social dynamics, planning strategies, and perhaps even the psychological benefits of hosting successful gatherings, emphasizing the importance of connection and community.\n\n5. **Poor Screen, Sleep Hygiene Drying Out Kids' Eyes** raises concerns about the health implications of excessive screen time for children, including sleep disruption and eye strain, underlining the need for better digital\n",
+    "stories": [
+      {
+        "title": "Thodex",
+        "url": "https://en.wikipedia.org/wiki/Thodex",
+        "points": 3,
+        "comments": 0,
+        "author": "jethronethro",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The foods that make you smell more attractive",
+        "url": "https://www.bbc.com/future/article/20251031-the-foods-that-make-you-smell-more-attractive",
+        "points": 2,
+        "comments": 0,
+        "author": "Korling",
+        "source": "Hacker News"
+      },
+      {
+        "title": "We Used to Read Things in This Country",
+        "url": "https://thebaffler.com/salvos/we-used-to-read-things-in-this-country-mccormack",
+        "points": 1,
+        "comments": 0,
+        "author": "zanellato19",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Facts About Throwing Good Parties",
+        "url": "https://www.atvbt.com/21-facts-about-throwing-good-parties/",
+        "points": 1,
+        "comments": 0,
+        "author": "cjbarber",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Poor Screen, Sleep Hygiene Drying Out Kids' Eyes",
+        "url": "https://www.medscape.com/viewarticle/study-poor-screen-sleep-hygiene-drying-out-kids-eyes-2025a1000tu4",
+        "points": 1,
+        "comments": 0,
+        "author": "wjb3",
+        "source": "Hacker News"
+      },
+      {
+        "title": "These Men dove to the Edmund Fitzgerald shipwreck decades ago. Their stories",
+        "url": "https://www.freep.com/story/news/local/michigan/2025/11/02/edmund-fitzgerald-wreck-diving/86752517007/",
+        "points": 1,
+        "comments": 0,
+        "author": "rmason",
+        "source": "Hacker News"
+      },
+      {
+        "title": "I tested Sora's new 'Character Cameo' feature, and it was borderline disturbing",
+        "url": "https://www.zdnet.com/article/i-tested-soras-new-character-cameo-feature-and-it-was-borderline-disturbing/",
+        "points": 1,
+        "comments": 0,
+        "author": "gnabgib",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The effects of intranasal testosterone on economic preferences in men",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2508519122",
+        "points": 1,
+        "comments": 0,
+        "author": "PaulHoule",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Translation models between English and Chinese",
+        "url": "https://whynothugo.nl/journal/2025/11/02/translation-models-between-english-and-chinese/",
+        "points": 1,
+        "comments": 0,
+        "author": "WhyNotHugo",
+        "source": "Hacker News"
+      },
+      {
+        "title": "'MTV Was a Lot Like Kabul': Tom Freston on MTV's Wild Heyday",
+        "url": "https://www.vulture.com/article/mtv-wild-parties-book-excerpt-tom-freston.html",
+        "points": 1,
+        "comments": 1,
+        "author": "ioblomov",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. **Thodex** is a cryptocurrency exchange embroiled in controversy, possibly indicating a cautionary tale about the volatility and risks associated with digital currency investments.\n\n2. **The foods that make you smell more attractive** suggests that certain diets or specific foods can influence body odor in a way that is perceived as more appealing, highlighting an intriguing intersection between nutrition and social interaction.\n\n3. **We Used to Read Things in This Country** laments the decline in traditional reading habits, pointing to a broader cultural shift towards digital consumption and the potential impacts on cognition and comprehension.\n\n4. **Facts About Throwing Good Parties** likely offers insights into the social dynamics, planning strategies, and perhaps even the psychological benefits of hosting successful gatherings, emphasizing the importance of connection and community.\n\n5. **Poor Screen, Sleep Hygiene Drying Out Kids' Eyes** raises concerns about the health implications of excessive screen time for children, including sleep disruption and eye strain, underlining the need for better digital"
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-02\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-02\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  }
+}

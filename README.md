@@ -18,72 +18,120 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 
 <!--START_SECTION:ai_news-->
-<!-- AI-GENERATED SECTION -->
+
 ## 🤖 AI Industry Snapshot - 2025-11-02
 
 ### Top AI Stories
 
-*Content will be updated daily via GitHub Actions*
+1. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)
+
+2. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)
+
+3. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)
+
+4. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)
+
+5. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)
 
 ### AI Trends Summary
 
-*Content will be updated daily via GitHub Actions*
+The series on "Experiments in LLMs" covers diverse aspects of leveraging Large Language Models (LLMs), including fine-tuning techniques for enhanced performance, utilizing OpenAI's Functions for specific tasks, and integrating Vector Databases and Embeddings for more efficient data handling and retrieval. Additionally, the AI community is showcasing practical applications, such as an AI-powered Twitter filter for improved content curation and a weekly digest curated by LLM, featuring summaries and sentiment analysis of AI/ML developments. These items collectively highlight ongoing innovations in customizing and applying AI technologies for both specific functionalities and broad, accessible information dissemination.
 
 <!--END_SECTION:ai_news-->
 
 <!--START_SECTION:business_news-->
-<!-- AI-GENERATED SECTION -->
+
 ## 💼 Business News - 2025-11-02
 
 ### Top Stories
 
-*Content will be updated daily via GitHub Actions*
+1. [Energy chief warns ‘bigger ramifications’ on the horizon as shutdown threatens to stall nuclear modernization](https://www.foxbusiness.com/media/energy-chief-warns-bigger-ramifications-horizon-shutdown-stalls-nuclear-modernization)
+
+2. [Airlines step up to support federal workers as nearly 13,000 air traffic controllers go unpaid](https://www.foxbusiness.com/fox-news-travel/airlines-step-up-support-federal-workers-nearly-13000-air-traffic-controllers-go-unpaid)
+
+3. [Fraudulent rental applications surge nationwide as housing costs remain elevated](https://www.foxbusiness.com/real-estate/fraudulent-rental-applications-surge-nationwide-housing-costs-remain-elevated)
+
+4. [Nvidia leads America’s AI 'industrial revolution' with major manufacturing move](https://www.foxbusiness.com/media/nvidia-leads-americas-ai-industrial-revolution-major-manufacturing-move)
+
+5. [Bessent says he's 'optimistic' as Supreme Court weighs fate of Trump's entire trade agenda](https://www.foxbusiness.com/politics/bessent-says-hes-optimistic-supreme-court-weighs-fate-trumps-entire-trade-agenda)
+
+6. [Mega Millions jackpot reaches $800 million](https://www.foxbusiness.com/lifestyle/mega-millions-jackpot-reaches-800-million)
+
+7. [Elon Musk teases Tesla flying car: 'Crazy technology'](https://www.foxbusiness.com/technology/elon-musk-teases-tesla-flying-car-crazy-technology)
+
+8. [Uma Thurman's former Manhattan townhouse hits the market for $11.5M](https://www.foxbusiness.com/fox-news-entertainment/uma-thurmans-former-manhattan-townhouse-hits-market-11-5m)
+
+9. [Return to office gaining momentum as AI reshapes corporate strategy](https://www.foxbusiness.com/media/return-office-gaining-momentum-ai-reshapes-corporate-strategy)
+
+10. [MIKE DAVIS: Foreign weight-loss drugmaker seeks fat profits by gobbling up American upstart](https://www.foxbusiness.com/fox-news-opinion/mike-davis-foreign-weight-loss-drugmaker-seeks-fat-profits-gobbling-up-american-upstart)
 
 ### Summary
 
-*Content will be updated daily via GitHub Actions*
+The energy sector faces potential challenges with warnings from the energy chief about significant impacts from a shutdown affecting nuclear modernization efforts. Amidst this, the airline industry is showing solidarity by supporting federal workers, particularly nearly 13,000 air traffic controllers who are going unpaid. The housing market is experiencing a rise in fraudulent rental applications as costs continue to soar. In the tech world, Nvidia is at the forefront, leading what is being termed as America’s AI 'industrial revolution' with a significant manufacturing initiative. Meanwhile, in the trade sector, there is a sense of optimism from Bessent as the Supreme Court deliberates on the future of Trump's comprehensive trade agenda.
 
 <!--END_SECTION:business_news-->
 
 <!--START_SECTION:tech_news-->
-<!-- AI-GENERATED SECTION -->
+
 ## 💻 Tech News - 2025-11-02
 
 ### Top Stories
 
-*Content will be updated daily via GitHub Actions*
+1. [Thodex](https://en.wikipedia.org/wiki/Thodex)
+
+2. [The foods that make you smell more attractive](https://www.bbc.com/future/article/20251031-the-foods-that-make-you-smell-more-attractive)
+
+3. [We Used to Read Things in This Country](https://thebaffler.com/salvos/we-used-to-read-things-in-this-country-mccormack)
+
+4. [Facts About Throwing Good Parties](https://www.atvbt.com/21-facts-about-throwing-good-parties/)
+
+5. [Poor Screen, Sleep Hygiene Drying Out Kids' Eyes](https://www.medscape.com/viewarticle/study-poor-screen-sleep-hygiene-drying-out-kids-eyes-2025a1000tu4)
+
+6. [These Men dove to the Edmund Fitzgerald shipwreck decades ago. Their stories](https://www.freep.com/story/news/local/michigan/2025/11/02/edmund-fitzgerald-wreck-diving/86752517007/)
+
+7. [I tested Sora's new 'Character Cameo' feature, and it was borderline disturbing](https://www.zdnet.com/article/i-tested-soras-new-character-cameo-feature-and-it-was-borderline-disturbing/)
+
+8. [The effects of intranasal testosterone on economic preferences in men](https://www.pnas.org/doi/10.1073/pnas.2508519122)
+
+9. [Translation models between English and Chinese](https://whynothugo.nl/journal/2025/11/02/translation-models-between-english-and-chinese/)
+
+10. ['MTV Was a Lot Like Kabul': Tom Freston on MTV's Wild Heyday](https://www.vulture.com/article/mtv-wild-parties-book-excerpt-tom-freston.html)
 
 ### Summary
 
-*Content will be updated daily via GitHub Actions*
+1. **Thodex** is a cryptocurrency exchange embroiled in controversy, possibly indicating a cautionary tale about the volatility and risks associated with digital currency investments.
+
+2. **The foods that make you smell more attractive** suggests that certain diets or specific foods can influence body odor in a way that is perceived as more appealing, highlighting an intriguing intersection between nutrition and social interaction.
+
+3. **We Used to Read Things in This Country** laments the decline in traditional reading habits, pointing to a broader cultural shift towards digital consumption and the potential impacts on cognition and comprehension.
+
+4. **Facts About Throwing Good Parties** likely offers insights into the social dynamics, planning strategies, and perhaps even the psychological benefits of hosting successful gatherings, emphasizing the importance of connection and community.
+
+5. **Poor Screen, Sleep Hygiene Drying Out Kids' Eyes** raises concerns about the health implications of excessive screen time for children, including sleep disruption and eye strain, underlining the need for better digital
 
 <!--END_SECTION:tech_news-->
 
 <!--START_SECTION:motivation_quotes-->
-<!-- AI-GENERATED SECTION -->
+
 ## 💪 Motivation Quotes - 2025-11-02
 
 ### Top Items
 
-*Content will be updated daily via GitHub Actions*
-
 ### Summary
 
-*Content will be updated daily via GitHub Actions*
+No motivation quotes found today.
 
 <!--END_SECTION:motivation_quotes-->
 
 <!--START_SECTION:wise_knowledge-->
-<!-- AI-GENERATED SECTION -->
+
 ## 🧠 Wise Knowledge - 2025-11-02
 
 ### Top Items
 
-*Content will be updated daily via GitHub Actions*
-
 ### Summary
 
-*Content will be updated daily via GitHub Actions*
+No wise knowledge found today.
 
 <!--END_SECTION:wise_knowledge-->
 
@@ -228,7 +276,15 @@ My work centers on leveraging technology, particularly AI, to solve marketing ch
 ---
 
 <!--START_SECTION:disclaimer-->
-**Last Updated:** 2025-11-02 22:38:36 UTC
+**Last Updated:** 2025-11-02 22:42:28 UTC
 
-*Disclaimer: The AI Industry Snapshot section is automatically generated by AI and updated daily via GitHub Actions. Content is aggregated from Hacker News, Reddit, and TechCrunch, and summarized using AI. Stories and trends are compiled without human review.*
+*Disclaimer: All sections are automatically generated by AI and updated daily via GitHub Actions. Content is aggregated from multiple sources:*
+
+- **AI News**: Hacker News, Reddit (r/MachineLearning, r/artificial), TechCrunch
+- **Business News**: CNN Business, Fox Business, NBC News, WSJ, NYTimes
+- **Tech News**: TechCrunch, Hacker News, Reddit (r/technology, r/programming)
+- **Motivation Quotes**: Reddit (r/getmotivated, r/motivation, r/quotes)
+- **Wise Knowledge**: Reddit (r/stoicism, r/philosophy, r/ZenHabits, r/Meditation)
+
+*All content is summarized using AI. Stories, quotes, and knowledge snippets are compiled without human review.*
 <!--END_SECTION:disclaimer-->
