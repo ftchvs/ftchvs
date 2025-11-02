@@ -50,7 +50,7 @@ def update_readme_section(
     end_marker: str = "<!--END_SECTION:daily-->",
 ) -> bool:
     """
-    Update README.md by replacing content between markers.
+    Update README.md by replacing ALL content between markers.
     Returns True if file was modified, False otherwise.
     """
     if not os.path.exists(readme_path):
@@ -60,46 +60,52 @@ def update_readme_section(
     content = read_file(readme_path)
     
     # Check if markers exist
-    if start_marker not in content:
-        print(f"Warning: Start marker '{start_marker}' not found in README", file=sys.stderr)
-        print("Adding markers...", file=sys.stderr)
-        # Add markers at the end of the file if they don't exist
-        new_section = f"\n\n{start_marker}\n{end_marker}\n"
-        content += new_section
+    start_idx = content.find(start_marker)
+    end_idx = content.find(end_marker)
     
-    if end_marker not in content:
+    if start_idx == -1:
+        print(f"Warning: Start marker '{start_marker}' not found in README", file=sys.stderr)
+        print("Adding markers after header section...", file=sys.stderr)
+        # Add markers after the table section if they don't exist
+        # Look for end of table or profile section
+        insert_point = content.find("</table>")
+        if insert_point == -1:
+            insert_point = content.find("## Strengths")
+        if insert_point == -1:
+            insert_point = len(content)
+        
+        # Insert markers
+        new_section = f"\n\n{start_marker}\n\n{end_marker}\n\n"
+        content = content[:insert_point] + new_section + content[insert_point:]
+        # Re-find indices after insertion
+        start_idx = content.find(start_marker)
+        end_idx = content.find(end_marker)
+    
+    if end_idx == -1:
         print(f"Error: End marker '{end_marker}' not found in README", file=sys.stderr)
         return False
     
-    # Build new content section
-    new_content = f"\n{start_marker}\n\n"
+    # Build new content section - clean replacement
+    new_content = f"{start_marker}\n\n"
     new_content += stats_markdown.strip()
     new_content += "\n\n---\n\n"
     new_content += ai_markdown.strip()
-    new_content += f"\n\n{end_marker}\n"
+    new_content += f"\n\n{end_marker}"
     
-    # Replace section
-    start_idx = content.find(start_marker)
-    end_idx = content.find(end_marker) + len(end_marker)
-    
-    if start_idx == -1 or end_idx == -1:
-        print("Error: Could not locate section markers", file=sys.stderr)
-        return False
-    
-    # Preserve content before and after
+    # Preserve content before and after markers
     before = content[:start_idx]
-    after = content[end_idx:]
+    after = content[end_idx + len(end_marker):]
     
-    # Reconstruct with new section
+    # Reconstruct with new section (completely replacing everything between markers)
     updated_content = before + new_content + after
     
     # Check if content actually changed
     if updated_content == content:
-        print("No changes detected, skipping update")
+        print("No changes detected, skipping update", file=sys.stderr)
         return False
     
     write_file(readme_path, updated_content)
-    print(f"README updated successfully at {readme_path}")
+    print(f"README section updated successfully at {readme_path}", file=sys.stderr)
     return True
 
 

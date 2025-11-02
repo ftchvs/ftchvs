@@ -250,7 +250,6 @@ def main():
         
         # Save log
         log_file = save_log(markdown, date_str)
-        print(f"Log saved to {log_file}")
         
         # Output JSON for other scripts to consume (to stdout only)
         output = {
