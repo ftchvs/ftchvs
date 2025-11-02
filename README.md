@@ -23,19 +23,19 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 ### Top AI Stories
 
-1. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html)
+1. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)
 
-2. [Experiments in LLMs – OpenAI Functions](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html)
+2. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)
 
-3. [Experiments in LLMs – Vector DBs and Embeddings](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html)
+3. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)
 
-4. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)
+4. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)
 
-5. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20)
+5. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)
 
 ### AI Trends Summary
 
-The key AI trends and developments highlighted in these stories from Hacker News focus primarily on advancements and experiments in Large Language Models (LLMs). The first three stories indicate a growing interest and experimentation in fine-tuning LLMs, integrating them with functions for specific applications, and enhancing their capabilities with vector databases and embeddings. This suggests that there is significant exploration into making LLMs more versatile, accurate, and efficient in processing and understanding complex data. Additionally, the latter two stories showcase practical applications of AI in filtering social media content and curating, summarizing, and analyzing AI/ML news, indicating a trend towards leveraging AI to manage and interpret the vast amount of information on the internet. These developments point towards a broader effort to refine AI technologies for more nuanced and specific tasks, enhancing their utility and accessibility in everyday applications.
+The key AI trends and developments highlighted in the recent stories from Hacker News, Reddit, and TechCrunch focus on advancements and experiments in Large Language Models (LLMs), the application of AI in content curation, sentiment analysis, and social media filtering. Innovators are actively engaging in fine-tuning LLMs for enhanced performance, exploring their capabilities through OpenAI's functions, and leveraging vector databases and embeddings for more efficient data handling and retrieval. Additionally, the development of AI-powered tools for content filtering, as seen in the AI-driven Twitter filter, showcases the practical applications of AI in improving user experiences on social platforms. These stories collectively underline the growing versatility and integration of AI technologies in both backend processes and consumer-facing applications.
 
 <!--END_SECTION:daily-->
 
