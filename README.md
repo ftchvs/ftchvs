@@ -18,6 +18,43 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 
 <!--START_SECTION:daily-->
+
+## 📊 Daily Dev Activity - 2025-11-02
+
+### Commits & Contributions
+- **Total Commits**: 7
+- **Pull Requests**: 0 (0 open, 0 merged)
+
+### Code Changes
+- **Lines Added**: +1,276
+- **Lines Deleted**: -54
+- **Net Change**: +1,222
+
+---
+
+## 🤖 AI Industry Snapshot - 2025-11-02
+
+### Top AI Stories
+
+1. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html)
+   - 🔥 3 points | 💬 0 comments
+
+2. [Experiments in LLMs – OpenAI Functions](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html)
+   - 🔥 2 points | 💬 0 comments
+
+3. [Experiments in LLMs – Vector DBs and Embeddings](https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html)
+   - 🔥 2 points | 💬 0 comments
+
+4. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)
+   - 🔥 1 points | 💬 0 comments
+
+5. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20)
+   - 🔥 5 points | 💬 2 comments
+
+### AI Trends Summary
+
+The highlighted stories from Hacker News reflect a growing experimentation and application of Large Language Models (LLMs) in various domains, indicating a trend towards fine-tuning these models for specific tasks and integrating them with other technologies such as vector databases and embeddings. Additionally, there is an increasing interest in leveraging AI for content curation and enhancement of user experience on social platforms, as seen with the development of an AI-powered Twitter filter and an AI/ML weekly digest curated by LLM. These developments showcase the AI community's effort to push the boundaries of LLM capabilities and explore innovative uses in information processing, content generation, and user interface improvements.
+
 <!--END_SECTION:daily-->
 
 
