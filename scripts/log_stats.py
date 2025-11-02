@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fetch GitHub developer activity stats for the last 24 hours.
+Fetch GitHub developer activity stats for Year-To-Date (YTD).
 Includes commits, PRs, and code deltas via GraphQL API.
 """
 
@@ -180,8 +180,9 @@ def calculate_line_changes(token: str, commits: List[Dict]) -> Dict:
 
 def format_stats_markdown(stats: Dict, date: str) -> str:
     """Format statistics as markdown."""
+    current_year = datetime.now().year
     lines = [
-        f"## 📊 Daily Dev Activity - {date}",
+        f"## 📊 Year-To-Date (YTD) Dev Activity - {current_year}",
         "",
         "### Commits & Contributions",
         f"- **Total Commits**: {stats['commits']['total']}",
@@ -213,23 +214,24 @@ def main():
         token = get_github_token()
         username = get_username()
         
-        # Calculate timestamp for last 24 hours
+        # Calculate timestamp for Year-To-Date (January 1st of current year)
         now = datetime.now(timezone.utc)
-        yesterday = now - timedelta(days=1)
-        since_iso = yesterday.isoformat()
+        current_year = now.year
+        ytd_start = datetime(current_year, 1, 1, 0, 0, 0, tzinfo=timezone.utc)
+        since_iso = ytd_start.isoformat()
         
         date_str = now.strftime("%Y-%m-%d")
         
-        print(f"Fetching GitHub stats for {username} since {since_iso}...", file=sys.stderr)
+        print(f"Fetching GitHub YTD stats for {username} since {since_iso}...", file=sys.stderr)
         
         # Fetch contributions via GraphQL
         contributions_data = query_contributions(token, username, since_iso)
         contributions = contributions_data.get("user", {}).get("contributionsCollection", {})
         
-        # Fetch commits via REST
+        # Fetch commits via REST (use YYYY-MM-DD format)
         commits = query_recent_commits(token, username, since_iso.split("T")[0])
         
-        # Fetch PRs
+        # Fetch PRs (use YYYY-MM-DD format)
         prs = query_recent_prs(token, username, since_iso.split("T")[0])
         
         # Calculate line changes
