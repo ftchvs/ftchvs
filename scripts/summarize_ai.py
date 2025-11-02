@@ -132,17 +132,17 @@ def main():
     try:
         openai_key = get_openai_key()
         
-        print("Fetching top AI stories from Hacker News...")
+        print("Fetching top AI stories from Hacker News...", file=sys.stderr)
         stories = fetch_hacker_news_ai_stories(limit=5)
         
         if not stories:
-            print("Warning: No AI stories found. Using fallback.", file=sys.stderr)
-            stories = []
-        
-        print(f"Found {len(stories)} AI stories", file=sys.stderr)
-        
-        print("Generating AI summary...", file=sys.stderr)
-        summary = generate_ai_summary(stories, openai_key)
+            print("Warning: No AI stories found. Generating fallback summary.", file=sys.stderr)
+            # Even if no stories, try to generate a summary
+            summary = "No AI stories found today. Check back tomorrow for the latest AI developments."
+        else:
+            print(f"Found {len(stories)} AI stories", file=sys.stderr)
+            print("Generating AI summary...", file=sys.stderr)
+            summary = generate_ai_summary(stories, openai_key)
         
         from datetime import datetime
         date_str = datetime.now().strftime("%Y-%m-%d")
@@ -159,8 +159,33 @@ def main():
         
         print(json.dumps(output))
         
+    except ValueError as e:
+        # Missing API key
+        print(f"Configuration Error: {e}", file=sys.stderr)
+        from datetime import datetime
+        date_str = datetime.now().strftime("%Y-%m-%d")
+        fallback = {
+            "date": date_str,
+            "markdown": f"## 🤖 AI Industry Snapshot - {date_str}\n\n*Error: {str(e)}. Please configure OPENAI_API_KEY in GitHub secrets.*\n",
+            "stories": [],
+            "summary": ""
+        }
+        print(json.dumps(fallback))
+        sys.exit(1)
     except Exception as e:
+        # Other errors
         print(f"Error: {e}", file=sys.stderr)
+        import traceback
+        print(traceback.format_exc(), file=sys.stderr)
+        from datetime import datetime
+        date_str = datetime.now().strftime("%Y-%m-%d")
+        fallback = {
+            "date": date_str,
+            "markdown": f"## 🤖 AI Industry Snapshot - {date_str}\n\n*Error fetching AI news: {str(e)}*\n",
+            "stories": [],
+            "summary": ""
+        }
+        print(json.dumps(fallback))
         sys.exit(1)
 
 
