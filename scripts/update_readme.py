@@ -69,7 +69,10 @@ def update_readme_section(
     
     # Build new content section
     new_content = f"{start_marker}\n\n"
-    new_content += markdown_content.strip()
+    if markdown_content.strip():
+        new_content += markdown_content.strip()
+    else:
+        new_content += "*Content will be updated daily via GitHub Actions*\n"
     new_content += f"\n\n{end_marker}"
     
     # Preserve content before and after markers
@@ -177,10 +180,10 @@ def main():
     updated = False
     for section_key, start_marker, end_marker in sections:
         markdown = extract_content_markdown(content_data, section_key)
-        if markdown:
-            section_updated = update_readme_section(readme_path, markdown, start_marker, end_marker)
-            if section_updated:
-                updated = True
+        # Always try to update, even if markdown is empty (to clear old content)
+        section_updated = update_readme_section(readme_path, markdown or "", start_marker, end_marker)
+        if section_updated:
+            updated = True
     
     # Update disclaimer section
     disclaimer_updated = update_disclaimer_section(readme_path)

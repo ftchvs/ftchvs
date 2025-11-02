@@ -560,7 +560,6 @@ Summarize the main themes, key insights, or noteworthy developments."""
 def format_ai_markdown(stories: List[Dict], summary: str, date: str) -> str:
     """Format AI news section as markdown."""
     lines = [
-        "<!-- AI-GENERATED SECTION -->",
         f"## 🤖 AI Industry Snapshot - {date}",
         "",
         "### Top AI Stories",
@@ -588,7 +587,6 @@ def format_ai_markdown(stories: List[Dict], summary: str, date: str) -> str:
 def format_news_markdown(stories: List[Dict], summary: str, date: str, section_title: str, emoji: str) -> str:
     """Format news section (business/tech) as markdown."""
     lines = [
-        f"<!-- AI-GENERATED SECTION -->",
         f"## {emoji} {section_title} - {date}",
         "",
         "### Top Stories",
@@ -615,7 +613,6 @@ def format_news_markdown(stories: List[Dict], summary: str, date: str, section_t
 def format_quotes_markdown(items: List[Dict], summary: str, date: str, section_title: str, emoji: str) -> str:
     """Format quotes/knowledge section as markdown."""
     lines = [
-        f"<!-- AI-GENERATED SECTION -->",
         f"## {emoji} {section_title} - {date}",
         "",
         "### Top Items",
