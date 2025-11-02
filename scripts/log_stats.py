@@ -103,7 +103,7 @@ def query_recent_commits(token: str, username: str, since: str) -> List[Dict]:
 
 
 def query_recent_prs(token: str, username: str, since: str) -> Dict:
-    """Query recent PRs (open and merged) via REST API."""
+    """Query comprehensive PR stats: created, contributed, reviewed, and managed."""
     headers = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github.v3+json",
@@ -125,15 +125,61 @@ def query_recent_prs(token: str, username: str, since: str) -> Dict:
                 break
             page += 1
     
-    # Count by state
-    open_prs = len([pr for pr in created_prs if pr.get("state") == "open"])
-    merged_prs = len([pr for pr in created_prs if pr.get("state") == "closed" and pr.get("pull_request", {}).get("merged_at")])
+    # Search for PRs where user contributed (as committer, not just author)
+    contributed_prs = []
+    page = 1
+    while True:
+        url = f"https://api.github.com/search/issues?q=committer:{username}+type:pr+created:>={since}&per_page=100&page={page}"
+        response = requests.get(url, headers=headers, timeout=30)
+        if response.status_code == 200:
+            data = response.json()
+            items = data.get("items", [])
+            if not items:
+                break
+            contributed_prs.extend(items)
+            if len(items) < 100:
+                break
+            page += 1
+    
+    # Search for PRs reviewed by user
+    reviewed_prs = []
+    page = 1
+    while True:
+        url = f"https://api.github.com/search/issues?q=reviewed-by:{username}+type:pr+created:>={since}&per_page=100&page={page}"
+        response = requests.get(url, headers=headers, timeout=30)
+        if response.status_code == 200:
+            data = response.json()
+            items = data.get("items", [])
+            if not items:
+                break
+            reviewed_prs.extend(items)
+            if len(items) < 100:
+                break
+            page += 1
+    
+    # Count created PRs by state
+    created_open = len([pr for pr in created_prs if pr.get("state") == "open"])
+    created_merged = len([pr for pr in created_prs if pr.get("state") == "closed" and pr.get("pull_request", {}).get("merged_at")])
+    created_closed = len([pr for pr in created_prs if pr.get("state") == "closed"]) - created_merged
+    
+    # Get unique contributed PRs (excluding those already in created)
+    created_pr_ids = {pr.get("number") for pr in created_prs}
+    unique_contributed = [pr for pr in contributed_prs if pr.get("number") not in created_pr_ids]
+    contributed_merged = len([pr for pr in unique_contributed if pr.get("state") == "closed" and pr.get("pull_request", {}).get("merged_at")])
+    
+    # Count reviewed PRs
+    reviewed_merged = len([pr for pr in reviewed_prs if pr.get("state") == "closed" and pr.get("pull_request", {}).get("merged_at")])
     
     return {
-        "total": len(created_prs),
-        "open": open_prs,
-        "merged": merged_prs,
-        "closed": len([pr for pr in created_prs if pr.get("state") == "closed"]) - merged_prs,
+        "created": len(created_prs),
+        "created_open": created_open,
+        "created_merged": created_merged,
+        "created_closed": created_closed,
+        "contributed": len(unique_contributed),
+        "contributed_merged": contributed_merged,
+        "reviewed": len(reviewed_prs),
+        "reviewed_merged": reviewed_merged,
+        "total": len(created_prs) + len(unique_contributed) + len(reviewed_prs),
     }
 
 
@@ -181,12 +227,18 @@ def calculate_line_changes(token: str, commits: List[Dict]) -> Dict:
 def format_stats_markdown(stats: Dict, date: str) -> str:
     """Format statistics as markdown."""
     current_year = datetime.now().year
+    prs = stats['prs']
     lines = [
         f"## 📊 Year-To-Date (YTD) Dev Activity - {current_year}",
         "",
         "### Commits & Contributions",
         f"- **Total Commits**: {stats['commits']['total']}",
-        f"- **Pull Requests**: {stats['prs']['total']} ({stats['prs']['open']} open, {stats['prs']['merged']} merged)",
+        "",
+        "### Pull Requests",
+        f"- **Created**: {prs['created']} ({prs['created_open']} open, {prs['created_merged']} merged, {prs['created_closed']} closed)",
+        f"- **Contributed To**: {prs['contributed']} ({prs['contributed_merged']} merged)",
+        f"- **Reviewed**: {prs['reviewed']} ({prs['reviewed_merged']} merged)",
+        f"- **Total PR Activity**: {prs['total']}",
         "",
         "### Code Changes",
         f"- **Lines Added**: +{stats['lines']['additions']:,}",
