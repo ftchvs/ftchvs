@@ -39,6 +39,46 @@ def extract_content_markdown(content_json: str, section_key: str) -> str:
         return ""
 
 
+def remove_duplicate_sections(content: str, start_marker: str, end_marker: str) -> str:
+    """Remove duplicate sections, keeping only the last occurrence."""
+    # Find all occurrences
+    start_indices = []
+    end_indices = []
+    
+    start_idx = 0
+    while True:
+        idx = content.find(start_marker, start_idx)
+        if idx == -1:
+            break
+        start_indices.append(idx)
+        start_idx = idx + 1
+    
+    start_idx = 0
+    while True:
+        idx = content.find(end_marker, start_idx)
+        if idx == -1:
+            break
+        end_indices.append(idx)
+        start_idx = idx + 1
+    
+    # If we have duplicates, keep only the last one
+    if len(start_indices) > 1:
+        print(f"Found {len(start_indices)} duplicate sections for {start_marker}, removing all but the last", file=sys.stderr)
+        # Remove all but the last occurrence
+        for i in range(len(start_indices) - 1):
+            start_pos = start_indices[i]
+            end_pos = end_indices[i] + len(end_marker)
+            # Remove this section
+            content = content[:start_pos] + content[end_pos:]
+            # Adjust subsequent indices
+            removed_len = end_pos - start_pos
+            for j in range(i + 1, len(start_indices)):
+                start_indices[j] -= removed_len
+                end_indices[j] -= removed_len
+    
+    return content
+
+
 def update_readme_section(
     readme_path: str,
     markdown_content: str,
@@ -47,6 +87,7 @@ def update_readme_section(
 ) -> bool:
     """
     Update a specific section in README.md by replacing content between markers.
+    Removes duplicates and keeps only one section.
     Returns True if file was modified, False otherwise.
     """
     if not os.path.exists(readme_path):
@@ -55,7 +96,10 @@ def update_readme_section(
     
     content = read_file(readme_path)
     
-    # Check if markers exist
+    # Remove duplicate sections first
+    content = remove_duplicate_sections(content, start_marker, end_marker)
+    
+    # Find the (now single) occurrence
     start_idx = content.find(start_marker)
     end_idx = content.find(end_marker)
     
@@ -65,6 +109,11 @@ def update_readme_section(
     
     if end_idx == -1:
         print(f"Error: End marker '{end_marker}' not found in README", file=sys.stderr)
+        return False
+    
+    # Ensure end marker comes after start marker
+    if end_idx < start_idx:
+        print(f"Error: End marker appears before start marker for {start_marker}", file=sys.stderr)
         return False
     
     # Build new content section

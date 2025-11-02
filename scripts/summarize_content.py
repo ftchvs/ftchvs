@@ -479,16 +479,24 @@ def fetch_reddit_quotes(subreddits: List[str], limit: int = 10) -> List[Dict]:
                 title = post_data.get("title", "").strip()
                 
                 # Skip if post is deleted or removed
-                if post_data.get("selftext") == "[deleted]" or post_data.get("selftext") == "[removed]":
+                if selftext == "[deleted]" or selftext == "[removed]":
+                    continue
+                
+                # Skip stickied posts (usually mod announcements)
+                if post_data.get("stickied", False):
                     continue
                 
                 # For quotes/knowledge, use selftext if meaningful, otherwise use title
                 # But make title work even if short - some good quotes are in titles
-                if selftext and len(selftext) > 20:
+                if selftext and len(selftext) > 15:  # Reduced minimum length
                     content = selftext[:500]  # Limit length
-                elif title:
+                elif title and len(title) > 10:  # Ensure title has some content
                     content = title
                 else:
+                    continue
+                
+                # Skip if content is too short overall
+                if len(content.strip()) < 10:
                     continue
                 
                 if content:
@@ -531,8 +539,8 @@ def fetch_reddit_quotes(subreddits: List[str], limit: int = 10) -> List[Dict]:
 def fetch_motivation_quotes(limit: int = 10) -> List[Dict]:
     """Fetch motivation quotes from Reddit."""
     print("Fetching motivation quotes...", file=sys.stderr)
-    # Use lowercase, valid subreddit names
-    subreddits = ["GetMotivated", "motivation", "quotes", "inspiration"]
+    # Try multiple subreddits - Reddit is case-insensitive but some subreddits may have different names
+    subreddits = ["GetMotivated", "motivation", "quotes", "inspiration", "motivational", "DecidingToBeBetter"]
     return fetch_reddit_quotes(subreddits, limit=limit)
 
 
@@ -541,7 +549,7 @@ def fetch_motivation_quotes(limit: int = 10) -> List[Dict]:
 def fetch_wise_knowledge(limit: int = 10) -> List[Dict]:
     """Fetch wise knowledge from Reddit philosophy/stoicism subreddits."""
     print("Fetching wise knowledge...", file=sys.stderr)
-    subreddits = ["Stoicism", "philosophy", "ZenHabits", "Meditation", "Mindfulness"]
+    subreddits = ["Stoicism", "philosophy", "ZenHabits", "Meditation", "Mindfulness", "zen", "taoism", "selfimprovement"]
     return fetch_reddit_quotes(subreddits, limit=limit)
 
 
