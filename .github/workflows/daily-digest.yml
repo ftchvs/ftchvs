@@ -1,0 +1,85 @@
+name: Daily Dev & AI Digest
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: write  # Required to push changes to README
+
+jobs:
+  update-digest:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch GitHub stats
+        id: fetch_stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ftchvs
+          PAT_PRIVATE: ${{ secrets.PAT_PRIVATE }}
+        run: |
+          python3 scripts/log_stats.py > /tmp/github_stats.json 2>/tmp/github_stats_error.log || echo '{"date":"","markdown":"## 📊 Daily Dev Activity\n\n*Error fetching stats.*\n","stats":{}}' > /tmp/github_stats.json
+
+      - name: Fetch AI news and generate summary
+        id: fetch_ai
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 scripts/summarize_ai.py > /tmp/ai_summary.json 2>/tmp/ai_summary_error.log || echo '{"date":"","markdown":"## 🤖 AI Industry Snapshot\n\n*Error fetching AI news.*\n","stories":[],"summary":""}' > /tmp/ai_summary.json
+
+      - name: Update README
+        id: update_readme
+        env:
+          STATS_JSON: /tmp/github_stats.json
+          AI_JSON: /tmp/ai_summary.json
+          README_PATH: README.md
+        run: |
+          python3 scripts/update_readme.py
+
+      - name: Check for changes
+        id: verify_changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md logs/
+          git commit -m "📊 Daily digest update: $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Archive logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-logs
+          path: |
+            /tmp/github_stats.json
+            /tmp/ai_summary.json
+            logs/*.md
+          retention-days: 7
+
