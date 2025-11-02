@@ -1,4 +1,4 @@
-name: Daily Dev & AI Digest
+name: Daily Multi-Section Digest
 
 on:
   schedule:
@@ -29,6 +29,10 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Create archive directory
+        run: |
+          mkdir -p archive
+
       - name: Fetch GitHub stats
         id: fetch_stats
         env:
@@ -38,18 +42,24 @@ jobs:
         run: |
           python3 scripts/log_stats.py > /tmp/github_stats.json 2>/tmp/github_stats_error.log || echo '{"date":"","markdown":"## 📊 Daily Dev Activity\n\n*Error fetching stats.*\n","stats":{}}' > /tmp/github_stats.json
 
-      - name: Fetch AI news and generate summary
-        id: fetch_ai
+      - name: Fetch content and generate summaries
+        id: fetch_content
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python3 scripts/summarize_ai.py > /tmp/ai_summary.json 2>/tmp/ai_summary_error.log || echo '{"date":"","markdown":"## 🤖 AI Industry Snapshot\n\n*Error fetching AI news.*\n","stories":[],"summary":""}' > /tmp/ai_summary.json
+          python3 scripts/summarize_content.py > /tmp/content_summary.json 2>/tmp/content_summary_error.log || echo '{"date":"","error":"Failed to fetch content","ai_news":{"markdown":"","stories":[],"summary":""},"business_news":{"markdown":"","stories":[],"summary":""},"tech_news":{"markdown":"","stories":[],"summary":""},"motivation_quotes":{"markdown":"","items":[],"summary":""},"wise_knowledge":{"markdown":"","items":[],"summary":""}}' > /tmp/content_summary.json
+
+      - name: Copy archive files
+        run: |
+          if [ -f archive/*-digest.json ]; then
+            cp archive/*-digest.json /tmp/ 2>/dev/null || true
+          fi
 
       - name: Update README
         id: update_readme
         env:
           STATS_JSON: /tmp/github_stats.json
-          AI_JSON: /tmp/ai_summary.json
+          CONTENT_JSON: /tmp/content_summary.json
           README_PATH: README.md
         run: |
           python3 scripts/update_readme.py
@@ -68,7 +78,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md logs/
+          git add README.md logs/ archive/
           git commit -m "📊 Daily digest update: $(date +'%Y-%m-%d')"
           git push
 
@@ -81,7 +91,7 @@ jobs:
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
           NOTIFY_TYPE: email
           STATS_JSON: /tmp/github_stats.json
-          AI_JSON: /tmp/ai_summary.json
+          AI_JSON: /tmp/content_summary.json
         run: |
           python3 scripts/send_notification.py
 
@@ -95,7 +105,7 @@ jobs:
           NOTIFY_PHONE: ${{ secrets.NOTIFY_PHONE }}
           NOTIFY_TYPE: sms
           STATS_JSON: /tmp/github_stats.json
-          AI_JSON: /tmp/ai_summary.json
+          AI_JSON: /tmp/content_summary.json
         run: |
           python3 scripts/send_notification.py
 
@@ -106,7 +116,8 @@ jobs:
           name: digest-logs
           path: |
             /tmp/github_stats.json
-            /tmp/ai_summary.json
+            /tmp/content_summary.json
             logs/*.md
+            archive/*.json
           retention-days: 7
 
