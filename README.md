@@ -16,8 +16,10 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 </table>
 
 
+
 <!--START_SECTION:daily-->
 <!--END_SECTION:daily-->
+
 
 
 ## Strengths
