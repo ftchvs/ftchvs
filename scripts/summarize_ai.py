@@ -210,12 +210,28 @@ def fetch_techcrunch_ai_stories(limit: int = 5) -> List[Dict]:
         return []
 
 
+def get_source_priority(source: str) -> int:
+    """Get priority value for source (lower number = higher priority)."""
+    source_lower = source.lower()
+    if "techcrunch" in source_lower:
+        return 1  # Highest priority
+    elif "reddit" in source_lower or source_lower.startswith("r/"):
+        return 2  # Second priority
+    elif "hacker news" in source_lower or "hn" in source_lower:
+        return 3  # Lowest priority
+    return 4  # Unknown sources
+
+
 def deduplicate_stories(all_stories: List[Dict]) -> List[Dict]:
-    """Remove duplicate stories based on title similarity."""
+    """Remove duplicate stories based on title similarity, prioritizing Reddit and TechCrunch."""
     seen_titles = set()
     unique_stories = []
     
-    for story in all_stories:
+    # Process stories in priority order: TechCrunch > Reddit > Hacker News
+    # Sort by source priority first, then process
+    all_stories_sorted = sorted(all_stories, key=lambda x: get_source_priority(x.get("source", "Unknown")))
+    
+    for story in all_stories_sorted:
         # Normalize title for comparison (lowercase, remove extra spaces)
         title_key = story.get("title", "").lower().strip()
         
@@ -231,11 +247,12 @@ def deduplicate_stories(all_stories: List[Dict]) -> List[Dict]:
             seen_titles.add(title_key)
             unique_stories.append(story)
     
-    # Sort by points/score to get best stories first
+    # Sort by source priority first, then by engagement (points/comments)
     unique_stories.sort(key=lambda x: (
-        x.get("points", 0),
-        x.get("comments", 0)
-    ), reverse=True)
+        get_source_priority(x.get("source", "Unknown")),  # Priority: TechCrunch (1) > Reddit (2) > HN (3)
+        -x.get("points", 0),  # Higher points = better (negative for descending)
+        -x.get("comments", 0)  # Higher comments = better (negative for descending)
+    ))
     
     return unique_stories
 
@@ -318,25 +335,25 @@ def main():
         
         all_stories = []
         
-        # Fetch from Hacker News
+        # Fetch from Reddit (priority source)
+        print("Fetching AI stories from Reddit...", file=sys.stderr)
+        reddit_stories = fetch_reddit_ai_stories(limit=5)
+        all_stories.extend(reddit_stories)
+        print(f"Found {len(reddit_stories)} stories from Reddit", file=sys.stderr)
+        
+        # Fetch from TechCrunch (priority source)
+        print("Fetching AI stories from TechCrunch...", file=sys.stderr)
+        tc_stories = fetch_techcrunch_ai_stories(limit=5)
+        all_stories.extend(tc_stories)
+        print(f"Found {len(tc_stories)} stories from TechCrunch", file=sys.stderr)
+        
+        # Fetch from Hacker News (lower priority)
         print("Fetching AI stories from Hacker News...", file=sys.stderr)
         hn_stories = fetch_hacker_news_ai_stories(limit=5)
         for story in hn_stories:
             story['source'] = 'Hacker News'
         all_stories.extend(hn_stories)
         print(f"Found {len(hn_stories)} stories from Hacker News", file=sys.stderr)
-        
-        # Fetch from Reddit
-        print("Fetching AI stories from Reddit...", file=sys.stderr)
-        reddit_stories = fetch_reddit_ai_stories(limit=5)
-        all_stories.extend(reddit_stories)
-        print(f"Found {len(reddit_stories)} stories from Reddit", file=sys.stderr)
-        
-        # Fetch from TechCrunch
-        print("Fetching AI stories from TechCrunch...", file=sys.stderr)
-        tc_stories = fetch_techcrunch_ai_stories(limit=5)
-        all_stories.extend(tc_stories)
-        print(f"Found {len(tc_stories)} stories from TechCrunch", file=sys.stderr)
         
         # Deduplicate and select top stories
         unique_stories = deduplicate_stories(all_stories)
