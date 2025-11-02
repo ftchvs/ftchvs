@@ -113,7 +113,8 @@ def format_ai_markdown(stories: List[Dict], summary: str, date: str) -> str:
     ]
     
     for i, story in enumerate(stories, 1):
-        lines.append(f"{i}. [{story['title']}]({story['url']})")
+        # Use Hacker News URL instead of external URL
+        lines.append(f"{i}. [{story['title']}]({story['hn_url']})")
         lines.append("")
     
     lines.extend([
