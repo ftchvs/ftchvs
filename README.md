@@ -15,6 +15,9 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
   </tr>
 </table>
 
+<!--START_SECTION:daily-->
+<!--END_SECTION:daily-->
+
 ## Strengths
 
 - **Builder's Mindset**: I build and deploy end‑to‑end solutions, aligning product, engineering, and GTM teams to unlock new revenue streams.
@@ -25,11 +28,11 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 ## Professional Experience
 
-### Resmed - (2025 - )
-- **Digital Marketing Lead, Incubation & Growth** at Resmed (2025 - )
+### Resmed - (July 2025 - Present)
+- **Digital Marketing Lead, Incubation & Growth** at Resmed (July 2025 - Present)
 
-### HCLTech - (2025 - 2025)
-- **Product Marketing Manager, AI** at HCLTech (2025 - 2025)
+### HCLTech - (March 2025 - July 2025)
+- **Product Marketing Manager, AI** at HCLTech (March 2025 - July 2025)
 
 ### Consulting & Contract Experience (2023 - 2024)
 
@@ -111,14 +114,13 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 - **Marketing & Analytics**: Product Marketing (B2B, Platform, SaaS), GTM Strategy & Execution, Messaging & Positioning (AI, GenAI, Responsible AI), Sales Enablement, Campaign Analytics & Optimization, Global Brand Campaign Management, Marketing Mix Modeling, Media Strategy, Competitive Intelligence & Market Research
 - **Technical Tools**: Adobe Experience Platform (AEP), Adobe Analytics, Segment/Twilio Engage, Braze, Marketo, SQL, Databricks
-- **Programming**: Python, HTML, Data pipelines, System integration
-- **AI & Machine Learning**: Practical implementation of AI for marketing solutions
+- **Programming**: Python, TypeScript, HTML, Data pipelines, System integration
+- **AI & Machine Learning**: OpenAI API, Anthropic (Claude), Claude Code, Google Gemini, Grok, Cursor AI, AI-assisted development workflows, LLM integration and orchestration, AI workflow automation, Practical implementation of AI for marketing solutions
 
 ---
 
 ## Featured Projects
 
-- [**AI Agent - AgentToast**](https://github.com/ftchvs/AgentToast): Built a multi-agent OpenAI framework for automated news analysis and summarization, showcasing applied GenAI orchestration.
 - [**Advanced Email Marketing Performance Analysis**](https://docs.google.com/presentation/d/1wyMAvwm7e2zxo-VR9r4Jp_Q33vASafhXJ23wVBCDPD4/edit?slide=id.p#slide=id.p): Conducted an in-depth analysis of email campaign metrics using advanced data analytics to uncover actionable insights and optimize ROI.
 - [**Airbnb Product Fundamentals Project**](https://drive.google.com/file/d/1ofrAL9o0u7IYPhml03J88iFUnMkTrKIN/view): Developed a comprehensive academic study of Airbnb's product fundamentals, synthesizing market trends and user feedback to drive strategic recommendations.
 - [**Volkswagen - Brand and Marketing Strategy**](https://drive.google.com/file/d/1LCnm5AwtmQrBvJ93RgqJj3eQfEFthtjF/view): Crafted a strategic brand and marketing plan for Volkswagen as a personal project, leveraging market research and creative ideation to propose innovative positioning.

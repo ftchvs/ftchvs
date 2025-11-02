@@ -1,0 +1,321 @@
+{
+  "$schema": "https://jsonresume.org/schema/1.0.0",
+  "basics": {
+    "name": "Felipe Tavares Chaves",
+    "label": "Product Manager",
+    "email": "felipetavareschaves@gmail.com",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "felipetavaresch",
+        "url": "https://www.linkedin.com/in/felipetavaresch/"
+      },
+      {
+        "network": "GitHub",
+        "username": "ftchvs",
+        "url": "https://github.com/ftchvs"
+      },
+      {
+        "network": "X",
+        "username": "felipetchaves",
+        "url": "https://x.com/felipetchaves"
+      }
+    ],
+    "summary": "Strategic product leader with 14+ years driving data-driven growth for global tech brands. Blends technical fluency and creative strategy to transform complex technologies into clear product narratives and go-to-market frameworks that resonate with diverse audiences and move markets."
+  },
+  "work": [
+    {
+      "name": "Resmed",
+      "position": "Digital Marketing Lead, Incubation & Growth",
+      "startDate": "2025-07",
+      "endDate": null,
+      "summary": "Leading digital marketing strategy for incubation and growth initiatives.",
+      "highlights": [
+        "Own full-cycle digital strategy for the Incubation & Growth team: define channel mix (search/social/display/web/email), set KPIs and budgets, launch pilot and experimental campaigns, and measure outcomes",
+        "Execute fast-paced, test-and-learn campaigns leveraging A/B testing, funnel analysis, and conversion optimization in an agile startup-within environment",
+        "Lead cross-functional delivery: coordinate with digital channel leads, MarTech, data analytics, and product teams, alongside external agencies and partners while ensuring compliance (HIPAA, GDPR, CAN-SPAM)",
+        "Navigate ambiguity and scale by managing multiple experiments at varying stages, adapting to shifting priorities, and rapidly iterating for growth"
+      ]
+    },
+    {
+      "name": "HCLTech",
+      "position": "Product Marketing Manager, AI",
+      "startDate": "2025-03",
+      "endDate": "2025-07",
+      "summary": "Led product strategy and go-to-market for AI solutions, partnering with engineering and sales teams. Developed product positioning and messaging for enterprise AI offerings.",
+      "highlights": [
+        "Led product strategy and go-to-market for AI solutions",
+        "Partnered with engineering and sales teams",
+        "Developed product positioning and messaging for enterprise AI offerings"
+      ]
+    },
+    {
+      "name": "Intuit",
+      "position": "Marketing Technology Manager (Contract)",
+      "startDate": "2024-01",
+      "endDate": "2024-12",
+      "summary": "Managed data systems and integration architecture for marketing campaigns. Architected end-to-end data ingestion and processing pipelines.",
+      "highlights": [
+        "Managed data systems and integration for marketing campaigns",
+        "Worked with Adobe Experience Platform and Segment/Twilio",
+        "Oversaw end-to-end data ingestion and processing",
+        "Improved data processing efficiency and reduced pipeline latency, enabling faster campaign insights and optimization",
+        "Enhanced data quality and accuracy, resulting in improved campaign performance measurement and ROI tracking"
+      ]
+    },
+    {
+      "name": "Qualcomm",
+      "position": "Product Marketing Manager (Contract)",
+      "startDate": "2023-01",
+      "endDate": "2024-12",
+      "summary": "Partnered with product and engineering teams to drive sales enablement for compute, XR, and IoT product lines. Collaborated across functions to launch Snapdragon X series products.",
+      "highlights": [
+        "Partnered in driving sales enablement for compute, XR, and IoT",
+        "Collaborated across teams to launch the Snapdragon X series products",
+        "Developed B2B marketing campaigns across digital, content, and events",
+        "Implemented automated product briefing workflows to accelerate time-to-market"
+      ]
+    },
+    {
+      "name": "WhatsApp, Meta Platforms, Inc.",
+      "position": "Product Marketing Manager",
+      "startDate": "2019-01",
+      "endDate": "2023-12",
+      "summary": "Led global product marketing campaigns, including WhatsApp's first brand campaign in Brazil. Managed strategic media planning and developed Marketing Mix Modeling tools for campaign optimization.",
+      "highlights": [
+        "Led global marketing campaigns including WhatsApp's first brand campaign in Brazil",
+        "Managed strategic media planning for major international campaigns",
+        "Oversaw campaign approvals and media strategy for US privacy campaign",
+        "Developed Marketing Mix Modeling tool for campaign optimization",
+        "Collaborated with agencies like BBDO and AlmapBBDO on creative direction"
+      ]
+    },
+    {
+      "name": "Facebook, Meta Platforms, Inc.",
+      "position": "Digital Marketing Manager",
+      "startDate": "2018-01",
+      "endDate": "2019-12",
+      "summary": "Directed targeted digital campaigns to elevate product visibility. Led global user research initiatives to inform product roadmaps.",
+      "highlights": [
+        "Directed targeted digital campaigns to elevate product visibility",
+        "Led global user research initiatives to inform product roadmaps",
+        "Gathered market insights for content strategy development"
+      ]
+    },
+    {
+      "name": "Facebook, Meta Platforms, Inc.",
+      "position": "Client Solutions Manager",
+      "startDate": "2016-01",
+      "endDate": "2018-12",
+      "summary": "Developed custom solutions that increased client lifetime value by 10%. Created real-time revenue monitoring dashboard using SQL and Python.",
+      "highlights": [
+        "Developed custom solutions that increased client lifetime value by 10%",
+        "Created a real-time revenue monitoring dashboard using SQL and Python",
+        "Optimized ad spending strategies resulting in 25% increase in ad revenue"
+      ]
+    },
+    {
+      "name": "Nike, Inc.",
+      "position": "Digital Marketing Specialist",
+      "startDate": "2014-01",
+      "endDate": "2016-12",
+      "summary": "Led digital strategy for World Cup and Olympics, aligning marketing to business growth (30% revenue increase). Developed campaign frameworks that boosted traffic by 20% and improved conversion by 25%.",
+      "highlights": [
+        "Led digital strategy for World Cup and Olympics, aligning marketing to business growth (30% revenue increase)",
+        "Developed campaign frameworks that boosted traffic by 20% and improved conversion by 25%",
+        "Applied A/B testing and behavioral insights to optimize customer journeys across digital touchpoints",
+        "Reduced content production costs by 15% through data-driven process optimization"
+      ]
+    },
+    {
+      "name": "Marcyn",
+      "position": "E-Commerce Manager",
+      "startDate": "2012-01",
+      "endDate": "2014-12",
+      "summary": "Managed all aspects of e-commerce operations and digital marketing. Implemented data-driven strategies to improve online sales performance.",
+      "highlights": [
+        "Managed all aspects of e-commerce operations and digital marketing",
+        "Implemented data-driven strategies to improve online sales performance",
+        "Led website optimization for improved user experience"
+      ]
+    },
+    {
+      "name": "Rocket Internet",
+      "position": "Business Intelligence Analyst",
+      "startDate": "2011-01",
+      "endDate": "2012-12",
+      "summary": "Analyzed business data to identify market trends and opportunities. Developed reporting systems for performance tracking.",
+      "highlights": [
+        "Analyzed business data to identify market trends and opportunities",
+        "Developed reporting systems for performance tracking",
+        "Supported strategic decision-making with data insights"
+      ]
+    },
+    {
+      "name": "3YZ",
+      "position": "Web Analytics Specialist",
+      "startDate": "2009-01",
+      "endDate": "2010-12",
+      "summary": "Implemented web analytics tracking for client websites. Analyzed user behavior and traffic patterns.",
+      "highlights": [
+        "Implemented web analytics tracking for client websites",
+        "Analyzed user behavior and traffic patterns",
+        "Provided data-driven recommendations for website optimization"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Google",
+      "location": "USA",
+      "area": "Advanced Data Analytics",
+      "studyType": "Certificate",
+      "startDate": "2024-01",
+      "endDate": "2024-12"
+    },
+    {
+      "institution": "General Assembly",
+      "location": "San Francisco, USA",
+      "area": "Product Management",
+      "studyType": "Bootcamp",
+      "startDate": "2021-01",
+      "endDate": "2021-12"
+    },
+    {
+      "institution": "Harvard Business School Online",
+      "area": "Business Analytics, Economics for Managers, Financial Accounting",
+      "studyType": "CORe Certificate",
+      "startDate": "2020-01",
+      "endDate": "2020-12"
+    },
+    {
+      "institution": "University of Western Australia",
+      "location": "Perth, Australia",
+      "area": "Business and Academic English",
+      "studyType": "Certificate",
+      "startDate": "2009-01",
+      "endDate": "2009-12"
+    },
+    {
+      "institution": "Anhembi Morumbi University",
+      "location": "São Paulo, Brazil",
+      "area": "Business Administration & Marketing",
+      "studyType": "Bachelor",
+      "startDate": "2008-01",
+      "endDate": "2013-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Product Management",
+      "keywords": [
+        "Product Strategy & Roadmap Development",
+        "Go-to-Market (GTM) Strategy & Execution",
+        "Messaging & Positioning (AI, GenAI, Responsible AI)",
+        "Sales Enablement",
+        "Stakeholder Management & Cross-functional Collaboration",
+        "Competitive Intelligence & Market Research",
+        "Product Launch Management"
+      ]
+    },
+    {
+      "name": "Technical & Analytics",
+      "keywords": [
+        "Adobe Experience Platform (AEP)",
+        "Adobe Analytics",
+        "Segment/Twilio Engage",
+        "Braze",
+        "Marketo",
+        "SQL",
+        "Databricks",
+        "Python",
+        "TypeScript",
+        "HTML",
+        "Data Pipelines",
+        "System Integration",
+        "GitHub",
+        "AI Workflows",
+        "Marketing Mix Modeling",
+        "Campaign Analytics & Optimization"
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "keywords": [
+        "OpenAI API",
+        "Anthropic (Claude)",
+        "Claude Code",
+        "Google Gemini",
+        "Grok",
+        "Cursor AI",
+        "AI-assisted development workflows",
+        "LLM integration and orchestration",
+        "AI workflow automation",
+        "Practical implementation of AI for marketing and product solutions"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Advanced Email Marketing Performance Analysis",
+      "description": "Conducted in-depth analysis of email campaign metrics using advanced data analytics to uncover actionable insights and optimize ROI.",
+      "url": "https://docs.google.com/presentation/d/1wyMAvwm7e2zxo-VR9r4Jp_Q33vASafhXJ23wVBCDPD4/edit",
+      "keywords": [
+        "Data Analytics",
+        "Email Marketing",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "Airbnb Product Fundamentals Project",
+      "description": "Developed comprehensive academic study of Airbnb's product fundamentals, synthesizing market trends and user feedback to drive strategic product recommendations.",
+      "url": "https://drive.google.com/file/d/1ofrAL9o0u7IYPhml03J88iFUnMkTrKIN/view",
+      "keywords": [
+        "Product Strategy",
+        "Market Research",
+        "User Research"
+      ]
+    },
+    {
+      "name": "Volkswagen - Brand and Marketing Strategy",
+      "description": "Crafted strategic brand and marketing plan leveraging market research and creative ideation to propose innovative product positioning.",
+      "url": "https://drive.google.com/file/d/1LCnm5AwtmQrBvJ93RgqJj3eQfEFthtjF/view",
+      "keywords": [
+        "Brand Strategy",
+        "Marketing Strategy",
+        "Product Positioning"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "WhatsApp 'It's Between You' Campaign",
+      "date": "2019-2023",
+      "awarder": "WhatsApp, Meta Platforms",
+      "summary": "Led WhatsApp's first global brand campaign launched in Brazil"
+    },
+    {
+      "title": "WhatsApp US Privacy Campaign",
+      "date": "2019-2023",
+      "awarder": "WhatsApp, Meta Platforms",
+      "summary": "First US campaign highlighting message privacy features"
+    },
+    {
+      "title": "WhatsApp 'Sunbeams' Campaign",
+      "date": "2019-2023",
+      "awarder": "WhatsApp, Meta Platforms",
+      "summary": "Award-winning campaign directed by Courtney Hoffman"
+    }
+  ],
+  "volunteer": []
+}
