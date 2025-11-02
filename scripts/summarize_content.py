@@ -21,9 +21,9 @@ import feedparser
 from openai import OpenAI
 
 
-# Reddit API headers
+# Reddit API headers - Reddit requires a descriptive User-Agent
 REDDIT_HEADERS = {
-    "User-Agent": "DailyDigestBot/1.0 (contact: ftchvs@github) by /u/ftchvs"
+    "User-Agent": "Mozilla/5.0 (compatible; DailyDigestBot/1.0; +https://github.com/ftchvs/ftchvs) by /u/ftchvs"
 }
 
 
@@ -462,20 +462,34 @@ def fetch_reddit_quotes(subreddits: List[str], limit: int = 10) -> List[Dict]:
     
     for subreddit in subreddits:
         try:
-            url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=25"
-            response = requests.get(url, headers=REDDIT_HEADERS, timeout=30)
+            # Reddit JSON API endpoint
+            url = f"https://www.reddit.com/r/{subreddit}/hot.json"
+            params = {"limit": 25}
+            
+            response = requests.get(url, headers=REDDIT_HEADERS, params=params, timeout=30)
             response.raise_for_status()
             data = response.json()
             
             posts = data.get("data", {}).get("children", [])
+            print(f"Fetched {len(posts)} posts from r/{subreddit}", file=sys.stderr)
             
             for post in posts:
                 post_data = post.get("data", {})
-                selftext = post_data.get("selftext", "")
-                title = post_data.get("title", "")
+                selftext = post_data.get("selftext", "").strip()
+                title = post_data.get("title", "").strip()
                 
-                # For quotes, prefer selftext if it's substantial, otherwise use title
-                content = selftext if len(selftext) > 50 else title
+                # Skip if post is deleted or removed
+                if post_data.get("selftext") == "[deleted]" or post_data.get("selftext") == "[removed]":
+                    continue
+                
+                # For quotes/knowledge, use selftext if meaningful, otherwise use title
+                # But make title work even if short - some good quotes are in titles
+                if selftext and len(selftext) > 20:
+                    content = selftext[:500]  # Limit length
+                elif title:
+                    content = title
+                else:
+                    continue
                 
                 if content:
                     reddit_url = f"https://www.reddit.com{post_data.get('permalink', '')}"
@@ -485,25 +499,40 @@ def fetch_reddit_quotes(subreddits: List[str], limit: int = 10) -> List[Dict]:
                         "title": title,
                         "url": reddit_url,
                         "points": post_data.get("score", 0),
+                        "comments": post_data.get("num_comments", 0),
                         "author": post_data.get("author", ""),
                         "source": f"r/{subreddit}",
                     })
             
-            time.sleep(0.5)
+            # Rate limiting - be nice to Reddit
+            time.sleep(1)
                     
+        except requests.exceptions.HTTPError as e:
+            print(f"HTTP error fetching from r/{subreddit}: {e} (Status: {e.response.status_code})", file=sys.stderr)
+            if e.response.status_code == 403:
+                print(f"Access forbidden for r/{subreddit} - might be private or banned", file=sys.stderr)
+            continue
+        except requests.exceptions.RequestException as e:
+            print(f"Request error fetching from r/{subreddit}: {e}", file=sys.stderr)
+            continue
         except Exception as e:
             print(f"Error fetching from r/{subreddit}: {e}", file=sys.stderr)
+            import traceback
+            print(traceback.format_exc(), file=sys.stderr)
             continue
     
+    print(f"Total items collected: {len(all_items)}", file=sys.stderr)
+    
     # Sort by score and return top items
-    all_items.sort(key=lambda x: x.get("points", 0), reverse=True)
+    all_items.sort(key=lambda x: (x.get("points", 0), x.get("comments", 0)), reverse=True)
     return all_items[:limit]
 
 
 def fetch_motivation_quotes(limit: int = 10) -> List[Dict]:
     """Fetch motivation quotes from Reddit."""
     print("Fetching motivation quotes...", file=sys.stderr)
-    subreddits = ["getmotivated", "motivation", "GetMotivated", "quotes"]
+    # Use lowercase, valid subreddit names
+    subreddits = ["GetMotivated", "motivation", "quotes", "inspiration"]
     return fetch_reddit_quotes(subreddits, limit=limit)
 
 
@@ -512,7 +541,7 @@ def fetch_motivation_quotes(limit: int = 10) -> List[Dict]:
 def fetch_wise_knowledge(limit: int = 10) -> List[Dict]:
     """Fetch wise knowledge from Reddit philosophy/stoicism subreddits."""
     print("Fetching wise knowledge...", file=sys.stderr)
-    subreddits = ["stoicism", "philosophy", "ZenHabits", "Meditation", "mindfulness"]
+    subreddits = ["Stoicism", "philosophy", "ZenHabits", "Meditation", "Mindfulness"]
     return fetch_reddit_quotes(subreddits, limit=limit)
 
 
