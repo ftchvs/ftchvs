@@ -16,33 +16,29 @@ def send_email_sendgrid(
     content: str,
     from_email: Optional[str] = None
 ) -> bool:
-    """Send email via SendGrid API."""
+    """Send email via SendGrid Python SDK."""
     try:
-        import requests
+        from sendgrid import SendGridAPIClient
+        from sendgrid.helpers.mail import Mail
         
         from_email = from_email or "noreply@ftchvs.github.io"
         
-        url = "https://api.sendgrid.com/v3/mail/send"
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
-        }
+        message = Mail(
+            from_email=from_email,
+            to_emails=to_email,
+            subject=subject,
+            html_content=content
+        )
         
-        payload = {
-            "personalizations": [{
-                "to": [{"email": to_email}]
-            }],
-            "from": {"email": from_email},
-            "subject": subject,
-            "content": [{
-                "type": "text/html",
-                "value": content.replace("\n", "<br>")
-            }]
-        }
+        sg = SendGridAPIClient(api_key)
+        response = sg.send(message)
         
-        response = requests.post(url, json=payload, headers=headers, timeout=30)
-        response.raise_for_status()
-        return True
+        if response.status_code in [200, 201, 202]:
+            print(f"Email sent successfully. Status: {response.status_code}", file=sys.stderr)
+            return True
+        else:
+            print(f"Email send returned status {response.status_code}", file=sys.stderr)
+            return False
         
     except Exception as e:
         print(f"Error sending email via SendGrid: {e}", file=sys.stderr)
