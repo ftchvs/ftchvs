@@ -77,6 +77,7 @@ jobs:
         continue-on-error: true
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          SENDGRID_FROM_EMAIL: ${{ secrets.SENDGRID_FROM_EMAIL }}
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
           NOTIFY_TYPE: email
           STATS_JSON: /tmp/github_stats.json

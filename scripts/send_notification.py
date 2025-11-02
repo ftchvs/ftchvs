@@ -160,11 +160,15 @@ def main():
             print("Error: SENDGRID_API_KEY and NOTIFY_EMAIL required for email", file=sys.stderr)
             sys.exit(1)
         
+        # Get from_email from environment or use default
+        from_email = os.getenv("SENDGRID_FROM_EMAIL")
+        
         success = send_email_sendgrid(
             api_key=api_key,
             to_email=to_email,
             subject=subject,
-            content=email_content
+            content=email_content,
+            from_email=from_email
         )
         
     elif notify_type == "sms":
