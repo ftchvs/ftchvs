@@ -19,24 +19,6 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 <!--START_SECTION:daily-->
 
-## 📊 Year-To-Date (YTD) Dev Activity - 2025
-
-### Commits & Contributions
-- **Total Commits**: 99
-
-### Pull Requests
-- **Created**: 0 (0 open, 0 merged, 0 closed)
-- **Contributed To**: 0 (0 merged)
-- **Reviewed**: 0 (0 merged)
-- **Total PR Activity**: 0
-
-### Code Changes
-- **Lines Added**: +999,187
-- **Lines Deleted**: -937,252
-- **Net Change**: +61,935
-
----
-
 ## 🤖 AI Industry Snapshot - 2025-11-02
 
 ### Top AI Stories
