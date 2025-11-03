@@ -921,8 +921,12 @@ Return ONLY the visual description (no explanation, no markdown, just the descri
         image_url = image_response.data[0].url
         
         # Download and save the image
-        os.makedirs("image/ai_news", exist_ok=True)
-        image_filename = f"image/ai_news/{date}-pointillism.png"
+        # Use absolute path relative to script's directory or project root
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.dirname(script_dir)
+        image_dir = os.path.join(project_root, "image", "ai_news")
+        os.makedirs(image_dir, exist_ok=True)
+        image_filename = os.path.join(image_dir, f"{date}-pointillism.png")
         
         img_response = requests.get(image_url, timeout=30)
         img_response.raise_for_status()
@@ -930,8 +934,11 @@ Return ONLY the visual description (no explanation, no markdown, just the descri
         with open(image_filename, "wb") as f:
             f.write(img_response.content)
         
+        # Return relative path for markdown (from project root)
+        relative_path = f"image/ai_news/{date}-pointillism.png"
         print(f"Image saved to {image_filename}", file=sys.stderr)
-        return image_filename
+        print(f"Using relative path: {relative_path}", file=sys.stderr)
+        return relative_path
         
     except Exception as e:
         print(f"Error generating pointillism image: {e}", file=sys.stderr)
@@ -1097,8 +1104,18 @@ def main():
         # Generate pointillism image inspired by the news
         image_path = None
         if unique_ai:
-            print("Generating digital pointillism artwork...", file=sys.stderr)
-            image_path = generate_pointillism_image(unique_ai[:10], ai_summary, openai_key, date_str)
+            try:
+                print("Generating digital pointillism artwork...", file=sys.stderr)
+                image_path = generate_pointillism_image(unique_ai[:10], ai_summary, openai_key, date_str)
+                if image_path:
+                    print(f"Successfully generated image: {image_path}", file=sys.stderr)
+                else:
+                    print("Warning: Image generation returned None", file=sys.stderr)
+            except Exception as e:
+                print(f"Error during image generation (continuing anyway): {e}", file=sys.stderr)
+                import traceback
+                print(traceback.format_exc(), file=sys.stderr)
+                image_path = None
         
         output["ai_news"]["markdown"] = format_ai_markdown(unique_ai[:10], ai_summary, date_str, image_path)
         output["ai_news"]["stories"] = unique_ai[:10]
