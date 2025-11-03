@@ -240,7 +240,7 @@ The discourse on AI is intensifying, with concerns over losing control of AI tec
 
 3. Jeff Bezos and Lauren Sánchez's dinner in Miami Beach reflects the intersection of high-profile personal lives with public interest, underscoring how business leaders' off-duty activities garner media attention.
 
-4. Donald Trump's decision to skip a Supreme Court hearing related to his trade policies underscores the ongoing legal and political battles involving former U.S. Presidents and their administrations' policies.
+4. Donald Trump's decision to skip a Supreme Court hearing related to his trade policies underscores the ongoing legal and political battles involving U.S. Presidents and their administrations' policies.
 
 5. The Energy Chief's warning about the potential for 'bigger ramifications' from a shutdown threatening nuclear modernization projects highlights the critical intersection of government funding, national security, and infrastructure development.
 
