@@ -224,8 +224,6 @@ def main():
         ("business_news", "<!--START_SECTION:business_news-->", "<!--END_SECTION:business_news-->"),
         ("tech_news", "<!--START_SECTION:tech_news-->", "<!--END_SECTION:tech_news-->"),
         ("podcasts", "<!--START_SECTION:podcasts-->", "<!--END_SECTION:podcasts-->"),
-        ("motivation_quotes", "<!--START_SECTION:motivation_quotes-->", "<!--END_SECTION:motivation_quotes-->"),
-        ("wise_knowledge", "<!--START_SECTION:wise_knowledge-->", "<!--END_SECTION:wise_knowledge-->"),
     ]
     
     updated = False
