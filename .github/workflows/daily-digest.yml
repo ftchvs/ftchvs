@@ -32,6 +32,7 @@ jobs:
       - name: Create archive directory
         run: |
           mkdir -p archive
+          mkdir -p image/ai_news
 
       - name: Fetch GitHub stats
         id: fetch_stats
@@ -118,7 +119,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md logs/ archive/
+          git add README.md logs/ archive/ image/
           git commit -m "📊 Daily digest update: $(date +'%Y-%m-%d')"
           git push
 
