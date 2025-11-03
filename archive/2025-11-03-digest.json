@@ -1,30 +1,14 @@
 {
   "date": "2025-11-03",
   "ai_news": {
-    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-03\n\n### Top AI Stories\n\n1. [We’ve Lost Control of AI](https://www.youtube.com/watch?v=90C3XVjUMqE)\n\n2. [How Are LLM Model Updates Managed? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=E90ea3uV2fc)\n\n3. [Self Improving AI is getting wild](https://www.youtube.com/watch?v=TCDpDXjpgPI)\n\n4. [What Is LLM Hallucination? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=enyG3uXydRs)\n\n5. [The NEO Humanoid Robot Just Stunned The AI Industry (1x Tech NEO Humanoid Robot)](https://www.youtube.com/watch?v=_FJgXl6UMsQ)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nThe discourse on AI is intensifying, with concerns over losing control of AI technologies, emphasizing the unpredictable nature of self-improving AI systems. Updates and management of Large Language Models (LLMs) are pivotal topics, shedding light on the mechanisms behind AI evolution and the phenomenon of LLM hallucination, where AI generates misleading or false information. Meanwhile, the unveiling of the NEO humanoid robot marks a significant milestone, captivating the AI industry with its advanced capabilities, further illustrating the rapid progression and potential implications of AI and robotics on society.\n\n### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's AI news trends*\n\n![Digital Pointillism Artwork](image/ai_news/2025-11-03-pointillism.png)\n",
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-03\n\n### Top AI Stories\n\n1. [How Are LLM Model Updates Managed? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=E90ea3uV2fc)\n\n2. [What Is LLM Hallucination? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=enyG3uXydRs)\n\n3. [Why Is Attention So Important For LLM Performance? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=W951yXpVsIo)\n\n4. [How Can Prompt Engineering Guide LLM Output? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=d5xHBWZvlAo)\n\n5. [OpenAI&#39;s Big Move Changes Everything!](https://www.youtube.com/watch?v=AXTfGgHX6sg)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nThe articles provide insights into various aspects of Large Language Models (LLMs), covering how updates to these models are managed to improve performance and accuracy, and discussing the phenomenon of LLM hallucination, where models generate false or nonsensical information. The significance of the attention mechanism is highlighted as a crucial factor for enhancing LLM performance by better focusing on relevant parts of the input data. Furthermore, the role of prompt engineering in directing LLM output towards more accurate and useful responses is examined. Lastly, a significant development by OpenAI is presented as a game-changing event in the field, although specific details of the change are not provided in the summary.\n\n### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's AI news trends*\n\n![Digital Pointillism Artwork](image/ai_news/2025-11-03-pointillism.png)\n",
     "stories": [
-      {
-        "title": "We’ve Lost Control of AI",
-        "url": "https://www.youtube.com/watch?v=90C3XVjUMqE",
-        "points": 0,
-        "comments": 0,
-        "author": "SciShow",
-        "source": "YouTube"
-      },
       {
         "title": "How Are LLM Model Updates Managed? - AI and Machine Learning Explained",
         "url": "https://www.youtube.com/watch?v=E90ea3uV2fc",
         "points": 0,
         "comments": 0,
         "author": "AI and Machine Learning Explained",
-        "source": "YouTube"
-      },
-      {
-        "title": "Self Improving AI is getting wild",
-        "url": "https://www.youtube.com/watch?v=TCDpDXjpgPI",
-        "points": 0,
-        "comments": 0,
-        "author": "Wes Roth",
         "source": "YouTube"
       },
       {
@@ -36,11 +20,27 @@
         "source": "YouTube"
       },
       {
-        "title": "The NEO Humanoid Robot Just Stunned The AI Industry (1x Tech NEO Humanoid Robot)",
-        "url": "https://www.youtube.com/watch?v=_FJgXl6UMsQ",
+        "title": "Why Is Attention So Important For LLM Performance? - AI and Machine Learning Explained",
+        "url": "https://www.youtube.com/watch?v=W951yXpVsIo",
         "points": 0,
         "comments": 0,
-        "author": "TheAIGRID",
+        "author": "AI and Machine Learning Explained",
+        "source": "YouTube"
+      },
+      {
+        "title": "How Can Prompt Engineering Guide LLM Output? - AI and Machine Learning Explained",
+        "url": "https://www.youtube.com/watch?v=d5xHBWZvlAo",
+        "points": 0,
+        "comments": 0,
+        "author": "AI and Machine Learning Explained",
+        "source": "YouTube"
+      },
+      {
+        "title": "OpenAI&#39;s Big Move Changes Everything!",
+        "url": "https://www.youtube.com/watch?v=AXTfGgHX6sg",
+        "points": 0,
+        "comments": 0,
+        "author": "Brain Media",
         "source": "YouTube"
       },
       {
@@ -89,11 +89,11 @@
         "source": "Hacker News"
       }
     ],
-    "summary": "The discourse on AI is intensifying, with concerns over losing control of AI technologies, emphasizing the unpredictable nature of self-improving AI systems. Updates and management of Large Language Models (LLMs) are pivotal topics, shedding light on the mechanisms behind AI evolution and the phenomenon of LLM hallucination, where AI generates misleading or false information. Meanwhile, the unveiling of the NEO humanoid robot marks a significant milestone, captivating the AI industry with its advanced capabilities, further illustrating the rapid progression and potential implications of AI and robotics on society.",
+    "summary": "The articles provide insights into various aspects of Large Language Models (LLMs), covering how updates to these models are managed to improve performance and accuracy, and discussing the phenomenon of LLM hallucination, where models generate false or nonsensical information. The significance of the attention mechanism is highlighted as a crucial factor for enhancing LLM performance by better focusing on relevant parts of the input data. Furthermore, the role of prompt engineering in directing LLM output towards more accurate and useful responses is examined. Lastly, a significant development by OpenAI is presented as a game-changing event in the field, although specific details of the change are not provided in the summary.",
     "image_path": "image/ai_news/2025-11-03-pointillism.png"
   },
   "business_news": {
-    "markdown": "## 💼 Business News - 2025-11-03\n\n### Top Stories\n\n1. [McDonald's CEO picks surprising winner as his favorite menu item in LinkedIn tournament](https://www.foxbusiness.com/lifestyle/mcdonalds-ceo-picks-surprising-winner-his-favorite-menu-item-linkedin-tournament)\n\n2. [United flight clips another aircraft while taxiing at LaGuardia Airport](https://www.foxbusiness.com/lifestyle/united-flight-clips-another-aircraft-while-taxiing-laguardia-airport)\n\n3. [Jeff Bezos and Lauren Sánchez enjoy romantic dinner date at upscale Miami Beach restaurant](https://www.foxbusiness.com/entertainment/jeff-bezos-lauren-sanchez-enjoy-romantic-dinner-date-upscale-miami-beach-restaurant)\n\n4. [Trump says he won’t attend Supreme Court hearing on his trade policies](https://www.foxbusiness.com/politics/opposing-lawyers-unfazed-trumps-potential-presence-supreme-court-arguments)\n\n5. [Energy chief warns ‘bigger ramifications’ on the horizon as shutdown threatens to stall nuclear modernization](https://www.foxbusiness.com/media/energy-chief-warns-bigger-ramifications-horizon-shutdown-stalls-nuclear-modernization)\n\n6. [Airlines step up to support federal workers as nearly 13,000 air traffic controllers go unpaid](https://www.foxbusiness.com/fox-news-travel/airlines-step-up-support-federal-workers-nearly-13000-air-traffic-controllers-go-unpaid)\n\n7. [Fraudulent rental applications surge nationwide as housing costs remain elevated](https://www.foxbusiness.com/real-estate/fraudulent-rental-applications-surge-nationwide-housing-costs-remain-elevated)\n\n8. [Nvidia leads America’s AI 'industrial revolution' with major manufacturing move](https://www.foxbusiness.com/media/nvidia-leads-americas-ai-industrial-revolution-major-manufacturing-move)\n\n9. [Bessent says he's 'optimistic' as Supreme Court weighs fate of Trump's entire trade agenda](https://www.foxbusiness.com/politics/bessent-says-hes-optimistic-supreme-court-weighs-fate-trumps-entire-trade-agenda)\n\n10. [Mega Millions jackpot reaches $800 million](https://www.foxbusiness.com/lifestyle/mega-millions-jackpot-reaches-800-million)\n\n### Summary\n\n1. McDonald's CEO revealed his favorite menu item in a LinkedIn tournament, sparking interest among the brand's followers and highlighting personal preferences within corporate leadership.\n\n2. A United flight incident at LaGuardia Airport where it clipped another aircraft emphasizes ongoing safety and operational challenges within the aviation industry.\n\n3. Jeff Bezos and Lauren Sánchez's dinner in Miami Beach reflects the intersection of high-profile personal lives with public interest, underscoring how business leaders' off-duty activities garner media attention.\n\n4. Donald Trump's decision to skip a Supreme Court hearing related to his trade policies underscores the ongoing legal and political battles involving former U.S. Presidents and their administrations' policies.\n\n5. The Energy Chief's warning about the potential for 'bigger ramifications' from a shutdown threatening nuclear modernization projects highlights the critical intersection of government funding, national security, and infrastructure development.\n",
+    "markdown": "## 💼 Business News - 2025-11-03\n\n### Top Stories\n\n1. [McDonald's CEO picks surprising winner as his favorite menu item in LinkedIn tournament](https://www.foxbusiness.com/lifestyle/mcdonalds-ceo-picks-surprising-winner-his-favorite-menu-item-linkedin-tournament)\n\n2. [United flight clips another aircraft while taxiing at LaGuardia Airport](https://www.foxbusiness.com/lifestyle/united-flight-clips-another-aircraft-while-taxiing-laguardia-airport)\n\n3. [Jeff Bezos and Lauren Sánchez enjoy romantic dinner date at upscale Miami Beach restaurant](https://www.foxbusiness.com/entertainment/jeff-bezos-lauren-sanchez-enjoy-romantic-dinner-date-upscale-miami-beach-restaurant)\n\n4. [Trump says he won’t attend Supreme Court hearing on his trade policies](https://www.foxbusiness.com/politics/opposing-lawyers-unfazed-trumps-potential-presence-supreme-court-arguments)\n\n5. [Energy chief warns ‘bigger ramifications’ on the horizon as shutdown threatens to stall nuclear modernization](https://www.foxbusiness.com/media/energy-chief-warns-bigger-ramifications-horizon-shutdown-stalls-nuclear-modernization)\n\n6. [Airlines step up to support federal workers as nearly 13,000 air traffic controllers go unpaid](https://www.foxbusiness.com/fox-news-travel/airlines-step-up-support-federal-workers-nearly-13000-air-traffic-controllers-go-unpaid)\n\n7. [Fraudulent rental applications surge nationwide as housing costs remain elevated](https://www.foxbusiness.com/real-estate/fraudulent-rental-applications-surge-nationwide-housing-costs-remain-elevated)\n\n8. [Nvidia leads America’s AI 'industrial revolution' with major manufacturing move](https://www.foxbusiness.com/media/nvidia-leads-americas-ai-industrial-revolution-major-manufacturing-move)\n\n9. [Bessent says he's 'optimistic' as Supreme Court weighs fate of Trump's entire trade agenda](https://www.foxbusiness.com/politics/bessent-says-hes-optimistic-supreme-court-weighs-fate-trumps-entire-trade-agenda)\n\n10. [Mega Millions jackpot reaches $800 million](https://www.foxbusiness.com/lifestyle/mega-millions-jackpot-reaches-800-million)\n\n### Summary\n\n1. McDonald's CEO revealed his favorite menu item in a surprising outcome of a LinkedIn tournament, showcasing personal preference amidst the company's vast food offerings.\n2. A United Airlines flight experienced a minor collision with another aircraft while taxiing at LaGuardia Airport, highlighting safety and operational challenges in aviation.\n3. Jeff Bezos and Lauren Sánchez were spotted on a romantic dinner date at an upscale Miami Beach restaurant, reflecting the personal lives of high-profile business figures.\n4. Former President Trump announced his decision not to attend a Supreme Court hearing concerning his trade policies, indicating ongoing legal and political battles involving his administration's decisions.\n5. The Energy Secretary issued a warning about significant consequences if a government shutdown interrupts nuclear modernization efforts, underscoring the critical importance of maintaining and updating the nation's nuclear capabilities.\n",
     "stories": [
       {
         "title": "McDonald's CEO picks surprising winner as his favorite menu item in LinkedIn tournament",
@@ -166,93 +166,93 @@
         "published": "Sun, 02 Nov 2025 14:49:23 GMT"
       }
     ],
-    "summary": "1. McDonald's CEO revealed his favorite menu item in a LinkedIn tournament, sparking interest among the brand's followers and highlighting personal preferences within corporate leadership.\n\n2. A United flight incident at LaGuardia Airport where it clipped another aircraft emphasizes ongoing safety and operational challenges within the aviation industry.\n\n3. Jeff Bezos and Lauren Sánchez's dinner in Miami Beach reflects the intersection of high-profile personal lives with public interest, underscoring how business leaders' off-duty activities garner media attention.\n\n4. Donald Trump's decision to skip a Supreme Court hearing related to his trade policies underscores the ongoing legal and political battles involving former U.S. Presidents and their administrations' policies.\n\n5. The Energy Chief's warning about the potential for 'bigger ramifications' from a shutdown threatening nuclear modernization projects highlights the critical intersection of government funding, national security, and infrastructure development."
+    "summary": "1. McDonald's CEO revealed his favorite menu item in a surprising outcome of a LinkedIn tournament, showcasing personal preference amidst the company's vast food offerings.\n2. A United Airlines flight experienced a minor collision with another aircraft while taxiing at LaGuardia Airport, highlighting safety and operational challenges in aviation.\n3. Jeff Bezos and Lauren Sánchez were spotted on a romantic dinner date at an upscale Miami Beach restaurant, reflecting the personal lives of high-profile business figures.\n4. Former President Trump announced his decision not to attend a Supreme Court hearing concerning his trade policies, indicating ongoing legal and political battles involving his administration's decisions.\n5. The Energy Secretary issued a warning about significant consequences if a government shutdown interrupts nuclear modernization efforts, underscoring the critical importance of maintaining and updating the nation's nuclear capabilities."
   },
   "tech_news": {
-    "markdown": "## 💻 Tech News - 2025-11-03\n\n### Top Stories\n\n1. [You guys need to build more stupid shit](https://news.ycombinator.com/item?id=45795704)\n\n2. [Destiny Matrix – Free Life Path Calculator and Analysis](https://destinymatrix.cc/)\n\n3. [LAP Coffee commotion puts German view of venture capital under scrutiny](https://www.ft.com/content/2b2bda15-afc2-496e-b48d-944c79d99cbf)\n\n4. [Machine Scheduler in LLVM – Part II](https://myhsu.xyz/llvm-machine-scheduler-2/)\n\n5. [Ask HN: How do you design an efficient transacitonal/durable task system?](https://news.ycombinator.com/item?id=45795885)\n\n6. [Site to Gather Tech News From](https://codigotecno.dev)\n\n7. [How Our Ancestors Used Moss](https://wabimoss.com/nature-immersion/practical-uses-moss/)\n\n8. [Writing a DOS Clone in 2019](https://medium.com/@andrewimm/writing-a-dos-clone-in-2019-70eac97ec3e1)\n\n9. [The True Tale of Seattle's Sherlock Holmes](https://www.seattlemet.com/news-and-city-life/2025/09/real-detective-seattle-luke-may)\n\n10. [Revival of the Chicago River](https://www.nationalgeographic.com/travel/article/what-to-do-along-the-chicago-river)\n\n### Summary\n\n1. There's a call for the tech community to embrace creativity and innovation by building more unconventional and \"stupid\" projects, advocating for a less risk-averse approach to development.\n2. The Destiny Matrix is a new tool offering users a free way to calculate and analyze their life path, blending technology with personal growth and self-discovery.\n3. The LAP Coffee situation has sparked a debate in Germany about venture capital practices, highlighting cultural and operational differences in how startups are funded and scrutinized.\n4. The second part of a series on Machine Scheduler in LLVM delves into the complexities of optimizing machine instruction scheduling, showcasing advancements in compiler technology.\n5. On Hacker News, the discussion about designing efficient, transactional, and durable task systems emphasizes the technical challenges and considerations in ensuring data integrity and system reliability in software engineering.\n",
+    "markdown": "## 💻 Tech News - 2025-11-03\n\n### Top Stories\n\n1. [Kimi Linear: An Expressive, Efficient Attention Architecture](https://arxiv.org/abs/2510.26692)\n\n2. ['No idea who he is', says Trump after pardoning crypto tycoon](https://www.bbc.com/news/articles/cn7ek63e5xyo)\n\n3. [ECL Runs Maxima in a Browser](https://mailman3.common-lisp.net/hyperkitty/list/ecl-devel@common-lisp.net/thread/T64S5EMVV6WHDPKWZ3AQHEPO3EQE2K5M/)\n\n4. [State of Terminal Emulators in 2025](https://www.jeffquast.com/post/state-of-terminal-emulation-2025/)\n\n5. [Modern Python CI with Coverage in 2025](https://danielnouri.org/notes/2025/11/03/modern-python-ci-with-coverage-in-2025/)\n\n6. [Python 3.14 added support for max-heaps](https://docs.python.org/3/whatsnew/3.14.html)\n\n7. [From Signals to Reliability: SLOs, Runbooks and Post-Mortems](https://fatihkoc.net/posts/sre-observability-slo-runbooks/)\n\n8. [Google's Jeff Dean on the Coming Era of Virtual Engineers](https://sequoiacap.com/podcast/training-data-jeff-dean/)\n\n9. [Variation Is King, Not the Average](https://xmrit.com/articles/variation-is-king-not-the-average)\n\n10. [Show HN: 1D Pac-Man running on my custom ARM-like fantasy console in the browser](https://github.com/beep8/beep8-sdk)\n\n### Summary\n\n1. Kimi Linear introduces a new attention architecture that enhances expressiveness and efficiency in machine learning models, offering a significant leap in processing complex datasets.\n2. Former President Trump pardoned a notable figure in the cryptocurrency world, despite publicly stating he has no knowledge of the individual's identity, highlighting the unpredictable nature of presidential pardons.\n3. ECL Runs Maxima in a Browser represents an advancement in computational software, allowing users to run the Maxima computer algebra system directly in a web browser, facilitating more accessible and versatile mathematical computations.\n4. The state of terminal emulators in 2025 indicates significant progress in user interface and functionality, with advancements aimed at increasing productivity and integration with modern development tools.\n5. Modern Python CI with Coverage in 2025 showcases the evolution of Continuous Integration (CI) practices for Python, emphasizing the importance of code coverage and the adoption of cutting-edge technologies to ensure high-quality software development.\n",
     "stories": [
       {
-        "title": "You guys need to build more stupid shit",
-        "url": "https://news.ycombinator.com/item?id=45795704",
-        "points": 9,
-        "comments": 4,
-        "author": "gnarbarian",
+        "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+        "url": "https://arxiv.org/abs/2510.26692",
+        "points": 3,
+        "comments": 0,
+        "author": "birriel",
         "source": "Hacker News"
       },
       {
-        "title": "Destiny Matrix – Free Life Path Calculator and Analysis",
-        "url": "https://destinymatrix.cc/",
+        "title": "'No idea who he is', says Trump after pardoning crypto tycoon",
+        "url": "https://www.bbc.com/news/articles/cn7ek63e5xyo",
         "points": 2,
         "comments": 0,
-        "author": "lizbo",
+        "author": "jmsflknr",
         "source": "Hacker News"
       },
       {
-        "title": "LAP Coffee commotion puts German view of venture capital under scrutiny",
-        "url": "https://www.ft.com/content/2b2bda15-afc2-496e-b48d-944c79d99cbf",
+        "title": "ECL Runs Maxima in a Browser",
+        "url": "https://mailman3.common-lisp.net/hyperkitty/list/ecl-devel@common-lisp.net/thread/T64S5EMVV6WHDPKWZ3AQHEPO3EQE2K5M/",
         "points": 2,
         "comments": 0,
-        "author": "alephnerd",
+        "author": "seansh",
         "source": "Hacker News"
       },
       {
-        "title": "Machine Scheduler in LLVM – Part II",
-        "url": "https://myhsu.xyz/llvm-machine-scheduler-2/",
-        "points": 1,
+        "title": "State of Terminal Emulators in 2025",
+        "url": "https://www.jeffquast.com/post/state-of-terminal-emulation-2025/",
+        "points": 2,
         "comments": 0,
-        "author": "matt_d",
+        "author": "matthew_hre",
         "source": "Hacker News"
       },
       {
-        "title": "Ask HN: How do you design an efficient transacitonal/durable task system?",
-        "url": "https://news.ycombinator.com/item?id=45795885",
+        "title": "Modern Python CI with Coverage in 2025",
+        "url": "https://danielnouri.org/notes/2025/11/03/modern-python-ci-with-coverage-in-2025/",
         "points": 1,
-        "comments": 0,
-        "author": "stevefan1999",
+        "comments": 1,
+        "author": "dnouri",
         "source": "Hacker News"
       },
       {
-        "title": "Site to Gather Tech News From",
-        "url": "https://codigotecno.dev",
+        "title": "Python 3.14 added support for max-heaps",
+        "url": "https://docs.python.org/3/whatsnew/3.14.html",
         "points": 1,
         "comments": 0,
-        "author": "ray_",
+        "author": "tehnub",
         "source": "Hacker News"
       },
       {
-        "title": "How Our Ancestors Used Moss",
-        "url": "https://wabimoss.com/nature-immersion/practical-uses-moss/",
+        "title": "From Signals to Reliability: SLOs, Runbooks and Post-Mortems",
+        "url": "https://fatihkoc.net/posts/sre-observability-slo-runbooks/",
         "points": 1,
         "comments": 0,
-        "author": "thunderbong",
+        "author": "fatihkocnet",
         "source": "Hacker News"
       },
       {
-        "title": "Writing a DOS Clone in 2019",
-        "url": "https://medium.com/@andrewimm/writing-a-dos-clone-in-2019-70eac97ec3e1",
+        "title": "Google's Jeff Dean on the Coming Era of Virtual Engineers",
+        "url": "https://sequoiacap.com/podcast/training-data-jeff-dean/",
         "points": 1,
         "comments": 0,
-        "author": "shakna",
+        "author": "palerdot",
         "source": "Hacker News"
       },
       {
-        "title": "The True Tale of Seattle's Sherlock Holmes",
-        "url": "https://www.seattlemet.com/news-and-city-life/2025/09/real-detective-seattle-luke-may",
+        "title": "Variation Is King, Not the Average",
+        "url": "https://xmrit.com/articles/variation-is-king-not-the-average",
         "points": 1,
         "comments": 0,
-        "author": "rmason",
+        "author": "ath_ray",
         "source": "Hacker News"
       },
       {
-        "title": "Revival of the Chicago River",
-        "url": "https://www.nationalgeographic.com/travel/article/what-to-do-along-the-chicago-river",
+        "title": "Show HN: 1D Pac-Man running on my custom ARM-like fantasy console in the browser",
+        "url": "https://github.com/beep8/beep8-sdk",
         "points": 1,
         "comments": 0,
-        "author": "ninju",
+        "author": "beep8_official",
         "source": "Hacker News"
       }
     ],
-    "summary": "1. There's a call for the tech community to embrace creativity and innovation by building more unconventional and \"stupid\" projects, advocating for a less risk-averse approach to development.\n2. The Destiny Matrix is a new tool offering users a free way to calculate and analyze their life path, blending technology with personal growth and self-discovery.\n3. The LAP Coffee situation has sparked a debate in Germany about venture capital practices, highlighting cultural and operational differences in how startups are funded and scrutinized.\n4. The second part of a series on Machine Scheduler in LLVM delves into the complexities of optimizing machine instruction scheduling, showcasing advancements in compiler technology.\n5. On Hacker News, the discussion about designing efficient, transactional, and durable task systems emphasizes the technical challenges and considerations in ensuring data integrity and system reliability in software engineering."
+    "summary": "1. Kimi Linear introduces a new attention architecture that enhances expressiveness and efficiency in machine learning models, offering a significant leap in processing complex datasets.\n2. Former President Trump pardoned a notable figure in the cryptocurrency world, despite publicly stating he has no knowledge of the individual's identity, highlighting the unpredictable nature of presidential pardons.\n3. ECL Runs Maxima in a Browser represents an advancement in computational software, allowing users to run the Maxima computer algebra system directly in a web browser, facilitating more accessible and versatile mathematical computations.\n4. The state of terminal emulators in 2025 indicates significant progress in user interface and functionality, with advancements aimed at increasing productivity and integration with modern development tools.\n5. Modern Python CI with Coverage in 2025 showcases the evolution of Continuous Integration (CI) practices for Python, emphasizing the importance of code coverage and the adoption of cutting-edge technologies to ensure high-quality software development."
   },
   "podcasts": {
     "markdown": "",
