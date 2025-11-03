@@ -119,24 +119,92 @@ def fetch_hacker_news_ai_stories(limit: int = 5) -> List[Dict]:
 
 def fetch_reddit_ai_stories(limit: int = 5) -> List[Dict]:
     """Fetch top AI-related stories from Reddit."""
-    subreddits = ["MachineLearning", "artificial", "singularity", "artificial_intelligence"]
-    ai_keywords = ["ai", "artificial intelligence", "machine learning", "llm", "gpt", "openai", "anthropic", "claude", "neural", "deep learning"]
+    # AI-specific subreddits - all posts are relevant
+    ai_subreddits = ["MachineLearning", "artificial", "singularity", "artificial_intelligence", "LocalLLaMA", "ChatGPT", "GPT3"]
+    # General tech subreddits where we need keyword filtering
+    general_subreddits = ["technology", "programming", "computerscience"]
+    ai_keywords = [
+        "ai", "artificial intelligence", "machine learning", "llm", "gpt", "openai", 
+        "anthropic", "claude", "neural", "deep learning", "transformer", "diffusion",
+        "generative ai", "genai", "langchain", "prompt engineering", "agent", "agi"
+    ]
     all_stories = []
     
-    for subreddit in subreddits:
+    # Fetch from AI-specific subreddits (include all posts since they're AI-focused)
+    for subreddit in ai_subreddits:
         try:
             url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=25"
             response = requests.get(url, headers=REDDIT_HEADERS, timeout=30)
             response.raise_for_status()
             data = response.json()
             
+            if "error" in data:
+                print(f"Reddit API error for r/{subreddit}: {data.get('message', 'Unknown error')}", file=sys.stderr)
+                continue
+            
+            posts = data.get("data", {}).get("children", [])
+            print(f"Fetched {len(posts)} posts from r/{subreddit}", file=sys.stderr)
+            
+            for post in posts:
+                post_data = post.get("data", {})
+                
+                # Skip stickied/pinned posts
+                if post_data.get("stickied", False):
+                    continue
+                
+                # Skip deleted/removed posts
+                if post_data.get("selftext") in ["[deleted]", "[removed]"]:
+                    continue
+                
+                reddit_url = f"https://www.reddit.com{post_data.get('permalink', '')}"
+                external_url = post_data.get("url_overridden_by_dest", "")
+                
+                final_url = external_url if (external_url and validate_url(external_url) and "reddit.com" not in external_url) else reddit_url
+                
+                all_stories.append({
+                    "title": post_data.get("title", ""),
+                    "url": final_url,
+                    "points": post_data.get("score", 0),
+                    "comments": post_data.get("num_comments", 0),
+                    "author": post_data.get("author", ""),
+                    "source": f"r/{subreddit}",
+                })
+            
+            # Rate limiting for Reddit
+            time.sleep(0.5)
+                    
+        except requests.exceptions.RequestException as e:
+            print(f"Request error fetching from r/{subreddit}: {e}", file=sys.stderr)
+            continue
+        except Exception as e:
+            print(f"Error fetching from r/{subreddit}: {e}", file=sys.stderr)
+            continue
+    
+    # Fetch from general subreddits with keyword filtering
+    for subreddit in general_subreddits:
+        try:
+            url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=25"
+            response = requests.get(url, headers=REDDIT_HEADERS, timeout=30)
+            response.raise_for_status()
+            data = response.json()
+            
+            if "error" in data:
+                continue
+            
             posts = data.get("data", {}).get("children", [])
             
             for post in posts:
                 post_data = post.get("data", {})
-                title = post_data.get("title", "").lower()
                 
-                if any(keyword in title for keyword in ai_keywords):
+                if post_data.get("stickied", False):
+                    continue
+                
+                title = post_data.get("title", "").lower()
+                selftext = post_data.get("selftext", "").lower()
+                
+                # Check if AI-related in title or selftext
+                content = title + " " + selftext
+                if any(keyword in content for keyword in ai_keywords):
                     reddit_url = f"https://www.reddit.com{post_data.get('permalink', '')}"
                     external_url = post_data.get("url_overridden_by_dest", "")
                     
@@ -151,14 +219,15 @@ def fetch_reddit_ai_stories(limit: int = 5) -> List[Dict]:
                         "source": f"r/{subreddit}",
                     })
             
-            # Rate limiting for Reddit
             time.sleep(0.5)
                     
         except Exception as e:
             print(f"Error fetching from r/{subreddit}: {e}", file=sys.stderr)
             continue
     
+    # Sort by score and return top stories
     all_stories.sort(key=lambda x: x.get("points", 0), reverse=True)
+    print(f"Total Reddit AI stories found: {len(all_stories)}", file=sys.stderr)
     return all_stories[:limit]
 
 
@@ -201,6 +270,69 @@ def fetch_techcrunch_ai_stories(limit: int = 5) -> List[Dict]:
     except Exception as e:
         print(f"Error fetching TechCrunch AI stories: {e}", file=sys.stderr)
         return []
+
+
+def fetch_youtube_ai_stories(limit: int = 5) -> List[Dict]:
+    """Fetch AI-related videos from YouTube."""
+    ai_keywords = ["ai", "artificial intelligence", "machine learning", "llm", "gpt", "openai", "anthropic", "claude", "neural", "deep learning"]
+    stories = []
+    
+    try:
+        youtube_api_key = os.getenv("YOUTUBE_API_KEY")
+        if not youtube_api_key:
+            return []
+        
+        search_url = "https://www.googleapis.com/youtube/v3/search"
+        
+        params = {
+            "part": "snippet",
+            "q": "AI artificial intelligence machine learning LLM",
+            "type": "video",
+            "maxResults": limit * 2,
+            "order": "relevance",
+            "publishedAfter": (datetime.now() - timedelta(days=7)).isoformat() + "Z",
+            "key": youtube_api_key,
+        }
+        
+        response = requests.get(search_url, params=params, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        
+        items = data.get("items", [])
+        
+        for item in items:
+            snippet = item.get("snippet", {})
+            title = snippet.get("title", "").lower()
+            
+            if any(keyword in title for keyword in ai_keywords):
+                video_id = item.get("id", {}).get("videoId", "")
+                video_url = f"https://www.youtube.com/watch?v={video_id}"
+                
+                stories.append({
+                    "title": snippet.get("title", ""),
+                    "url": video_url,
+                    "points": 0,
+                    "comments": 0,
+                    "author": snippet.get("channelTitle", ""),
+                    "source": "YouTube",
+                })
+                
+                if len(stories) >= limit:
+                    break
+        
+        return stories[:limit]
+        
+    except Exception as e:
+        print(f"Error fetching YouTube stories: {e}", file=sys.stderr)
+        return []
+
+
+def fetch_twitter_ai_stories(limit: int = 5) -> List[Dict]:
+    """Fetch AI-related tweets/posts from Twitter/X."""
+    # Note: Twitter API requires authentication
+    # For now, return empty list - can be implemented with API keys
+    print("Twitter/X integration requires API keys. Skipping Twitter fetch.", file=sys.stderr)
+    return []
 
 
 # ============ BUSINESS NEWS FUNCTIONS ============
@@ -827,6 +959,7 @@ def main():
             "ai_news": {"markdown": "", "stories": [], "summary": ""},
             "business_news": {"markdown": "", "stories": [], "summary": ""},
             "tech_news": {"markdown": "", "stories": [], "summary": ""},
+            "podcasts": {"markdown": "", "podcasts": [], "summary": ""},
             "motivation_quotes": {"markdown": "", "items": [], "summary": ""},
             "wise_knowledge": {"markdown": "", "items": [], "summary": ""},
         }
@@ -834,6 +967,23 @@ def main():
         # Fetch AI News
         print("Fetching AI news...", file=sys.stderr)
         all_ai_stories = []
+        
+        # Fetch from YouTube (if API key available)
+        try:
+            youtube_ai = fetch_youtube_ai_stories(limit=5)
+            all_ai_stories.extend(youtube_ai)
+            print(f"Found {len(youtube_ai)} AI stories from YouTube", file=sys.stderr)
+        except Exception as e:
+            print(f"YouTube fetch skipped: {e}", file=sys.stderr)
+        
+        # Fetch from Twitter/X (if API key available)
+        try:
+            twitter_ai = fetch_twitter_ai_stories(limit=5)
+            all_ai_stories.extend(twitter_ai)
+            print(f"Found {len(twitter_ai)} AI stories from Twitter/X", file=sys.stderr)
+        except Exception as e:
+            print(f"Twitter fetch skipped: {e}", file=sys.stderr)
+        
         reddit_ai = fetch_reddit_ai_stories(limit=5)
         tc_ai = fetch_techcrunch_ai_stories(limit=5)
         hn_ai = fetch_hacker_news_ai_stories(limit=5)
@@ -907,6 +1057,13 @@ def main():
         output["wise_knowledge"]["markdown"] = format_quotes_markdown(knowledge, knowledge_summary, date_str, "Wise Knowledge", "🧠")
         output["wise_knowledge"]["items"] = knowledge
         output["wise_knowledge"]["summary"] = knowledge_summary
+        
+        # Fetch Podcasts (if summarize_podcasts.py output is available)
+        # This will be populated by calling summarize_podcasts.py separately in the workflow
+        # For now, set empty placeholder
+        output["podcasts"]["markdown"] = ""
+        output["podcasts"]["podcasts"] = []
+        output["podcasts"]["summary"] = ""
         
         # Save to archive
         archive_dir = "archive"

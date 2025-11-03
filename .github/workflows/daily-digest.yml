@@ -47,8 +47,46 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          python3 scripts/summarize_content.py > /tmp/content_summary.json 2>/tmp/content_summary_error.log || echo '{"date":"","error":"Failed to fetch content","ai_news":{"markdown":"","stories":[],"summary":""},"business_news":{"markdown":"","stories":[],"summary":""},"tech_news":{"markdown":"","stories":[],"summary":""},"motivation_quotes":{"markdown":"","items":[],"summary":""},"wise_knowledge":{"markdown":"","items":[],"summary":""}}' > /tmp/content_summary.json
+          python3 scripts/summarize_content.py > /tmp/content_summary.json 2>/tmp/content_summary_error.log || echo '{"date":"","error":"Failed to fetch content","ai_news":{"markdown":"","stories":[],"summary":""},"business_news":{"markdown":"","stories":[],"summary":""},"tech_news":{"markdown":"","stories":[],"summary":""},"podcasts":{"markdown":"","podcasts":[],"summary":""},"motivation_quotes":{"markdown":"","items":[],"summary":""},"wise_knowledge":{"markdown":"","items":[],"summary":""}}' > /tmp/content_summary.json
+
+      - name: Fetch podcast summaries
+        id: fetch_podcasts
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        continue-on-error: true
+        run: |
+          python3 scripts/summarize_podcasts.py > /tmp/podcasts_summary.json 2>/tmp/podcasts_summary_error.log || echo '{"date":"","markdown":"","podcasts":[]}' > /tmp/podcasts_summary.json
+
+      - name: Merge podcast content into main summary
+        run: |
+          if [ -f /tmp/podcasts_summary.json ]; then
+            python3 << 'EOF'
+            import json
+            import sys
+            
+            try:
+                with open('/tmp/content_summary.json', 'r') as f:
+                    content = json.load(f)
+                
+                with open('/tmp/podcasts_summary.json', 'r') as f:
+                    podcasts = json.load(f)
+                
+                if 'markdown' in podcasts and podcasts['markdown']:
+                    content['podcasts'] = {
+                        'markdown': podcasts['markdown'],
+                        'podcasts': podcasts.get('podcasts', []),
+                        'summary': podcasts.get('summary', '')
+                    }
+                
+                with open('/tmp/content_summary.json', 'w') as f:
+                    json.dump(content, f, indent=2, ensure_ascii=False)
+            except Exception as e:
+                print(f"Error merging podcasts: {e}", file=sys.stderr)
+            EOF
+          fi
 
       - name: Copy archive files
         run: |

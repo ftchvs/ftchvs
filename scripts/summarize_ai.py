@@ -106,34 +106,102 @@ def fetch_hacker_news_ai_stories(limit: int = 5) -> List[Dict]:
 
 def fetch_reddit_ai_stories(limit: int = 5) -> List[Dict]:
     """Fetch top AI-related stories from Reddit (r/MachineLearning, r/artificial)."""
-    subreddits = ["MachineLearning", "artificial", "singularity", "artificial_intelligence"]
-    ai_keywords = ["ai", "artificial intelligence", "machine learning", "llm", "gpt", "openai", "anthropic", "claude", "neural", "deep learning"]
+    # AI-specific subreddits - all posts are relevant
+    ai_subreddits = ["MachineLearning", "artificial", "singularity", "artificial_intelligence", "LocalLLaMA", "ChatGPT", "GPT3"]
+    # General tech subreddits where we need keyword filtering
+    general_subreddits = ["technology", "programming", "computerscience"]
+    ai_keywords = [
+        "ai", "artificial intelligence", "machine learning", "llm", "gpt", "openai", 
+        "anthropic", "claude", "neural", "deep learning", "transformer", "diffusion",
+        "generative ai", "genai", "langchain", "prompt engineering", "agent", "agi"
+    ]
     all_stories = []
     
     headers = {
         "User-Agent": "AI-News-Aggregator/1.0 (contact: ftchvs)"
     }
     
-    for subreddit in subreddits:
+    # Fetch from AI-specific subreddits (include all posts since they're AI-focused)
+    for subreddit in ai_subreddits:
         try:
-            # Reddit JSON API (no auth required for public access)
             url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=25"
             response = requests.get(url, headers=headers, timeout=30)
             response.raise_for_status()
             data = response.json()
             
+            if "error" in data:
+                print(f"Reddit API error for r/{subreddit}: {data.get('message', 'Unknown error')}", file=sys.stderr)
+                continue
+            
+            posts = data.get("data", {}).get("children", [])
+            print(f"Fetched {len(posts)} posts from r/{subreddit}", file=sys.stderr)
+            
+            for post in posts:
+                post_data = post.get("data", {})
+                
+                # Skip stickied/pinned posts
+                if post_data.get("stickied", False):
+                    continue
+                
+                # Skip deleted/removed posts
+                if post_data.get("selftext") in ["[deleted]", "[removed]"]:
+                    continue
+                
+                reddit_url = f"https://www.reddit.com{post_data.get('permalink', '')}"
+                external_url = post_data.get("url_overridden_by_dest", "")
+                
+                # Use external URL if valid, otherwise Reddit discussion
+                if external_url and validate_url(external_url) and "reddit.com" not in external_url:
+                    final_url = external_url
+                else:
+                    final_url = reddit_url
+                
+                all_stories.append({
+                    "title": post_data.get("title", ""),
+                    "url": final_url,
+                    "points": post_data.get("score", 0),
+                    "comments": post_data.get("num_comments", 0),
+                    "author": post_data.get("author", ""),
+                    "hn_url": reddit_url,  # Reddit discussion as backup
+                    "source": f"r/{subreddit}",
+                    "subreddit": subreddit,
+                })
+                    
+        except requests.exceptions.RequestException as e:
+            print(f"Request error fetching from r/{subreddit}: {e}", file=sys.stderr)
+            continue
+        except Exception as e:
+            print(f"Error fetching from r/{subreddit}: {e}", file=sys.stderr)
+            continue
+    
+    # Fetch from general subreddits with keyword filtering
+    for subreddit in general_subreddits:
+        try:
+            url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=25"
+            response = requests.get(url, headers=headers, timeout=30)
+            response.raise_for_status()
+            data = response.json()
+            
+            if "error" in data:
+                continue
+            
             posts = data.get("data", {}).get("children", [])
             
             for post in posts:
                 post_data = post.get("data", {})
-                title = post_data.get("title", "").lower()
                 
-                # Filter for AI-related content
-                if any(keyword in title for keyword in ai_keywords):
+                if post_data.get("stickied", False):
+                    continue
+                
+                title = post_data.get("title", "").lower()
+                selftext = post_data.get("selftext", "").lower()
+                
+                # Check if AI-related in title or selftext
+                content = title + " " + selftext
+                if any(keyword in content for keyword in ai_keywords):
                     reddit_url = f"https://www.reddit.com{post_data.get('permalink', '')}"
                     external_url = post_data.get("url_overridden_by_dest", "")
                     
-                    # Use external URL if valid, otherwise Reddit discussion
                     if external_url and validate_url(external_url) and "reddit.com" not in external_url:
                         final_url = external_url
                     else:
@@ -145,7 +213,7 @@ def fetch_reddit_ai_stories(limit: int = 5) -> List[Dict]:
                         "points": post_data.get("score", 0),
                         "comments": post_data.get("num_comments", 0),
                         "author": post_data.get("author", ""),
-                        "hn_url": reddit_url,  # Reddit discussion as backup
+                        "hn_url": reddit_url,
                         "source": f"r/{subreddit}",
                         "subreddit": subreddit,
                     })
@@ -156,6 +224,7 @@ def fetch_reddit_ai_stories(limit: int = 5) -> List[Dict]:
     
     # Sort by score (points) and return top stories
     all_stories.sort(key=lambda x: x.get("points", 0), reverse=True)
+    print(f"Total Reddit AI stories found: {len(all_stories)}", file=sys.stderr)
     return all_stories[:limit]
 
 
@@ -210,16 +279,111 @@ def fetch_techcrunch_ai_stories(limit: int = 5) -> List[Dict]:
         return []
 
 
+def fetch_twitter_ai_stories(limit: int = 5) -> List[Dict]:
+    """Fetch AI-related tweets/posts from Twitter/X using web scraping via Nitter or similar."""
+    # Note: Twitter API v2 requires authentication and is rate-limited
+    # This uses a public RSS feed approach via Nitter (a privacy-focused Twitter frontend)
+    # Alternative: Use Twitter's search API if API keys are available
+    ai_keywords = ["ai", "artificial intelligence", "machine learning", "llm", "gpt", "openai", "anthropic", "claude", "neural", "deep learning"]
+    stories = []
+    
+    try:
+        # Try using Nitter RSS feeds for popular AI accounts
+        # Nitter instances may be unreliable, so we'll try multiple approaches
+        ai_accounts = [
+            "@OpenAI",
+            "@anthropicAI", 
+            "@GoogleAI",
+            "@DeepMind",
+            "@sama",  # Sam Altman
+            "@AndrewYNg",  # Andrew Ng
+        ]
+        
+        # Try to fetch from public Twitter search via alternative APIs
+        # For now, we'll return empty and log that Twitter requires API setup
+        print("Twitter/X integration requires API keys. Skipping Twitter fetch.", file=sys.stderr)
+        return []
+        
+    except Exception as e:
+        print(f"Error fetching Twitter stories: {e}", file=sys.stderr)
+        return []
+
+
+def fetch_youtube_ai_stories(limit: int = 5) -> List[Dict]:
+    """Fetch AI-related videos from YouTube."""
+    ai_keywords = ["ai", "artificial intelligence", "machine learning", "llm", "gpt", "openai", "anthropic", "claude", "neural", "deep learning"]
+    stories = []
+    
+    try:
+        # Check for YouTube Data API key
+        youtube_api_key = os.getenv("YOUTUBE_API_KEY")
+        if not youtube_api_key:
+            print("YOUTUBE_API_KEY not found. Skipping YouTube fetch.", file=sys.stderr)
+            return []
+        
+        # YouTube Data API v3
+        search_url = "https://www.googleapis.com/youtube/v3/search"
+        
+        params = {
+            "part": "snippet",
+            "q": "AI artificial intelligence machine learning LLM",
+            "type": "video",
+            "maxResults": limit * 2,  # Get more to filter
+            "order": "relevance",
+            "publishedAfter": (datetime.now() - timedelta(days=7)).isoformat() + "Z",  # Last week
+            "key": youtube_api_key,
+        }
+        
+        response = requests.get(search_url, params=params, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        
+        items = data.get("items", [])
+        
+        for item in items:
+            snippet = item.get("snippet", {})
+            title = snippet.get("title", "").lower()
+            
+            # Filter for AI-related content
+            if any(keyword in title for keyword in ai_keywords):
+                video_id = item.get("id", {}).get("videoId", "")
+                video_url = f"https://www.youtube.com/watch?v={video_id}"
+                
+                stories.append({
+                    "title": snippet.get("title", ""),
+                    "url": video_url,
+                    "points": 0,  # YouTube doesn't have upvotes in search
+                    "comments": 0,
+                    "author": snippet.get("channelTitle", ""),
+                    "hn_url": video_url,
+                    "source": "YouTube",
+                    "channel_id": snippet.get("channelId", ""),
+                })
+                
+                if len(stories) >= limit:
+                    break
+        
+        return stories[:limit]
+        
+    except Exception as e:
+        print(f"Error fetching YouTube stories: {e}", file=sys.stderr)
+        return []
+
+
 def get_source_priority(source: str) -> int:
     """Get priority value for source (lower number = higher priority)."""
     source_lower = source.lower()
-    if "techcrunch" in source_lower:
+    if "youtube" in source_lower:
         return 1  # Highest priority
-    elif "reddit" in source_lower or source_lower.startswith("r/"):
+    elif "twitter" in source_lower or "x.com" in source_lower:
+        return 1  # Highest priority
+    elif "techcrunch" in source_lower:
         return 2  # Second priority
+    elif "reddit" in source_lower or source_lower.startswith("r/"):
+        return 3  # Third priority
     elif "hacker news" in source_lower or "hn" in source_lower:
-        return 3  # Lowest priority
-    return 4  # Unknown sources
+        return 4  # Lower priority
+    return 5  # Unknown sources
 
 
 def deduplicate_stories(all_stories: List[Dict]) -> List[Dict]:
@@ -268,7 +432,7 @@ def generate_ai_summary(stories: List[Dict], api_key: str) -> str:
         for i, story in enumerate(stories)
     ])
     
-    prompt = f"""Based on these top AI stories from Hacker News, Reddit, and TechCrunch, provide a concise 2-3 sentence summary of the key AI trends and developments:
+    prompt = f"""Based on these top AI stories from Hacker News, Reddit, TechCrunch, Twitter/X, and YouTube, provide a concise 2-3 sentence summary of the key AI trends and developments:
 
 {stories_text}
 
@@ -335,13 +499,25 @@ def main():
         
         all_stories = []
         
-        # Fetch from Reddit (priority source)
+        # Fetch from YouTube (high priority)
+        print("Fetching AI stories from YouTube...", file=sys.stderr)
+        youtube_stories = fetch_youtube_ai_stories(limit=5)
+        all_stories.extend(youtube_stories)
+        print(f"Found {len(youtube_stories)} stories from YouTube", file=sys.stderr)
+        
+        # Fetch from Twitter/X (high priority, if API available)
+        print("Fetching AI stories from Twitter/X...", file=sys.stderr)
+        twitter_stories = fetch_twitter_ai_stories(limit=5)
+        all_stories.extend(twitter_stories)
+        print(f"Found {len(twitter_stories)} stories from Twitter/X", file=sys.stderr)
+        
+        # Fetch from Reddit
         print("Fetching AI stories from Reddit...", file=sys.stderr)
         reddit_stories = fetch_reddit_ai_stories(limit=5)
         all_stories.extend(reddit_stories)
         print(f"Found {len(reddit_stories)} stories from Reddit", file=sys.stderr)
         
-        # Fetch from TechCrunch (priority source)
+        # Fetch from TechCrunch
         print("Fetching AI stories from TechCrunch...", file=sys.stderr)
         tc_stories = fetch_techcrunch_ai_stories(limit=5)
         all_stories.extend(tc_stories)

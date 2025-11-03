@@ -267,26 +267,5 @@ The discussed AI content spans a range of experiments and applications in Large 
 
 <!--END_SECTION:tech_news-->
 
-<!--START_SECTION:motivation_quotes-->
-
-## 💪 Motivation Quotes - 2025-11-03
-
-### Top Items
-
-### Summary
-
-No motivation quotes found today.
-
-<!--END_SECTION:motivation_quotes-->
-
-<!--START_SECTION:wise_knowledge-->
-
-## 🧠 Wise Knowledge - 2025-11-03
-
-### Top Items
-
-### Summary
-
-No wise knowledge found today.
-
-<!--END_SECTION:wise_knowledge-->
+<!--START_SECTION:podcasts-->
+<!--END_SECTION:podcasts-->
