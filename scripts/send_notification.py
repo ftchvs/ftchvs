@@ -72,14 +72,14 @@ def send_sms_twilio(
         return False
 
 
-def format_digest_notification(ai_json_path: str, stats_json_path: str) -> tuple[str, str]:
+def format_digest_notification(ai_json_path: str, stats_json_path: str) -> tuple[str, str, str]:
     """Format notification content from JSON files."""
     try:
-        # Read AI summary
-        ai_data = {}
+        # Read content summary (now includes multiple sections)
+        content_data = {}
         if ai_json_path and os.path.exists(ai_json_path):
             with open(ai_json_path, "r", encoding="utf-8") as f:
-                ai_data = json.loads(f.read())
+                content_data = json.loads(f.read())
         
         # Read stats
         stats_data = {}
@@ -88,41 +88,121 @@ def format_digest_notification(ai_json_path: str, stats_json_path: str) -> tuple
                 stats_data = json.loads(f.read())
         
         # Format subject
-        date_str = ai_data.get("date", stats_data.get("date", ""))
-        subject = f"🤖 Daily AI Digest - {date_str}"
+        date_str = content_data.get("date", stats_data.get("date", ""))
+        subject = f"📊 Daily Digest - {date_str}"
         
         # Format content
         content_lines = [
-            f"<h2>Daily AI Digest - {date_str}</h2>",
+            f"<h2>Daily Digest - {date_str}</h2>",
             "<hr>",
         ]
         
-        # Add AI summary
-        if ai_data.get("summary"):
-            content_lines.append("<h3>AI Trends Summary</h3>")
-            content_lines.append(f"<p>{ai_data.get('summary', '')}</p>")
+        # Add AI News section
+        ai_news = content_data.get("ai_news", {})
+        if ai_news.get("summary") or ai_news.get("stories"):
+            content_lines.append("<h3>🤖 AI Industry Snapshot</h3>")
+            if ai_news.get("summary"):
+                content_lines.append(f"<p><strong>Summary:</strong> {ai_news.get('summary', '')}</p>")
+            
+            stories = ai_news.get("stories", [])
+            if stories:
+                content_lines.append("<h4>Top AI Stories</h4>")
+                content_lines.append("<ul>")
+                for story in stories[:5]:
+                    title = story.get("title", "")
+                    url = story.get("hn_url") or story.get("url", "#")
+                    content_lines.append(f'<li><a href="{url}">{title}</a></li>')
+                content_lines.append("</ul>")
+            content_lines.append("<hr>")
         
-        # Add top stories
-        stories = ai_data.get("stories", [])
-        if stories:
-            content_lines.append("<h3>Top AI Stories</h3>")
+        # Add Business News section
+        business_news = content_data.get("business_news", {})
+        if business_news.get("summary") or business_news.get("stories"):
+            content_lines.append("<h3>💼 Business News</h3>")
+            if business_news.get("summary"):
+                content_lines.append(f"<p>{business_news.get('summary', '')}</p>")
+            
+            stories = business_news.get("stories", [])
+            if stories:
+                content_lines.append("<ul>")
+                for story in stories[:5]:
+                    title = story.get("title", "")
+                    url = story.get("url", "#")
+                    content_lines.append(f'<li><a href="{url}">{title}</a></li>')
+                content_lines.append("</ul>")
+            content_lines.append("<hr>")
+        
+        # Add Tech News section
+        tech_news = content_data.get("tech_news", {})
+        if tech_news.get("summary") or tech_news.get("stories"):
+            content_lines.append("<h3>💻 Tech News</h3>")
+            if tech_news.get("summary"):
+                content_lines.append(f"<p>{tech_news.get('summary', '')}</p>")
+            
+            stories = tech_news.get("stories", [])
+            if stories:
+                content_lines.append("<ul>")
+                for story in stories[:5]:
+                    title = story.get("title", "")
+                    url = story.get("url", "#")
+                    content_lines.append(f'<li><a href="{url}">{title}</a></li>')
+                content_lines.append("</ul>")
+            content_lines.append("<hr>")
+        
+        # Add Motivation Quotes section
+        motivation_quotes = content_data.get("motivation_quotes", {})
+        if motivation_quotes.get("items"):
+            content_lines.append("<h3>💪 Motivation Quotes</h3>")
+            items = motivation_quotes.get("items", [])
             content_lines.append("<ul>")
-            for story in stories[:5]:
-                title = story.get("title", "")
-                url = story.get("hn_url") or story.get("url", "#")
-                content_lines.append(f'<li><a href="{url}">{title}</a></li>')
+            for item in items[:5]:
+                content = item.get("content", item.get("title", ""))
+                url = item.get("url", "#")
+                source = item.get("source", "")
+                content_lines.append(f'<li>"{content[:200]}" <em>(<a href="{url}">{source}</a>)</em></li>')
             content_lines.append("</ul>")
+            content_lines.append("<hr>")
+        
+        # Add Wise Knowledge section
+        wise_knowledge = content_data.get("wise_knowledge", {})
+        if wise_knowledge.get("items"):
+            content_lines.append("<h3>🧠 Wise Knowledge</h3>")
+            items = wise_knowledge.get("items", [])
+            content_lines.append("<ul>")
+            for item in items[:5]:
+                content = item.get("content", item.get("title", ""))
+                url = item.get("url", "#")
+                source = item.get("source", "")
+                content_lines.append(f'<li>"{content[:200]}" <em>(<a href="{url}">{source}</a>)</em></li>')
+            content_lines.append("</ul>")
+        
+        # Add footer
+        content_lines.append("<hr>")
+        content_lines.append("<p><small>Generated automatically via GitHub Actions</small></p>")
         
         content = "\n".join(content_lines)
         
-        # Plain text version for SMS
-        sms_lines = [f"Daily AI Digest - {date_str}"]
-        if ai_data.get("summary"):
-            sms_lines.append(f"\n{ai_data.get('summary', '')}")
-        if stories:
-            sms_lines.append("\nTop Stories:")
-            for story in stories[:3]:  # Limit to 3 for SMS
-                sms_lines.append(f"- {story.get('title', '')}")
+        # Ensure we have some content - if nothing was added, provide a fallback
+        if len(content_lines) <= 3:  # Only header, hr, and footer
+            content_lines.insert(1, "<p>Content is being processed. Check back later for updates.</p>")
+            content = "\n".join(content_lines)
+        
+        # Debug: log what we're sending
+        print(f"Email content length: {len(content)} characters", file=sys.stderr)
+        print(f"Content preview: {content[:200]}...", file=sys.stderr)
+        
+        # Plain text version for SMS (shorter)
+        sms_lines = [f"Daily Digest - {date_str}"]
+        
+        if ai_news.get("summary"):
+            sms_lines.append(f"\n🤖 AI: {ai_news.get('summary', '')[:150]}")
+        
+        if business_news.get("summary"):
+            sms_lines.append(f"\n💼 Business: {business_news.get('summary', '')[:150]}")
+        
+        motivation_items = motivation_quotes.get("items", [])
+        if motivation_items:
+            sms_lines.append(f"\n💪 Quote: {motivation_items[0].get('content', '')[:150]}")
         
         sms_content = "\n".join(sms_lines)
         
@@ -130,7 +210,9 @@ def format_digest_notification(ai_json_path: str, stats_json_path: str) -> tuple
         
     except Exception as e:
         print(f"Error formatting notification: {e}", file=sys.stderr)
-        return "Daily AI Digest", "Error formatting digest content.", "Daily AI Digest - Error formatting content."
+        import traceback
+        print(traceback.format_exc(), file=sys.stderr)
+        return "Daily Digest", "<p>Error formatting digest content.</p>", "Daily Digest - Error formatting content."
 
 
 def main():

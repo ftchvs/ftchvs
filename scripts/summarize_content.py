@@ -20,6 +20,13 @@ import requests
 import feedparser
 from openai import OpenAI
 
+# Try to import Firecrawl, but make it optional
+try:
+    from firecrawl import FirecrawlApp
+    FIRECRAWL_AVAILABLE = True
+except ImportError:
+    FIRECRAWL_AVAILABLE = False
+
 
 # Reddit API headers - Reddit requires a descriptive User-Agent
 REDDIT_HEADERS = {
@@ -33,6 +40,11 @@ def get_openai_key() -> str:
     if not key:
         raise ValueError("OPENAI_API_KEY environment variable is required")
     return key
+
+
+def get_firecrawl_key() -> Optional[str]:
+    """Get Firecrawl API key from environment (optional)."""
+    return os.getenv("FIRECRAWL_API_KEY")
 
 
 def validate_url(url: str) -> bool:
@@ -456,6 +468,109 @@ def fetch_tech_news(limit: int = 10) -> List[Dict]:
 
 # ============ MOTIVATION QUOTES FUNCTIONS ============
 
+def fetch_reddit_quotes_with_firecrawl(subreddits: List[str], limit: int = 10, api_key: Optional[str] = None) -> List[Dict]:
+    """
+    Fetch quotes from Reddit subreddits using Firecrawl to scrape actual post content.
+    First gets post URLs from Reddit JSON API, then uses Firecrawl to scrape full content.
+    """
+    if not FIRECRAWL_AVAILABLE or not api_key:
+        return []
+    
+    all_items = []
+    
+    try:
+        app = FirecrawlApp(api_key=api_key)
+        
+        # First, get post URLs from Reddit JSON API
+        post_urls = []
+        for subreddit in subreddits:
+            try:
+                url = f"https://www.reddit.com/r/{subreddit}/hot.json"
+                params = {"limit": 25}
+                response = requests.get(url, headers=REDDIT_HEADERS, params=params, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                posts = data.get("data", {}).get("children", [])
+                
+                for post in posts:
+                    post_data = post.get("data", {})
+                    # Skip stickied posts
+                    if post_data.get("stickied", False):
+                        continue
+                    
+                    # Get post URL
+                    permalink = post_data.get("permalink", "")
+                    if permalink:
+                        reddit_url = f"https://www.reddit.com{permalink}"
+                        post_urls.append({
+                            "url": reddit_url,
+                            "title": post_data.get("title", ""),
+                            "subreddit": subreddit,
+                            "score": post_data.get("score", 0),
+                            "comments": post_data.get("num_comments", 0),
+                            "author": post_data.get("author", ""),
+                        })
+                
+                time.sleep(0.5)  # Rate limiting for Reddit API
+                
+            except Exception as e:
+                print(f"Error fetching post URLs from r/{subreddit}: {e}", file=sys.stderr)
+                continue
+        
+        # Now use Firecrawl to scrape content from each post
+        print(f"Scraping {len(post_urls)} Reddit posts with Firecrawl...", file=sys.stderr)
+        for i, post_info in enumerate(post_urls[:limit * 2]):  # Get more than needed, filter later
+            try:
+                print(f"Scraping post {i+1}/{min(len(post_urls), limit * 2)}: {post_info['url']}", file=sys.stderr)
+                
+                result = app.scrape_url(
+                    post_info["url"],
+                    params={
+                        "formats": ["markdown"],
+                        "onlyMainContent": True,
+                    }
+                )
+                
+                if not result or not result.get("content"):
+                    continue
+                
+                content = result.get("content", "").strip()
+                
+                # Extract meaningful content (skip if too short)
+                if len(content) < 20:
+                    continue
+                
+                # Use title from Reddit API, content from Firecrawl
+                all_items.append({
+                    "content": content[:500],  # Limit length
+                    "title": post_info["title"][:200],
+                    "url": post_info["url"],
+                    "points": post_info["score"],
+                    "comments": post_info["comments"],
+                    "author": post_info["author"],
+                    "source": f"r/{post_info['subreddit']}",
+                })
+                
+                # Rate limiting for Firecrawl
+                time.sleep(1)
+                
+            except Exception as e:
+                print(f"Error scraping post {post_info['url']}: {e}", file=sys.stderr)
+                continue
+        
+        print(f"Total items collected via Firecrawl: {len(all_items)}", file=sys.stderr)
+        
+        # Sort by score and return top items
+        all_items.sort(key=lambda x: (x.get("points", 0), x.get("comments", 0)), reverse=True)
+        return all_items[:limit]
+        
+    except Exception as e:
+        print(f"Error in Firecrawl fetching: {e}", file=sys.stderr)
+        import traceback
+        print(traceback.format_exc(), file=sys.stderr)
+        return []
+
+
 def fetch_reddit_quotes(subreddits: List[str], limit: int = 10) -> List[Dict]:
     """Fetch quotes from Reddit subreddits."""
     all_items = []
@@ -537,19 +652,41 @@ def fetch_reddit_quotes(subreddits: List[str], limit: int = 10) -> List[Dict]:
 
 
 def fetch_motivation_quotes(limit: int = 10) -> List[Dict]:
-    """Fetch motivation quotes from Reddit."""
+    """Fetch motivation quotes from Reddit, using Firecrawl if available."""
     print("Fetching motivation quotes...", file=sys.stderr)
     # Try multiple subreddits - Reddit is case-insensitive but some subreddits may have different names
     subreddits = ["GetMotivated", "motivation", "quotes", "inspiration", "motivational", "DecidingToBeBetter"]
+    
+    # Try Firecrawl first if available
+    firecrawl_key = get_firecrawl_key()
+    if FIRECRAWL_AVAILABLE and firecrawl_key:
+        print("Using Firecrawl to fetch motivation quotes...", file=sys.stderr)
+        firecrawl_items = fetch_reddit_quotes_with_firecrawl(subreddits, limit=limit, api_key=firecrawl_key)
+        if firecrawl_items:
+            return firecrawl_items
+    
+    # Fallback to JSON API
+    print("Using Reddit JSON API to fetch motivation quotes...", file=sys.stderr)
     return fetch_reddit_quotes(subreddits, limit=limit)
 
 
 # ============ WISE KNOWLEDGE FUNCTIONS ============
 
 def fetch_wise_knowledge(limit: int = 10) -> List[Dict]:
-    """Fetch wise knowledge from Reddit philosophy/stoicism subreddits."""
+    """Fetch wise knowledge from Reddit philosophy/stoicism subreddits, using Firecrawl if available."""
     print("Fetching wise knowledge...", file=sys.stderr)
     subreddits = ["Stoicism", "philosophy", "ZenHabits", "Meditation", "Mindfulness", "zen", "taoism", "selfimprovement"]
+    
+    # Try Firecrawl first if available
+    firecrawl_key = get_firecrawl_key()
+    if FIRECRAWL_AVAILABLE and firecrawl_key:
+        print("Using Firecrawl to fetch wise knowledge...", file=sys.stderr)
+        firecrawl_items = fetch_reddit_quotes_with_firecrawl(subreddits, limit=limit, api_key=firecrawl_key)
+        if firecrawl_items:
+            return firecrawl_items
+    
+    # Fallback to JSON API
+    print("Using Reddit JSON API to fetch wise knowledge...", file=sys.stderr)
     return fetch_reddit_quotes(subreddits, limit=limit)
 
 

@@ -46,6 +46,7 @@ jobs:
         id: fetch_content
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: |
           python3 scripts/summarize_content.py > /tmp/content_summary.json 2>/tmp/content_summary_error.log || echo '{"date":"","error":"Failed to fetch content","ai_news":{"markdown":"","stories":[],"summary":""},"business_news":{"markdown":"","stories":[],"summary":""},"tech_news":{"markdown":"","stories":[],"summary":""},"motivation_quotes":{"markdown":"","items":[],"summary":""},"wise_knowledge":{"markdown":"","items":[],"summary":""}}' > /tmp/content_summary.json
 
