@@ -1,14 +1,14 @@
 {
   "date": "2025-11-03",
   "ai_news": {
-    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-03\n\n### Top AI Stories\n\n1. [How Are LLM Model Updates Managed? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=E90ea3uV2fc)\n\n2. [Artificial Intelligence Full Course FREE | AI Course For Beginners (2026) | Intellipaat](https://www.youtube.com/watch?v=zE8soWrsg2Y)\n\n3. [What Is LLM Hallucination? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=enyG3uXydRs)\n\n4. [Why Is Attention So Important For LLM Performance? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=W951yXpVsIo)\n\n5. [How Can Prompt Engineering Guide LLM Output? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=d5xHBWZvlAo)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nLarge Language Models (LLMs) undergo careful updates to enhance performance and accuracy, as discussed in various resources focusing on AI and machine learning. A notable issue addressed is \"LLM hallucination,\" where models generate false or nonsensical information, underscoring the importance of mechanisms like attention for improving LLM performance by focusing on relevant parts of input data. Additionally, prompt engineering emerges as a crucial technique for directing LLMs towards desired outputs, demonstrating the evolving strategies to refine AI interactions and capabilities.\n",
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-03\n\n### Top AI Stories\n\n1. [We’ve Lost Control of AI](https://www.youtube.com/watch?v=90C3XVjUMqE)\n\n2. [Artificial Intelligence Full Course FREE | AI Course For Beginners (2026) | Intellipaat](https://www.youtube.com/watch?v=zE8soWrsg2Y)\n\n3. [AI&#39;s Secret Memory Discovered](https://www.youtube.com/watch?v=D1lh3XXTUlk)\n\n4. [AI Full Course 2025 | AI Tutorial for Beginners | Artificial Intelligence Course | Simplilearn](https://www.youtube.com/watch?v=LGCZ-Fhm48c)\n\n5. [Self Improving AI is getting wild](https://www.youtube.com/watch?v=TCDpDXjpgPI)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nThe discourse on AI highlights a growing concern over the loss of control over artificial intelligence systems and the discovery of AI's secret memory capabilities, indicating advancements that may be surpassing human oversight. Additionally, there is a significant push towards education in the field, as evidenced by the provision of comprehensive AI courses for beginners by Intellipaat and Simplilearn, scheduled for the mid-2020s. These courses suggest a future where knowledge of AI is democratized. Furthermore, the evolution of self-improving AI systems is noted as escalating, pointing towards a future where AI's autonomous advancements could potentially reshape our interaction with technology.\n",
     "stories": [
       {
-        "title": "How Are LLM Model Updates Managed? - AI and Machine Learning Explained",
-        "url": "https://www.youtube.com/watch?v=E90ea3uV2fc",
+        "title": "We’ve Lost Control of AI",
+        "url": "https://www.youtube.com/watch?v=90C3XVjUMqE",
         "points": 0,
         "comments": 0,
-        "author": "AI and Machine Learning Explained",
+        "author": "SciShow",
         "source": "YouTube"
       },
       {
@@ -20,27 +20,27 @@
         "source": "YouTube"
       },
       {
-        "title": "What Is LLM Hallucination? - AI and Machine Learning Explained",
-        "url": "https://www.youtube.com/watch?v=enyG3uXydRs",
+        "title": "AI&#39;s Secret Memory Discovered",
+        "url": "https://www.youtube.com/watch?v=D1lh3XXTUlk",
         "points": 0,
         "comments": 0,
-        "author": "AI and Machine Learning Explained",
+        "author": "Discover AI",
         "source": "YouTube"
       },
       {
-        "title": "Why Is Attention So Important For LLM Performance? - AI and Machine Learning Explained",
-        "url": "https://www.youtube.com/watch?v=W951yXpVsIo",
+        "title": "AI Full Course 2025 | AI Tutorial for Beginners | Artificial Intelligence Course | Simplilearn",
+        "url": "https://www.youtube.com/watch?v=LGCZ-Fhm48c",
         "points": 0,
         "comments": 0,
-        "author": "AI and Machine Learning Explained",
+        "author": "Simplilearn",
         "source": "YouTube"
       },
       {
-        "title": "How Can Prompt Engineering Guide LLM Output? - AI and Machine Learning Explained",
-        "url": "https://www.youtube.com/watch?v=d5xHBWZvlAo",
+        "title": "Self Improving AI is getting wild",
+        "url": "https://www.youtube.com/watch?v=TCDpDXjpgPI",
         "points": 0,
         "comments": 0,
-        "author": "AI and Machine Learning Explained",
+        "author": "Wes Roth",
         "source": "YouTube"
       },
       {
@@ -89,10 +89,10 @@
         "source": "Hacker News"
       }
     ],
-    "summary": "Large Language Models (LLMs) undergo careful updates to enhance performance and accuracy, as discussed in various resources focusing on AI and machine learning. A notable issue addressed is \"LLM hallucination,\" where models generate false or nonsensical information, underscoring the importance of mechanisms like attention for improving LLM performance by focusing on relevant parts of input data. Additionally, prompt engineering emerges as a crucial technique for directing LLMs towards desired outputs, demonstrating the evolving strategies to refine AI interactions and capabilities."
+    "summary": "The discourse on AI highlights a growing concern over the loss of control over artificial intelligence systems and the discovery of AI's secret memory capabilities, indicating advancements that may be surpassing human oversight. Additionally, there is a significant push towards education in the field, as evidenced by the provision of comprehensive AI courses for beginners by Intellipaat and Simplilearn, scheduled for the mid-2020s. These courses suggest a future where knowledge of AI is democratized. Furthermore, the evolution of self-improving AI systems is noted as escalating, pointing towards a future where AI's autonomous advancements could potentially reshape our interaction with technology."
   },
   "business_news": {
-    "markdown": "## 💼 Business News - 2025-11-03\n\n### Top Stories\n\n1. [McDonald's CEO picks surprising winner as his favorite menu item in LinkedIn tournament](https://www.foxbusiness.com/lifestyle/mcdonalds-ceo-picks-surprising-winner-his-favorite-menu-item-linkedin-tournament)\n\n2. [United flight clips another aircraft while taxiing at LaGuardia Airport](https://www.foxbusiness.com/lifestyle/united-flight-clips-another-aircraft-while-taxiing-laguardia-airport)\n\n3. [Jeff Bezos and Lauren Sánchez enjoy romantic dinner date at upscale Miami Beach restaurant](https://www.foxbusiness.com/entertainment/jeff-bezos-lauren-sanchez-enjoy-romantic-dinner-date-upscale-miami-beach-restaurant)\n\n4. [Trump says he won’t attend Supreme Court hearing on his trade policies](https://www.foxbusiness.com/politics/opposing-lawyers-unfazed-trumps-potential-presence-supreme-court-arguments)\n\n5. [Energy chief warns ‘bigger ramifications’ on the horizon as shutdown threatens to stall nuclear modernization](https://www.foxbusiness.com/media/energy-chief-warns-bigger-ramifications-horizon-shutdown-stalls-nuclear-modernization)\n\n6. [Airlines step up to support federal workers as nearly 13,000 air traffic controllers go unpaid](https://www.foxbusiness.com/fox-news-travel/airlines-step-up-support-federal-workers-nearly-13000-air-traffic-controllers-go-unpaid)\n\n7. [Fraudulent rental applications surge nationwide as housing costs remain elevated](https://www.foxbusiness.com/real-estate/fraudulent-rental-applications-surge-nationwide-housing-costs-remain-elevated)\n\n8. [Nvidia leads America’s AI 'industrial revolution' with major manufacturing move](https://www.foxbusiness.com/media/nvidia-leads-americas-ai-industrial-revolution-major-manufacturing-move)\n\n9. [Bessent says he's 'optimistic' as Supreme Court weighs fate of Trump's entire trade agenda](https://www.foxbusiness.com/politics/bessent-says-hes-optimistic-supreme-court-weighs-fate-trumps-entire-trade-agenda)\n\n10. [Mega Millions jackpot reaches $800 million](https://www.foxbusiness.com/lifestyle/mega-millions-jackpot-reaches-800-million)\n\n### Summary\n\n1. In a unique LinkedIn tournament, McDonald's CEO revealed his favorite menu item, surprising followers with his choice.\n2. A United Airlines flight made contact with another aircraft while taxiing at LaGuardia Airport, highlighting safety concerns in airport operations.\n3. Jeff Bezos and Lauren Sánchez were seen on a romantic dinner at an upscale Miami Beach restaurant, spotlighting the personal lives of high-profile business figures.\n4. Former President Trump stated he will not attend a Supreme Court hearing concerning his trade policies, underscoring ongoing legal and political battles related to his administration.\n5. The Energy Secretary issued a warning about significant consequences if the government shutdown impedes nuclear modernization efforts, stressing the critical importance of maintaining progress in national security measures.\n",
+    "markdown": "## 💼 Business News - 2025-11-03\n\n### Top Stories\n\n1. [McDonald's CEO picks surprising winner as his favorite menu item in LinkedIn tournament](https://www.foxbusiness.com/lifestyle/mcdonalds-ceo-picks-surprising-winner-his-favorite-menu-item-linkedin-tournament)\n\n2. [United flight clips another aircraft while taxiing at LaGuardia Airport](https://www.foxbusiness.com/lifestyle/united-flight-clips-another-aircraft-while-taxiing-laguardia-airport)\n\n3. [Jeff Bezos and Lauren Sánchez enjoy romantic dinner date at upscale Miami Beach restaurant](https://www.foxbusiness.com/entertainment/jeff-bezos-lauren-sanchez-enjoy-romantic-dinner-date-upscale-miami-beach-restaurant)\n\n4. [Trump says he won’t attend Supreme Court hearing on his trade policies](https://www.foxbusiness.com/politics/opposing-lawyers-unfazed-trumps-potential-presence-supreme-court-arguments)\n\n5. [Energy chief warns ‘bigger ramifications’ on the horizon as shutdown threatens to stall nuclear modernization](https://www.foxbusiness.com/media/energy-chief-warns-bigger-ramifications-horizon-shutdown-stalls-nuclear-modernization)\n\n6. [Airlines step up to support federal workers as nearly 13,000 air traffic controllers go unpaid](https://www.foxbusiness.com/fox-news-travel/airlines-step-up-support-federal-workers-nearly-13000-air-traffic-controllers-go-unpaid)\n\n7. [Fraudulent rental applications surge nationwide as housing costs remain elevated](https://www.foxbusiness.com/real-estate/fraudulent-rental-applications-surge-nationwide-housing-costs-remain-elevated)\n\n8. [Nvidia leads America’s AI 'industrial revolution' with major manufacturing move](https://www.foxbusiness.com/media/nvidia-leads-americas-ai-industrial-revolution-major-manufacturing-move)\n\n9. [Bessent says he's 'optimistic' as Supreme Court weighs fate of Trump's entire trade agenda](https://www.foxbusiness.com/politics/bessent-says-hes-optimistic-supreme-court-weighs-fate-trumps-entire-trade-agenda)\n\n10. [Mega Millions jackpot reaches $800 million](https://www.foxbusiness.com/lifestyle/mega-millions-jackpot-reaches-800-million)\n\n### Summary\n\nIn recent business news, McDonald's CEO has unexpectedly chosen his favorite menu item in a LinkedIn tournament, highlighting the company's engagement with its customer base. Meanwhile, a United flight incident at LaGuardia Airport raises concerns over aviation safety as it clips another aircraft during taxiing. In the world of high-profile personalities, Jeff Bezos and Lauren Sánchez were spotted on a romantic dinner date in Miami Beach, indicating their public lifestyle choices. Donald Trump has declared his intention to skip a Supreme Court hearing regarding his trade policies, signaling ongoing legal and political battles. Lastly, the energy sector faces potential challenges as the Energy Chief warns of significant impacts from a shutdown that could hinder nuclear modernization efforts, underscoring the critical intersection of government operations and national security.\n",
     "stories": [
       {
         "title": "McDonald's CEO picks surprising winner as his favorite menu item in LinkedIn tournament",
@@ -165,16 +165,16 @@
         "published": "Sun, 02 Nov 2025 14:49:23 GMT"
       }
     ],
-    "summary": "1. In a unique LinkedIn tournament, McDonald's CEO revealed his favorite menu item, surprising followers with his choice.\n2. A United Airlines flight made contact with another aircraft while taxiing at LaGuardia Airport, highlighting safety concerns in airport operations.\n3. Jeff Bezos and Lauren Sánchez were seen on a romantic dinner at an upscale Miami Beach restaurant, spotlighting the personal lives of high-profile business figures.\n4. Former President Trump stated he will not attend a Supreme Court hearing concerning his trade policies, underscoring ongoing legal and political battles related to his administration.\n5. The Energy Secretary issued a warning about significant consequences if the government shutdown impedes nuclear modernization efforts, stressing the critical importance of maintaining progress in national security measures."
+    "summary": "In recent business news, McDonald's CEO has unexpectedly chosen his favorite menu item in a LinkedIn tournament, highlighting the company's engagement with its customer base. Meanwhile, a United flight incident at LaGuardia Airport raises concerns over aviation safety as it clips another aircraft during taxiing. In the world of high-profile personalities, Jeff Bezos and Lauren Sánchez were spotted on a romantic dinner date in Miami Beach, indicating their public lifestyle choices. Donald Trump has declared his intention to skip a Supreme Court hearing regarding his trade policies, signaling ongoing legal and political battles. Lastly, the energy sector faces potential challenges as the Energy Chief warns of significant impacts from a shutdown that could hinder nuclear modernization efforts, underscoring the critical intersection of government operations and national security."
   },
   "tech_news": {
-    "markdown": "## 💻 Tech News - 2025-11-03\n\n### Top Stories\n\n1. [You guys need to build more stupid shit](https://news.ycombinator.com/item?id=45795704)\n\n2. [LAP Coffee commotion puts German view of venture capital under scrutiny](https://www.ft.com/content/2b2bda15-afc2-496e-b48d-944c79d99cbf)\n\n3. [Writing a DOS Clone in 2019](https://medium.com/@andrewimm/writing-a-dos-clone-in-2019-70eac97ec3e1)\n\n4. [The True Tale of Seattle's Sherlock Holmes](https://www.seattlemet.com/news-and-city-life/2025/09/real-detective-seattle-luke-may)\n\n5. [Revival of the Chicago River](https://www.nationalgeographic.com/travel/article/what-to-do-along-the-chicago-river)\n\n6. [Mamdani Has a Point About Rent Control](https://www.theatlantic.com/economy/archive/2025/11/mamdani-housing-rent-control/684790/)\n\n7. [Why Every Family Needs a Code Word](https://www.wsj.com/tech/personal-tech/why-every-family-needs-a-code-word-e077ab76)\n\n8. [Cara Menghubungi CS OCBC](https://news.ycombinator.com/item?id=45795639)\n\n9. [Why home sellers are rejecting buyers' love notes](https://sfstandard.com/2025/11/02/trouble-letter-home-sellers-rejecting-buyers-love-notes/)\n\n10. [My previous post suggesting that China annex Singapore and Australia clearly](https://twitter.com/BeijingDai/status/1984973886287470602)\n\n### Summary\n\n1. The call to \"build more stupid shit\" emphasizes the importance of creativity and experimentation in technology, advocating for a more open-minded approach to innovation that allows for seemingly nonsensical ideas, as these can often lead to groundbreaking developments.\n   \n2. The LAP Coffee incident in Germany highlights the cultural and operational differences in the approach to venture capital between Germany and other regions, sparking a debate on the effectiveness and adaptability of German venture capital practices in the global startup ecosystem.\n\n3. The project of writing a DOS Clone in 2019 showcases a deep dive into retro computing and programming, reflecting a growing interest in understanding and preserving older computing technologies and methodologies, as well as the educational benefits of such endeavors.\n\n4. \"The True Tale of Seattle's Sherlock Holmes\" likely delves into a compelling narrative surrounding a figure or event in Seattle's history that parallels the intrigue and analytical prowess of the fictional detective, illustrating the impact of investigative techniques in solving real-world mysteries.\n\n5. The \"Revival\n",
+    "markdown": "## 💻 Tech News - 2025-11-03\n\n### Top Stories\n\n1. [You guys need to build more stupid shit](https://news.ycombinator.com/item?id=45795704)\n\n2. [LAP Coffee commotion puts German view of venture capital under scrutiny](https://www.ft.com/content/2b2bda15-afc2-496e-b48d-944c79d99cbf)\n\n3. [Site to Gather Tech News From](https://codigotecno.dev)\n\n4. [Destiny Matrix – Free Life Path Calculator and Analysis](https://destinymatrix.cc/)\n\n5. [How Our Ancestors Used Moss](https://wabimoss.com/nature-immersion/practical-uses-moss/)\n\n6. [Writing a DOS Clone in 2019](https://medium.com/@andrewimm/writing-a-dos-clone-in-2019-70eac97ec3e1)\n\n7. [The True Tale of Seattle's Sherlock Holmes](https://www.seattlemet.com/news-and-city-life/2025/09/real-detective-seattle-luke-may)\n\n8. [Revival of the Chicago River](https://www.nationalgeographic.com/travel/article/what-to-do-along-the-chicago-river)\n\n9. [Mamdani Has a Point About Rent Control](https://www.theatlantic.com/economy/archive/2025/11/mamdani-housing-rent-control/684790/)\n\n10. [Why Every Family Needs a Code Word](https://www.wsj.com/tech/personal-tech/why-every-family-needs-a-code-word-e077ab76)\n\n### Summary\n\n1. The call to \"build more stupid shit\" emphasizes the importance of creativity and experimental innovation in technology, urging developers to take risks and explore unconventional ideas without fear of failure.\n\n2. The LAP Coffee incident highlights the skepticism in Germany towards venture capital investment, bringing attention to cultural and regulatory differences that affect startups and innovation in the country.\n\n3. The mention of a site to gather tech news suggests a growing demand for centralized platforms that can efficiently aggregate and filter the vast amount of information in the technology sector, making it more accessible to enthusiasts and professionals alike.\n\n4. \"Destiny Matrix\" introduces a free tool for life path calculation and analysis, reflecting the increasing interest in personalized digital experiences that use algorithms to provide insights into personal growth and decision-making.\n\n5. The exploration of how our ancestors used moss underscores a trend in technology where there's a renewed interest in historical and natural solutions for modern problems, suggesting a blend of ancient wisdom with contemporary science and technology.\n",
     "stories": [
       {
         "title": "You guys need to build more stupid shit",
         "url": "https://news.ycombinator.com/item?id=45795704",
-        "points": 8,
-        "comments": 0,
+        "points": 9,
+        "comments": 1,
         "author": "gnarbarian",
         "source": "Hacker News"
       },
@@ -184,6 +184,30 @@
         "points": 2,
         "comments": 0,
         "author": "alephnerd",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Site to Gather Tech News From",
+        "url": "https://codigotecno.dev",
+        "points": 1,
+        "comments": 0,
+        "author": "ray_",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Destiny Matrix – Free Life Path Calculator and Analysis",
+        "url": "https://destinymatrix.cc/",
+        "points": 1,
+        "comments": 0,
+        "author": "lizbo",
+        "source": "Hacker News"
+      },
+      {
+        "title": "How Our Ancestors Used Moss",
+        "url": "https://wabimoss.com/nature-immersion/practical-uses-moss/",
+        "points": 1,
+        "comments": 0,
+        "author": "thunderbong",
         "source": "Hacker News"
       },
       {
@@ -225,33 +249,9 @@
         "comments": 0,
         "author": "Brajeshwar",
         "source": "Hacker News"
-      },
-      {
-        "title": "Cara Menghubungi CS OCBC",
-        "url": "https://news.ycombinator.com/item?id=45795639",
-        "points": 1,
-        "comments": 0,
-        "author": "Andisanjaya",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Why home sellers are rejecting buyers' love notes",
-        "url": "https://sfstandard.com/2025/11/02/trouble-letter-home-sellers-rejecting-buyers-love-notes/",
-        "points": 1,
-        "comments": 0,
-        "author": "sowbug",
-        "source": "Hacker News"
-      },
-      {
-        "title": "My previous post suggesting that China annex Singapore and Australia clearly",
-        "url": "https://twitter.com/BeijingDai/status/1984973886287470602",
-        "points": 1,
-        "comments": 0,
-        "author": "keepamovin",
-        "source": "Hacker News"
       }
     ],
-    "summary": "1. The call to \"build more stupid shit\" emphasizes the importance of creativity and experimentation in technology, advocating for a more open-minded approach to innovation that allows for seemingly nonsensical ideas, as these can often lead to groundbreaking developments.\n   \n2. The LAP Coffee incident in Germany highlights the cultural and operational differences in the approach to venture capital between Germany and other regions, sparking a debate on the effectiveness and adaptability of German venture capital practices in the global startup ecosystem.\n\n3. The project of writing a DOS Clone in 2019 showcases a deep dive into retro computing and programming, reflecting a growing interest in understanding and preserving older computing technologies and methodologies, as well as the educational benefits of such endeavors.\n\n4. \"The True Tale of Seattle's Sherlock Holmes\" likely delves into a compelling narrative surrounding a figure or event in Seattle's history that parallels the intrigue and analytical prowess of the fictional detective, illustrating the impact of investigative techniques in solving real-world mysteries.\n\n5. The \"Revival"
+    "summary": "1. The call to \"build more stupid shit\" emphasizes the importance of creativity and experimental innovation in technology, urging developers to take risks and explore unconventional ideas without fear of failure.\n\n2. The LAP Coffee incident highlights the skepticism in Germany towards venture capital investment, bringing attention to cultural and regulatory differences that affect startups and innovation in the country.\n\n3. The mention of a site to gather tech news suggests a growing demand for centralized platforms that can efficiently aggregate and filter the vast amount of information in the technology sector, making it more accessible to enthusiasts and professionals alike.\n\n4. \"Destiny Matrix\" introduces a free tool for life path calculation and analysis, reflecting the increasing interest in personalized digital experiences that use algorithms to provide insights into personal growth and decision-making.\n\n5. The exploration of how our ancestors used moss underscores a trend in technology where there's a renewed interest in historical and natural solutions for modern problems, suggesting a blend of ancient wisdom with contemporary science and technology."
   },
   "podcasts": {
     "markdown": "",
