@@ -175,8 +175,6 @@ def update_disclaimer_section(
 - **Business News**: CNN Business, Fox Business, NBC News, WSJ, NYTimes
 - **Tech News**: TechCrunch, Hacker News, Reddit (r/technology, r/programming)
 - **Podcasts**: All In, Pivot, Lenny Podcast, Joe Rogan Experience (YouTube)
-- **Motivation Quotes**: Reddit (r/getmotivated, r/motivation, r/quotes)
-- **Wise Knowledge**: Reddit (r/stoicism, r/philosophy, r/ZenHabits, r/Meditation)
 
 *All content is summarized using AI. Stories, quotes, and knowledge snippets are compiled without human review.*"""
     
