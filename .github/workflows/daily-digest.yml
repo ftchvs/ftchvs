@@ -32,7 +32,7 @@ jobs:
       - name: Create archive directory
         run: |
           mkdir -p archive
-          mkdir -p image/ai_news
+          mkdir -p image/daily-digest
 
       - name: Fetch GitHub stats
         id: fetch_stats

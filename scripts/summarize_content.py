@@ -863,29 +863,45 @@ Summarize the main themes, key insights, or noteworthy developments."""
 
 # ============ MARKDOWN FORMATTING ============
 
-def generate_pointillism_image(stories: List[Dict], summary: str, api_key: str, date: str) -> Optional[str]:
-    """Generate a digital pointillism image with motion design inspired by AI news."""
-    if not stories:
-        return None
+def generate_pointillism_image(
+    ai_stories: List[Dict], ai_summary: str,
+    business_stories: List[Dict], business_summary: str,
+    tech_stories: List[Dict], tech_summary: str,
+    podcasts_summary: str,
+    api_key: str, date: str
+) -> Optional[str]:
+    """Generate a digital pointillism image with motion design inspired by all news trends and podcasts."""
+    # Collect key headlines from all sources
+    ai_headlines = "\n".join([story.get('title', '') for story in ai_stories[:3]])
+    business_headlines = "\n".join([story.get('title', '') for story in business_stories[:3]])
+    tech_headlines = "\n".join([story.get('title', '') for story in tech_stories[:3]])
     
-    # Create a rich prompt based on news themes
-    stories_text = "\n".join([story.get('title', '') for story in stories[:5]])
-    
-    # Generate an image prompt that captures the essence of the news
-    prompt_generation = f"""Based on these AI news headlines and summary, create a detailed visual description for a digital pointillism artwork blended with generative motion design:
+    # Generate an image prompt that captures the essence of all news trends
+    prompt_generation = f"""Based on these news headlines and summaries from AI, Business, Tech, and Podcasts, create a detailed visual description for a digital pointillism artwork blended with generative motion design:
 
-Headlines:
-{stories_text}
+AI News:
+{ai_headlines}
+Summary: {ai_summary}
 
-Summary: {summary}
+Business News:
+{business_headlines}
+Summary: {business_summary}
+
+Tech News:
+{tech_headlines}
+Summary: {tech_summary}
+
+Podcasts:
+Summary: {podcasts_summary}
 
 Create a description of a stunning digital pointillism artwork that:
 - Uses thousands of small colored dots/pixels to form an abstract composition
 - Incorporates motion design elements (flowing lines, dynamic patterns, energy waves)
-- Reflects themes from the AI news (innovation, technology, neural networks, data streams)
-- Has a futuristic, tech-forward aesthetic
-- Uses vibrant colors that suggest innovation and progress
+- Reflects themes from all news categories (innovation, technology, business trends, market dynamics, tech breakthroughs, cultural conversations)
+- Has a comprehensive, multi-dimensional aesthetic that captures the diversity of today's news landscape
+- Uses vibrant colors that suggest innovation, progress, and global interconnectedness
 - Blends pointillism technique with modern generative art aesthetics
+- Represents the convergence of technology, business, and culture in contemporary society
 
 Return ONLY the visual description (no explanation, no markdown, just the description)."""
     
@@ -906,10 +922,10 @@ Return ONLY the visual description (no explanation, no markdown, just the descri
         image_description = response.choices[0].message.content.strip()
         
         # Add pointillism and motion design specifics to the prompt
-        image_prompt = f"Digital pointillism artwork, {image_description}, blended with generative motion design, dynamic flowing patterns, vibrant colors, abstract composition, thousands of small dots forming intricate patterns, futuristic tech aesthetic, inspired by AI and technology news"
+        image_prompt = f"Digital pointillism artwork, {image_description}, blended with generative motion design, dynamic flowing patterns, vibrant colors, abstract composition, thousands of small dots forming intricate patterns, comprehensive multi-dimensional aesthetic, inspired by today's news trends across AI, business, technology, and cultural conversations"
         
         # Generate the image using DALL-E
-        print("Generating digital pointillism artwork...", file=sys.stderr)
+        print("Generating digital pointillism artwork inspired by all news trends...", file=sys.stderr)
         image_response = client.images.generate(
             model="dall-e-3",
             prompt=image_prompt,
@@ -924,7 +940,7 @@ Return ONLY the visual description (no explanation, no markdown, just the descri
         # Use absolute path relative to script's directory or project root
         script_dir = os.path.dirname(os.path.abspath(__file__))
         project_root = os.path.dirname(script_dir)
-        image_dir = os.path.join(project_root, "image", "ai_news")
+        image_dir = os.path.join(project_root, "image", "daily-digest")
         os.makedirs(image_dir, exist_ok=True)
         image_filename = os.path.join(image_dir, f"{date}-pointillism.png")
         
@@ -935,7 +951,7 @@ Return ONLY the visual description (no explanation, no markdown, just the descri
             f.write(img_response.content)
         
         # Return relative path for markdown (from project root)
-        relative_path = f"image/ai_news/{date}-pointillism.png"
+        relative_path = f"image/daily-digest/{date}-pointillism.png"
         print(f"Image saved to {image_filename}", file=sys.stderr)
         print(f"Using relative path: {relative_path}", file=sys.stderr)
         return relative_path
@@ -971,18 +987,20 @@ def format_ai_markdown(stories: List[Dict], summary: str, date: str, image_path:
         "",
     ])
     
-    # Add the pointillism image at the end
-    if image_path:
-        lines.extend([
-            "### 🎨 Digital Art: Pointillism & Motion Design",
-            "",
-            f"*Inspired by today's AI news trends*",
-            "",
-            f"![Digital Pointillism Artwork]({image_path})",
-            "",
-        ])
-    
     return "\n".join(lines)
+
+
+def format_digital_art_markdown(image_path: Optional[str], date: str) -> str:
+    """Format digital art section as markdown."""
+    if not image_path:
+        return ""
+    
+    return f"""### 🎨 Digital Art: Pointillism & Motion Design
+
+*Inspired by today's news trends across AI, Business, Tech, and Podcasts*
+
+![Digital Pointillism Artwork]({image_path})
+"""
 
 
 def format_news_markdown(stories: List[Dict], summary: str, date: str, section_title: str, emoji: str) -> str:
@@ -1101,26 +1119,9 @@ def main():
         else:
             ai_summary = "No AI stories found today."
         
-        # Generate pointillism image inspired by the news
-        image_path = None
-        if unique_ai:
-            try:
-                print("Generating digital pointillism artwork...", file=sys.stderr)
-                image_path = generate_pointillism_image(unique_ai[:10], ai_summary, openai_key, date_str)
-                if image_path:
-                    print(f"Successfully generated image: {image_path}", file=sys.stderr)
-                else:
-                    print("Warning: Image generation returned None", file=sys.stderr)
-            except Exception as e:
-                print(f"Error during image generation (continuing anyway): {e}", file=sys.stderr)
-                import traceback
-                print(traceback.format_exc(), file=sys.stderr)
-                image_path = None
-        
-        output["ai_news"]["markdown"] = format_ai_markdown(unique_ai[:10], ai_summary, date_str, image_path)
+        output["ai_news"]["markdown"] = format_ai_markdown(unique_ai[:10], ai_summary, date_str)
         output["ai_news"]["stories"] = unique_ai[:10]
         output["ai_news"]["summary"] = ai_summary
-        output["ai_news"]["image_path"] = image_path
         
         # Fetch Business News
         print("Fetching business news...", file=sys.stderr)
@@ -1173,9 +1174,41 @@ def main():
         # Fetch Podcasts (if summarize_podcasts.py output is available)
         # This will be populated by calling summarize_podcasts.py separately in the workflow
         # For now, set empty placeholder
-        output["podcasts"]["markdown"] = ""
-        output["podcasts"]["podcasts"] = []
-        output["podcasts"]["summary"] = ""
+        podcasts_summary_text = output.get("podcasts", {}).get("summary", "")
+        if not podcasts_summary_text:
+            # Try to extract from markdown if available
+            podcasts_markdown = output.get("podcasts", {}).get("markdown", "")
+            if podcasts_markdown:
+                # Extract summary from podcast markdown if possible
+                podcasts_summary_text = "Today's podcast discussions cover trending topics and insights."
+            else:
+                podcasts_summary_text = "No podcast summaries available today."
+        
+        # Generate pointillism image inspired by ALL news trends and podcasts
+        image_path = None
+        try:
+            if unique_ai or business_stories or tech_stories:
+                print("Generating digital pointillism artwork inspired by all news trends...", file=sys.stderr)
+                image_path = generate_pointillism_image(
+                    unique_ai[:10], ai_summary,
+                    business_stories, business_summary,
+                    tech_stories, tech_summary,
+                    podcasts_summary_text,
+                    openai_key, date_str
+                )
+                if image_path:
+                    print(f"Successfully generated image: {image_path}", file=sys.stderr)
+                else:
+                    print("Warning: Image generation returned None", file=sys.stderr)
+        except Exception as e:
+            print(f"Error during image generation (continuing anyway): {e}", file=sys.stderr)
+            import traceback
+            print(traceback.format_exc(), file=sys.stderr)
+            image_path = None
+        
+        # Add image path and formatted markdown to output
+        output["image_path"] = image_path
+        output["digital_art_markdown"] = format_digital_art_markdown(image_path, date_str)
         
         # Save to archive
         archive_dir = "archive"

@@ -232,6 +232,23 @@ def main():
         if section_updated:
             updated = True
     
+    # Update digital art section (inspired by all news trends)
+    try:
+        data = json.loads(content_data)
+        digital_art_markdown = data.get("digital_art_markdown", "")
+        if digital_art_markdown:
+            # Add digital art section after podcasts section
+            art_section_updated = update_readme_section(
+                readme_path,
+                digital_art_markdown,
+                "<!--START_SECTION:digital_art-->",
+                "<!--END_SECTION:digital_art-->"
+            )
+            if art_section_updated:
+                updated = True
+    except (json.JSONDecodeError, TypeError) as e:
+        print(f"Warning: Could not extract digital art section: {e}", file=sys.stderr)
+    
     # Update disclaimer section
     disclaimer_updated = update_disclaimer_section(readme_path)
     
