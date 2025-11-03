@@ -36,14 +36,14 @@ def validate_url(url: str) -> bool:
         return False
 
 
-# Podcast channel IDs (can be found via YouTube API or channel URLs)
+# Podcast channel IDs or handles (can be found via YouTube API or channel URLs)
 PODCAST_CHANNELS = {
     "All In": {
         "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",  # All-In Podcast channel ID
         "search_terms": ["all in podcast", "all-in podcast", "chamath", "sacks", "friedberg", "calacanis"],
     },
     "Pivot": {
-        "channel_id": "UCbFkFdYPDNNMdGvGjW-S9gw",  # Pivot podcast channel ID (approximate - may need verification)
+        "channel_handle": "pivot",  # Pivot with Kara Swisher and Scott Galloway - https://www.youtube.com/@pivot
         "search_terms": ["pivot podcast", "kara swisher", "scott galloway"],
     },
     "Lenny Podcast": {
@@ -57,15 +57,55 @@ PODCAST_CHANNELS = {
 }
 
 
+def resolve_channel_id_from_handle(handle: str, api_key: str) -> Optional[str]:
+    """Resolve a YouTube handle (e.g., 'pivot' or '@pivot') to a channel ID."""
+    try:
+        # Remove @ if present
+        handle = handle.lstrip('@')
+        
+        channels_url = "https://www.googleapis.com/youtube/v3/channels"
+        params = {
+            "part": "id",
+            "forHandle": handle,
+            "key": api_key,
+        }
+        
+        response = requests.get(channels_url, params=params, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        
+        items = data.get("items", [])
+        if items:
+            return items[0].get("id")
+        
+        return None
+    except Exception as e:
+        print(f"Error resolving handle @{handle}: {e}", file=sys.stderr)
+        return None
+
+
 def fetch_latest_podcast_episode(channel_name: str, channel_info: Dict, api_key: str, days_back: int = 30) -> Optional[Dict]:
     """Fetch the latest episode from a podcast YouTube channel."""
     try:
-        # First, try to get videos from the channel using channel ID
+        # Resolve channel ID if we have a handle
+        channel_id = None
+        if "channel_handle" in channel_info:
+            channel_id = resolve_channel_id_from_handle(channel_info["channel_handle"], api_key)
+            if not channel_id:
+                print(f"Could not resolve channel handle for {channel_name}, falling back to search", file=sys.stderr)
+                return fetch_latest_podcast_by_search(channel_name, channel_info, api_key, days_back)
+        elif "channel_id" in channel_info:
+            channel_id = channel_info["channel_id"]
+        else:
+            # No channel ID or handle, use search
+            return fetch_latest_podcast_by_search(channel_name, channel_info, api_key, days_back)
+        
+        # Get videos from the channel using channel ID
         channel_url = "https://www.googleapis.com/youtube/v3/search"
         
         params = {
             "part": "snippet",
-            "channelId": channel_info["channel_id"],
+            "channelId": channel_id,
             "type": "video",
             "maxResults": 10,
             "order": "date",
