@@ -63,29 +63,30 @@ jobs:
       - name: Merge podcast content into main summary
         run: |
           if [ -f /tmp/podcasts_summary.json ]; then
-            python3 << 'EOF'
-            import json
-            import sys
-            
-            try:
-                with open('/tmp/content_summary.json', 'r') as f:
-                    content = json.load(f)
-                
-                with open('/tmp/podcasts_summary.json', 'r') as f:
-                    podcasts = json.load(f)
-                
-                if 'markdown' in podcasts and podcasts['markdown']:
-                    content['podcasts'] = {
-                        'markdown': podcasts['markdown'],
-                        'podcasts': podcasts.get('podcasts', []),
-                        'summary': podcasts.get('summary', '')
-                    }
-                
-                with open('/tmp/content_summary.json', 'w') as f:
-                    json.dump(content, f, indent=2, ensure_ascii=False)
-            except Exception as e:
-                print(f"Error merging podcasts: {e}", file=sys.stderr)
-            EOF
+            cat > /tmp/merge_podcasts.py << 'PYEOF'
+          import json
+          import sys
+          
+          try:
+              with open('/tmp/content_summary.json', 'r') as f:
+                  content = json.load(f)
+              
+              with open('/tmp/podcasts_summary.json', 'r') as f:
+                  podcasts = json.load(f)
+              
+              if 'markdown' in podcasts and podcasts['markdown']:
+                  content['podcasts'] = {
+                      'markdown': podcasts['markdown'],
+                      'podcasts': podcasts.get('podcasts', []),
+                      'summary': podcasts.get('summary', '')
+                  }
+              
+              with open('/tmp/content_summary.json', 'w') as f:
+                  json.dump(content, f, indent=2, ensure_ascii=False)
+          except Exception as e:
+              print(f"Error merging podcasts: {e}", file=sys.stderr)
+          PYEOF
+            python3 /tmp/merge_podcasts.py
           fi
 
       - name: Copy archive files
