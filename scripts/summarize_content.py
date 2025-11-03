@@ -863,7 +863,84 @@ Summarize the main themes, key insights, or noteworthy developments."""
 
 # ============ MARKDOWN FORMATTING ============
 
-def format_ai_markdown(stories: List[Dict], summary: str, date: str) -> str:
+def generate_pointillism_image(stories: List[Dict], summary: str, api_key: str, date: str) -> Optional[str]:
+    """Generate a digital pointillism image with motion design inspired by AI news."""
+    if not stories:
+        return None
+    
+    # Create a rich prompt based on news themes
+    stories_text = "\n".join([story.get('title', '') for story in stories[:5]])
+    
+    # Generate an image prompt that captures the essence of the news
+    prompt_generation = f"""Based on these AI news headlines and summary, create a detailed visual description for a digital pointillism artwork blended with generative motion design:
+
+Headlines:
+{stories_text}
+
+Summary: {summary}
+
+Create a description of a stunning digital pointillism artwork that:
+- Uses thousands of small colored dots/pixels to form an abstract composition
+- Incorporates motion design elements (flowing lines, dynamic patterns, energy waves)
+- Reflects themes from the AI news (innovation, technology, neural networks, data streams)
+- Has a futuristic, tech-forward aesthetic
+- Uses vibrant colors that suggest innovation and progress
+- Blends pointillism technique with modern generative art aesthetics
+
+Return ONLY the visual description (no explanation, no markdown, just the description)."""
+    
+    try:
+        client = OpenAI(api_key=api_key)
+        
+        # Generate the image description
+        response = client.chat.completions.create(
+            model="gpt-4-turbo-preview",
+            messages=[
+                {"role": "system", "content": "You are a visual artist specializing in digital art and creative descriptions."},
+                {"role": "user", "content": prompt_generation}
+            ],
+            max_tokens=300,
+            temperature=0.8,
+        )
+        
+        image_description = response.choices[0].message.content.strip()
+        
+        # Add pointillism and motion design specifics to the prompt
+        image_prompt = f"Digital pointillism artwork, {image_description}, blended with generative motion design, dynamic flowing patterns, vibrant colors, abstract composition, thousands of small dots forming intricate patterns, futuristic tech aesthetic, inspired by AI and technology news"
+        
+        # Generate the image using DALL-E
+        print("Generating digital pointillism artwork...", file=sys.stderr)
+        image_response = client.images.generate(
+            model="dall-e-3",
+            prompt=image_prompt,
+            size="1024x1024",
+            quality="standard",
+            n=1,
+        )
+        
+        image_url = image_response.data[0].url
+        
+        # Download and save the image
+        os.makedirs("image/ai_news", exist_ok=True)
+        image_filename = f"image/ai_news/{date}-pointillism.png"
+        
+        img_response = requests.get(image_url, timeout=30)
+        img_response.raise_for_status()
+        
+        with open(image_filename, "wb") as f:
+            f.write(img_response.content)
+        
+        print(f"Image saved to {image_filename}", file=sys.stderr)
+        return image_filename
+        
+    except Exception as e:
+        print(f"Error generating pointillism image: {e}", file=sys.stderr)
+        import traceback
+        print(traceback.format_exc(), file=sys.stderr)
+        return None
+
+
+def format_ai_markdown(stories: List[Dict], summary: str, date: str, image_path: Optional[str] = None) -> str:
     """Format AI news section as markdown."""
     lines = [
         f"## 🤖 AI Industry Snapshot - {date}",
@@ -886,6 +963,17 @@ def format_ai_markdown(stories: List[Dict], summary: str, date: str) -> str:
         summary,
         "",
     ])
+    
+    # Add the pointillism image at the end
+    if image_path:
+        lines.extend([
+            "### 🎨 Digital Art: Pointillism & Motion Design",
+            "",
+            f"*Inspired by today's AI news trends*",
+            "",
+            f"![Digital Pointillism Artwork]({image_path})",
+            "",
+        ])
     
     return "\n".join(lines)
 
@@ -956,7 +1044,7 @@ def main():
         
         output = {
             "date": date_str,
-            "ai_news": {"markdown": "", "stories": [], "summary": ""},
+            "ai_news": {"markdown": "", "stories": [], "summary": "", "image_path": None},
             "business_news": {"markdown": "", "stories": [], "summary": ""},
             "tech_news": {"markdown": "", "stories": [], "summary": ""},
             "podcasts": {"markdown": "", "podcasts": [], "summary": ""},
@@ -1006,9 +1094,16 @@ def main():
         else:
             ai_summary = "No AI stories found today."
         
-        output["ai_news"]["markdown"] = format_ai_markdown(unique_ai[:10], ai_summary, date_str)
+        # Generate pointillism image inspired by the news
+        image_path = None
+        if unique_ai:
+            print("Generating digital pointillism artwork...", file=sys.stderr)
+            image_path = generate_pointillism_image(unique_ai[:10], ai_summary, openai_key, date_str)
+        
+        output["ai_news"]["markdown"] = format_ai_markdown(unique_ai[:10], ai_summary, date_str, image_path)
         output["ai_news"]["stories"] = unique_ai[:10]
         output["ai_news"]["summary"] = ai_summary
+        output["ai_news"]["image_path"] = image_path
         
         # Fetch Business News
         print("Fetching business news...", file=sys.stderr)
@@ -1082,7 +1177,7 @@ def main():
         fallback = {
             "date": date_str,
             "error": str(e),
-            "ai_news": {"markdown": f"## 🤖 AI Industry Snapshot - {date_str}\n\n*Error: {str(e)}*\n", "stories": [], "summary": ""},
+            "ai_news": {"markdown": f"## 🤖 AI Industry Snapshot - {date_str}\n\n*Error: {str(e)}*\n", "stories": [], "summary": "", "image_path": None},
             "business_news": {"markdown": "", "stories": [], "summary": ""},
             "tech_news": {"markdown": "", "stories": [], "summary": ""},
             "motivation_quotes": {"markdown": "", "items": [], "summary": ""},
@@ -1098,7 +1193,7 @@ def main():
         fallback = {
             "date": date_str,
             "error": str(e),
-            "ai_news": {"markdown": f"## 🤖 AI Industry Snapshot - {date_str}\n\n*Error: {str(e)}*\n", "stories": [], "summary": ""},
+            "ai_news": {"markdown": f"## 🤖 AI Industry Snapshot - {date_str}\n\n*Error: {str(e)}*\n", "stories": [], "summary": "", "image_path": None},
             "business_news": {"markdown": "", "stories": [], "summary": ""},
             "tech_news": {"markdown": "", "stories": [], "summary": ""},
             "motivation_quotes": {"markdown": "", "items": [], "summary": ""},

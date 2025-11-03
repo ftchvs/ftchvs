@@ -13,11 +13,39 @@ from typing import Dict, List, Optional
 
 
 def get_github_token() -> str:
-    """Get GitHub token from environment variable."""
+    """Get GitHub token from environment variable or stored PAT file."""
+    # Try environment variables first
     token = os.getenv("GITHUB_TOKEN") or os.getenv("PAT_PRIVATE")
-    if not token:
-        raise ValueError("GITHUB_TOKEN or PAT_PRIVATE environment variable is required")
-    return token
+    if token:
+        return token
+    
+    # Try to load from encrypted storage
+    try:
+        from pathlib import Path
+        from cryptography.fernet import Fernet
+        import json
+        import base64
+        
+        pat_storage_dir = Path("~/.ftchvs").expanduser()
+        pat_file = pat_storage_dir / "pat_token.enc"
+        key_file = pat_storage_dir / "pat_key.key"
+        
+        if pat_file.exists() and key_file.exists():
+            with open(key_file, "rb") as f:
+                key = f.read()
+            fernet = Fernet(key)
+            
+            with open(pat_file, "r") as f:
+                data = json.load(f)
+                encrypted_token = data.get("token")
+                if encrypted_token:
+                    encrypted_bytes = base64.b64decode(encrypted_token.encode())
+                    return fernet.decrypt(encrypted_bytes).decode()
+    except Exception as e:
+        print(f"Warning: Could not load PAT from storage: {e}", file=sys.stderr)
+    
+    # No token found
+    raise ValueError("GITHUB_TOKEN, PAT_PRIVATE environment variable, or stored PAT file required")
 
 
 def get_username() -> str:
