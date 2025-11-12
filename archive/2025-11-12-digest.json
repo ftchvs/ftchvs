@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-12",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-12\n\n### Top AI Stories\n\n1. [AGENTIC AI — EPISODE 17: Code Execution for AI Agents](https://www.youtube.com/watch?v=9E-MKiJNn2c)\n\n2. [Google’s 5 Day AI course!](https://www.youtube.com/watch?v=-7I0X8wChWk)\n\n3. [From data to decision: The future of AI and automation in Financial Services](https://www.youtube.com/watch?v=9iKN_wIo_m8)\n\n4. [INSANE New AI Tool Runs LLMs Privately &amp; It&#39;s FREE!](https://www.youtube.com/watch?v=WdPObpkGAi4)\n\n5. [What Are LLM Applications Beyond Text Generation? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=R1q6LN6NcQQ)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\n1. Episode 17 of AGENTIC AI explores the intricacies of code execution for AI agents, diving into how these agents interpret and execute code to perform tasks autonomously.\n2. Google has launched a comprehensive 5-day AI course aimed at providing essential insights and practical skills in artificial intelligence, catering to learners at various levels.\n3. The discussion on the future of AI and automation in financial services highlights the transformative impact of data analytics and decision-making algorithms, suggesting significant efficiency and accuracy improvements in the sector.\n4. A groundbreaking AI tool offering private and free running of Large Language Models (LLMs) has been introduced, marking a significant advancement in secure and accessible AI technology.\n5. The exploration of Large Language Model (LLM) applications beyond text generation sheds light on the versatile capabilities of AI and machine learning, extending their potential impact across various fields and industries.\n",
+    "stories": [
+      {
+        "title": "AGENTIC AI — EPISODE 17: Code Execution for AI Agents",
+        "url": "https://www.youtube.com/watch?v=9E-MKiJNn2c",
+        "points": 0,
+        "comments": 0,
+        "author": "Ai.Group™ | PODCAST",
+        "source": "YouTube"
+      },
+      {
+        "title": "Google’s 5 Day AI course!",
+        "url": "https://www.youtube.com/watch?v=-7I0X8wChWk",
+        "points": 0,
+        "comments": 0,
+        "author": "Full Disclosure",
+        "source": "YouTube"
+      },
+      {
+        "title": "From data to decision: The future of AI and automation in Financial Services",
+        "url": "https://www.youtube.com/watch?v=9iKN_wIo_m8",
+        "points": 0,
+        "comments": 0,
+        "author": "The London Fintech Podcast",
+        "source": "YouTube"
+      },
+      {
+        "title": "INSANE New AI Tool Runs LLMs Privately &amp; It&#39;s FREE!",
+        "url": "https://www.youtube.com/watch?v=WdPObpkGAi4",
+        "points": 0,
+        "comments": 0,
+        "author": "Franklin AI",
+        "source": "YouTube"
+      },
+      {
+        "title": "What Are LLM Applications Beyond Text Generation? - AI and Machine Learning Explained",
+        "url": "https://www.youtube.com/watch?v=R1q6LN6NcQQ",
+        "points": 0,
+        "comments": 0,
+        "author": "AI and Machine Learning Explained",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. Episode 17 of AGENTIC AI explores the intricacies of code execution for AI agents, diving into how these agents interpret and execute code to perform tasks autonomously.\n2. Google has launched a comprehensive 5-day AI course aimed at providing essential insights and practical skills in artificial intelligence, catering to learners at various levels.\n3. The discussion on the future of AI and automation in financial services highlights the transformative impact of data analytics and decision-making algorithms, suggesting significant efficiency and accuracy improvements in the sector.\n4. A groundbreaking AI tool offering private and free running of Large Language Models (LLMs) has been introduced, marking a significant advancement in secure and accessible AI technology.\n5. The exploration of Large Language Model (LLM) applications beyond text generation sheds light on the versatile capabilities of AI and machine learning, extending their potential impact across various fields and industries.",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-12\n\n### Top Stories\n\n1. [LARRY KUDLOW: Are booming stocks signaling a Trump boom?](https://www.foxbusiness.com/politics/larry-kudlow-booming-stocks-signaling-trump-boom)\n\n2. [Warren Buffett's final letter to shareholders: Read in full here](https://www.foxbusiness.com/markets/warren-buffets-final-letter-shareholders-read-full-here)\n\n3. [The top 3 reasons housing has become so unaffordable in the US market – and it's not what you think](https://www.foxbusiness.com/politics/top-3-reasons-housing-has-become-so-unaffordable-us-market-experts)\n\n4. [Wendy's to close hundreds of US stores next year](https://www.foxbusiness.com/lifestyle/wendys-close-hundreds-us-stores-next-year)\n\n5. [Activist investors push Cracker Barrel shareholders to oust DEI specialist](https://www.foxbusiness.com/economy/activist-investors-push-cracker-barrel-shareholders-oust-dei-specialist)\n\n6. [Baby formula recalled as infant botulism outbreak grows](https://www.foxbusiness.com/lifestyle/baby-formula-recalled-infant-botulism-outbreak-grows)\n\n7. [Trump floats $10K bonus plan for air traffic controllers who've remained on duty during government shutdown](https://www.foxbusiness.com/politics/trump-floats-10k-bonus-plan-air-traffic-controllers-whove-remained-duty-during-government-shutdown)\n\n8. [Bank of America CEO seeks 'important' meeting with Mamdani, says NYC's success vital to company](https://www.foxbusiness.com/media/bank-america-ceo-seeks-important-meeting-mamdani-says-nycs-success-vital-company)\n\n9. [How one company is transforming rural communities with tech careers](https://www.foxbusiness.com/economy/how-one-company-transforming-rural-communities-tech-careers)\n\n10. [Trump's 50-year mortgage may burden Americans with more debt, experts say](https://www.foxbusiness.com/politics/trumps-50-year-mortgage-may-burden-americans-more-debt-experts-say)\n\n### Summary\n\n1. Larry Kudlow discusses the possibility that the rising stock market could indicate an economic boom under Trump's presidency, suggesting investor confidence in the administration's policies.\n2. Warren Buffett's final letter to Berkshire Hathaway shareholders provides a comprehensive overview of his investment philosophy, company performance, and reflections on his career.\n3. The article identifies three unexpected factors contributing to the U.S. housing market's lack of affordability, challenging common perceptions about the root causes of the issue.\n4. Wendy's plans to shutter hundreds of its locations across the United States next year, a significant move for the fast-food industry signaling potential shifts in business strategies or market dynamics.\n5. Activist investors are campaigning for Cracker Barrel shareholders to remove a Diversity, Equity, and Inclusion (DEI) specialist from their board, highlighting tensions over corporate governance and social policies.\n",
+    "stories": [
+      {
+        "title": "LARRY KUDLOW: Are booming stocks signaling a Trump boom?",
+        "url": "https://www.foxbusiness.com/politics/larry-kudlow-booming-stocks-signaling-trump-boom",
+        "source": "Fox Business",
+        "author": "Larry Kudlow",
+        "published": "Tue, 11 Nov 2025 23:05:20 GMT"
+      },
+      {
+        "title": "Warren Buffett's final letter to shareholders: Read in full here",
+        "url": "https://www.foxbusiness.com/markets/warren-buffets-final-letter-shareholders-read-full-here",
+        "source": "Fox Business",
+        "author": "Fox Business",
+        "published": "Tue, 11 Nov 2025 21:14:41 GMT"
+      },
+      {
+        "title": "The top 3 reasons housing has become so unaffordable in the US market – and it's not what you think",
+        "url": "https://www.foxbusiness.com/politics/top-3-reasons-housing-has-become-so-unaffordable-us-market-experts",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Tue, 11 Nov 2025 21:06:30 GMT"
+      },
+      {
+        "title": "Wendy's to close hundreds of US stores next year",
+        "url": "https://www.foxbusiness.com/lifestyle/wendys-close-hundreds-us-stores-next-year",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Tue, 11 Nov 2025 19:45:00 GMT"
+      },
+      {
+        "title": "Activist investors push Cracker Barrel shareholders to oust DEI specialist",
+        "url": "https://www.foxbusiness.com/economy/activist-investors-push-cracker-barrel-shareholders-oust-dei-specialist",
+        "source": "Fox Business",
+        "author": "Ashley Carnahan",
+        "published": "Tue, 11 Nov 2025 19:07:03 GMT"
+      },
+      {
+        "title": "Baby formula recalled as infant botulism outbreak grows",
+        "url": "https://www.foxbusiness.com/lifestyle/baby-formula-recalled-infant-botulism-outbreak-grows",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Tue, 11 Nov 2025 18:08:51 GMT"
+      },
+      {
+        "title": "Trump floats $10K bonus plan for air traffic controllers who've remained on duty during government shutdown",
+        "url": "https://www.foxbusiness.com/politics/trump-floats-10k-bonus-plan-air-traffic-controllers-whove-remained-duty-during-government-shutdown",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Tue, 11 Nov 2025 17:13:58 GMT"
+      },
+      {
+        "title": "Bank of America CEO seeks 'important' meeting with Mamdani, says NYC's success vital to company",
+        "url": "https://www.foxbusiness.com/media/bank-america-ceo-seeks-important-meeting-mamdani-says-nycs-success-vital-company",
+        "source": "Fox Business",
+        "author": "Taylor Penley",
+        "published": "Tue, 11 Nov 2025 16:28:51 GMT"
+      },
+      {
+        "title": "How one company is transforming rural communities with tech careers",
+        "url": "https://www.foxbusiness.com/economy/how-one-company-transforming-rural-communities-tech-careers",
+        "source": "Fox Business",
+        "author": "Kelly Saberi",
+        "published": "Tue, 11 Nov 2025 16:22:14 GMT"
+      },
+      {
+        "title": "Trump's 50-year mortgage may burden Americans with more debt, experts say",
+        "url": "https://www.foxbusiness.com/politics/trumps-50-year-mortgage-may-burden-americans-more-debt-experts-say",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Tue, 11 Nov 2025 16:20:55 GMT"
+      }
+    ],
+    "summary": "1. Larry Kudlow discusses the possibility that the rising stock market could indicate an economic boom under Trump's presidency, suggesting investor confidence in the administration's policies.\n2. Warren Buffett's final letter to Berkshire Hathaway shareholders provides a comprehensive overview of his investment philosophy, company performance, and reflections on his career.\n3. The article identifies three unexpected factors contributing to the U.S. housing market's lack of affordability, challenging common perceptions about the root causes of the issue.\n4. Wendy's plans to shutter hundreds of its locations across the United States next year, a significant move for the fast-food industry signaling potential shifts in business strategies or market dynamics.\n5. Activist investors are campaigning for Cracker Barrel shareholders to remove a Diversity, Equity, and Inclusion (DEI) specialist from their board, highlighting tensions over corporate governance and social policies."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-12\n\n### Top Stories\n\n1. [New laser treatment could stop blindness before it starts](https://www.sciencedaily.com/releases/2025/11/251108083906.htm)\n\n2. [Chinese bridge collapses in landslide months after opening](https://www.upi.com/Top_News/World-News/2025/11/11/bridge-collapse-landslide/4811762893664/)\n\n3. [Microsoft adds native support for 1Password and Bitwarden passkeys to Windows 11](https://www.neowin.net/news/microsoft-adds-native-support-for-1password-and-bitwarden-passkeys-in-windows-11/)\n\n4. [Is information a fundamental force of the universe?](https://youtu.be/WqYRMmlZmhM)\n\n5. [Building a Hypercube Interpolator (in Rust)](https://jlogan.dev/blog/2025/11/10/2025-11-10-interpn-fast-interpolation/)\n\n6. [How to stop having FOMO as a curious engineer: hold a thread](https://www.yacinemahdid.com/p/how-to-stop-having-fomo-as-a-curious)\n\n7. [China's internet firms revive lending as Beijing pushes consumer loans](https://www.reuters.com/business/finance/chinas-internet-firms-cautiously-revive-lending-beijing-pushes-consumer-loans-2025-11-10/)\n\n8. [Why Screaming Is All the Rage](https://www.nytimes.com/2025/11/11/magazine/collective-screaming-therapy-anxiety-stress.html)\n\n9. [The Bay Area is cursed](https://sashachapin.substack.com/p/the-bay-area-is-cursed)\n\n10. [Docker Compose Continuous Deployment](https://github.com/kimdre/doco-cd)\n\n### Summary\n\n1. A groundbreaking laser treatment has been developed with the potential to prevent blindness by addressing eye conditions before they lead to vision loss, marking a significant advancement in ophthalmology.\n\n2. A recently opened bridge in China succumbed to a landslide, raising concerns about infrastructure resilience and the need for rigorous engineering assessments, especially in landslide-prone areas.\n\n3. Microsoft has enhanced Windows 11 security by integrating native support for the passkeys of popular password managers 1Password and Bitwarden, signifying a move towards stronger, passwordless authentication methods.\n\n4. There's an emerging discussion in the scientific community about whether information should be considered a fundamental force in the universe, alongside gravity and electromagnetism, challenging traditional physics paradigms.\n\n5. The development of a Hypercube Interpolator using the Rust programming language represents a significant step forward in computational geometry, providing more efficient and accurate methods for multidimensional data analysis.\n",
+    "stories": [
+      {
+        "title": "New laser treatment could stop blindness before it starts",
+        "url": "https://www.sciencedaily.com/releases/2025/11/251108083906.htm",
+        "points": 4,
+        "comments": 0,
+        "author": "devonnull",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Chinese bridge collapses in landslide months after opening",
+        "url": "https://www.upi.com/Top_News/World-News/2025/11/11/bridge-collapse-landslide/4811762893664/",
+        "points": 2,
+        "comments": 0,
+        "author": "rguiscard",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Microsoft adds native support for 1Password and Bitwarden passkeys to Windows 11",
+        "url": "https://www.neowin.net/news/microsoft-adds-native-support-for-1password-and-bitwarden-passkeys-in-windows-11/",
+        "points": 2,
+        "comments": 0,
+        "author": "bundie",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Is information a fundamental force of the universe?",
+        "url": "https://youtu.be/WqYRMmlZmhM",
+        "points": 1,
+        "comments": 0,
+        "author": "kaycebasques",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Building a Hypercube Interpolator (in Rust)",
+        "url": "https://jlogan.dev/blog/2025/11/10/2025-11-10-interpn-fast-interpolation/",
+        "points": 1,
+        "comments": 1,
+        "author": "selimthegrim",
+        "source": "Hacker News"
+      },
+      {
+        "title": "How to stop having FOMO as a curious engineer: hold a thread",
+        "url": "https://www.yacinemahdid.com/p/how-to-stop-having-fomo-as-a-curious",
+        "points": 1,
+        "comments": 0,
+        "author": "research_pie",
+        "source": "Hacker News"
+      },
+      {
+        "title": "China's internet firms revive lending as Beijing pushes consumer loans",
+        "url": "https://www.reuters.com/business/finance/chinas-internet-firms-cautiously-revive-lending-beijing-pushes-consumer-loans-2025-11-10/",
+        "points": 1,
+        "comments": 0,
+        "author": "mooreds",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Why Screaming Is All the Rage",
+        "url": "https://www.nytimes.com/2025/11/11/magazine/collective-screaming-therapy-anxiety-stress.html",
+        "points": 1,
+        "comments": 1,
+        "author": "sipofwater",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The Bay Area is cursed",
+        "url": "https://sashachapin.substack.com/p/the-bay-area-is-cursed",
+        "points": 1,
+        "comments": 0,
+        "author": "eatitraw",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Docker Compose Continuous Deployment",
+        "url": "https://github.com/kimdre/doco-cd",
+        "points": 1,
+        "comments": 0,
+        "author": "jtcleek",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. A groundbreaking laser treatment has been developed with the potential to prevent blindness by addressing eye conditions before they lead to vision loss, marking a significant advancement in ophthalmology.\n\n2. A recently opened bridge in China succumbed to a landslide, raising concerns about infrastructure resilience and the need for rigorous engineering assessments, especially in landslide-prone areas.\n\n3. Microsoft has enhanced Windows 11 security by integrating native support for the passkeys of popular password managers 1Password and Bitwarden, signifying a move towards stronger, passwordless authentication methods.\n\n4. There's an emerging discussion in the scientific community about whether information should be considered a fundamental force in the universe, alongside gravity and electromagnetism, challenging traditional physics paradigms.\n\n5. The development of a Hypercube Interpolator using the Rust programming language represents a significant step forward in computational geometry, providing more efficient and accurate methods for multidimensional data analysis."
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-12\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-12\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-12-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-12-pointillism.png)\n"
+}
