@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-13",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-13\n\n### Top AI Stories\n\n1. [Google’s 5 Day AI course!](https://www.youtube.com/watch?v=-7I0X8wChWk)\n\n2. [From data to decision: The future of AI and automation in Financial Services](https://www.youtube.com/watch?v=9iKN_wIo_m8)\n\n3. [@meta&#39;s Yann LeCun on the “bubble” surrounding LLMs #artificialintelligence #machinelearning](https://www.youtube.com/watch?v=CFH2uHTPBh0)\n\n4. [What Are LLM Applications Beyond Text Generation? - AI and Machine Learning Explained](https://www.youtube.com/watch?v=R1q6LN6NcQQ)\n\n5. [Types of LLMS](https://www.youtube.com/watch?v=hi_yeJHbZhk)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nGoogle has launched a 5-day AI course aimed at educating participants on the fundamentals and applications of artificial intelligence. In the financial services sector, there's a growing emphasis on leveraging AI and automation for more efficient decision-making processes. Meanwhile, Yann LeCun of Meta has raised concerns about a \"bubble\" surrounding Large Language Models (LLMs), pointing to hype versus practical utility. Despite skepticism, there is exploration into the diverse applications of LLMs beyond text generation, including in areas like data analysis and creative content creation. Additionally, there's an ongoing effort to categorize and understand the various types of LLMs, emphasizing the technology's complexity and potential across different fields.\n",
+    "stories": [
+      {
+        "title": "Google’s 5 Day AI course!",
+        "url": "https://www.youtube.com/watch?v=-7I0X8wChWk",
+        "points": 0,
+        "comments": 0,
+        "author": "Full Disclosure",
+        "source": "YouTube"
+      },
+      {
+        "title": "From data to decision: The future of AI and automation in Financial Services",
+        "url": "https://www.youtube.com/watch?v=9iKN_wIo_m8",
+        "points": 0,
+        "comments": 0,
+        "author": "The London Fintech Podcast",
+        "source": "YouTube"
+      },
+      {
+        "title": "@meta&#39;s Yann LeCun on the “bubble” surrounding LLMs #artificialintelligence #machinelearning",
+        "url": "https://www.youtube.com/watch?v=CFH2uHTPBh0",
+        "points": 0,
+        "comments": 0,
+        "author": "FT Live",
+        "source": "YouTube"
+      },
+      {
+        "title": "What Are LLM Applications Beyond Text Generation? - AI and Machine Learning Explained",
+        "url": "https://www.youtube.com/watch?v=R1q6LN6NcQQ",
+        "points": 0,
+        "comments": 0,
+        "author": "AI and Machine Learning Explained",
+        "source": "YouTube"
+      },
+      {
+        "title": "Types of LLMS",
+        "url": "https://www.youtube.com/watch?v=hi_yeJHbZhk",
+        "points": 0,
+        "comments": 0,
+        "author": "CodewithPrashant ",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "Google has launched a 5-day AI course aimed at educating participants on the fundamentals and applications of artificial intelligence. In the financial services sector, there's a growing emphasis on leveraging AI and automation for more efficient decision-making processes. Meanwhile, Yann LeCun of Meta has raised concerns about a \"bubble\" surrounding Large Language Models (LLMs), pointing to hype versus practical utility. Despite skepticism, there is exploration into the diverse applications of LLMs beyond text generation, including in areas like data analysis and creative content creation. Additionally, there's an ongoing effort to categorize and understand the various types of LLMs, emphasizing the technology's complexity and potential across different fields.",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-13\n\n### Top Stories\n\n1. [LARRY KUDLOW: Democratic attempts to sabotage the Trump boom are failing miserably](https://www.foxbusiness.com/politics/larry-kudlow-democratic-attempts-sabotage-trump-boom-failing-miserably)\n\n2. [Toyota opens massive North Carolina battery plant, confirms $10B US investment](https://www.foxbusiness.com/markets/toyota-opens-massive-north-carolina-battery-plant-confirms-10b-us-investment)\n\n3. [Travel chaos erupts after Marriott-backed hotel chain plans bankruptcy: report](https://www.foxbusiness.com/fox-news-travel/travel-chaos-erupts-after-marriott-backed-hotel-chain-plans-bankruptcy-report)\n\n4. [Disney losing $30M a week as YouTube TV blackout drags on, analysts say](https://www.foxbusiness.com/markets/disney-losing-30m-week-youtube-tv-blackout-drags-on-analysts-say)\n\n5. [National Debt Tracker: American taxpayers (you) are now on the hook for $38,125,731,687,631.03 as of 11/12/25](https://www.foxbusiness.com/economy/us-national-debt-tracker)\n\n6. [Dow closes above 48,000 for first time, 17th record close of 2025](https://www.foxbusiness.com/markets/dow-soars-past-48000-first-time-history-amid-continuing-market-rally-surge-wednesday)\n\n7. [Lisa Su says AMD is moving at an 'incredible pace' as the chipmaker's value explodes](https://www.foxbusiness.com/media/lisa-su-says-amd-moving-incredible-pace-chipmakers-value-explodes)\n\n8. [Pirro announces Scam Center Strike Force to target Chinese organized crime](https://www.foxbusiness.com/politics/pirro-announces-scam-center-strike-force-target-chinese-organized-crime)\n\n9. [How much this year's Thanksgiving feast could cost you](https://www.foxbusiness.com/lifestyle/how-much-years-thanksgiving-feast-could-cost-you)\n\n10. [Treasury Secretary Scott Bessent predicts ‘blockbuster’ year for US economy, relief for workers](https://www.foxbusiness.com/media/treasury-secretary-scott-bessent-predicts-blockbuster-year-for-us-economy-relief-for-workers)\n\n### Summary\n\nLarry Kudlow criticizes Democratic efforts against the Trump economic boom, highlighting their lack of success. Meanwhile, Toyota's expansion in the U.S. with a $10 billion investment in a North Carolina battery plant signifies a significant boost to the American manufacturing sector. Travel disruptions have been sparked by a Marriott-affiliated hotel chain's bankruptcy plans, causing widespread concern. Disney is experiencing substantial financial losses, amounting to $30 million a week, due to the ongoing blackout with YouTube TV, underscoring the impact of media distribution disputes. Lastly, the National Debt Tracker reveals a staggering figure of over $38 trillion owed by American taxpayers, highlighting a critical and escalating issue of national financial responsibility.\n",
+    "stories": [
+      {
+        "title": "LARRY KUDLOW: Democratic attempts to sabotage the Trump boom are failing miserably",
+        "url": "https://www.foxbusiness.com/politics/larry-kudlow-democratic-attempts-sabotage-trump-boom-failing-miserably",
+        "source": "Fox Business",
+        "author": "Larry Kudlow",
+        "published": "Wed, 12 Nov 2025 23:13:37 GMT"
+      },
+      {
+        "title": "Toyota opens massive North Carolina battery plant, confirms $10B US investment",
+        "url": "https://www.foxbusiness.com/markets/toyota-opens-massive-north-carolina-battery-plant-confirms-10b-us-investment",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Wed, 12 Nov 2025 23:08:07 GMT"
+      },
+      {
+        "title": "Travel chaos erupts after Marriott-backed hotel chain plans bankruptcy: report",
+        "url": "https://www.foxbusiness.com/fox-news-travel/travel-chaos-erupts-after-marriott-backed-hotel-chain-plans-bankruptcy-report",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Wed, 12 Nov 2025 22:55:10 GMT"
+      },
+      {
+        "title": "Disney losing $30M a week as YouTube TV blackout drags on, analysts say",
+        "url": "https://www.foxbusiness.com/markets/disney-losing-30m-week-youtube-tv-blackout-drags-on-analysts-say",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Wed, 12 Nov 2025 22:48:24 GMT"
+      },
+      {
+        "title": "National Debt Tracker: American taxpayers (you) are now on the hook for $38,125,731,687,631.03 as of 11/12/25",
+        "url": "https://www.foxbusiness.com/economy/us-national-debt-tracker",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Wed, 12 Nov 2025 22:35:13 GMT"
+      },
+      {
+        "title": "Dow closes above 48,000 for first time, 17th record close of 2025",
+        "url": "https://www.foxbusiness.com/markets/dow-soars-past-48000-first-time-history-amid-continuing-market-rally-surge-wednesday",
+        "source": "Fox Business",
+        "author": "Suzanne O'Halloran",
+        "published": "Wed, 12 Nov 2025 22:30:20 GMT"
+      },
+      {
+        "title": "Lisa Su says AMD is moving at an 'incredible pace' as the chipmaker's value explodes",
+        "url": "https://www.foxbusiness.com/media/lisa-su-says-amd-moving-incredible-pace-chipmakers-value-explodes",
+        "source": "Fox Business",
+        "author": "Nora Moriarty",
+        "published": "Wed, 12 Nov 2025 21:40:25 GMT"
+      },
+      {
+        "title": "Pirro announces Scam Center Strike Force to target Chinese organized crime",
+        "url": "https://www.foxbusiness.com/politics/pirro-announces-scam-center-strike-force-target-chinese-organized-crime",
+        "source": "Fox Business",
+        "author": "Stephen Sorace",
+        "published": "Wed, 12 Nov 2025 19:11:23 GMT"
+      },
+      {
+        "title": "How much this year's Thanksgiving feast could cost you",
+        "url": "https://www.foxbusiness.com/lifestyle/how-much-years-thanksgiving-feast-could-cost-you",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Wed, 12 Nov 2025 18:26:55 GMT"
+      },
+      {
+        "title": "Treasury Secretary Scott Bessent predicts ‘blockbuster’ year for US economy, relief for workers",
+        "url": "https://www.foxbusiness.com/media/treasury-secretary-scott-bessent-predicts-blockbuster-year-for-us-economy-relief-for-workers",
+        "source": "Fox Business",
+        "author": "Taylor Penley",
+        "published": "Wed, 12 Nov 2025 17:47:22 GMT"
+      }
+    ],
+    "summary": "Larry Kudlow criticizes Democratic efforts against the Trump economic boom, highlighting their lack of success. Meanwhile, Toyota's expansion in the U.S. with a $10 billion investment in a North Carolina battery plant signifies a significant boost to the American manufacturing sector. Travel disruptions have been sparked by a Marriott-affiliated hotel chain's bankruptcy plans, causing widespread concern. Disney is experiencing substantial financial losses, amounting to $30 million a week, due to the ongoing blackout with YouTube TV, underscoring the impact of media distribution disputes. Lastly, the National Debt Tracker reveals a staggering figure of over $38 trillion owed by American taxpayers, highlighting a critical and escalating issue of national financial responsibility."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-13\n\n### Top Stories\n\n1. [£220 'for a cut-up sock' — Apples's new iPhone Pocket ridiculed online](https://www.bbc.com/news/articles/cn97ndgpnq7o)\n\n2. [Show HN: Guardian for Wild Mushroom Safety](https://mushroomcheck.com)\n\n3. [Strongest solar flare of 2025, sparking radio blackouts across Africa and Europe](https://www.space.com/astronomy/sun/sun-unleashes-strongest-solar-flare-of-2025-sparking-radio-blackouts-across-africa-and-europe)\n\n4. [Cloud Native Heroku Magic](https://www.heroku.com/blog/heroku-cloud-native-buildpacks/)\n\n5. [LA might use sortition for its charter reform process](https://www.rewritela.org)\n\n6. [The Murchison Murders](https://en.wikipedia.org/wiki/Murchison_Murders)\n\n7. [Ivory Coast response to YouTube scammer](https://twitter.com/Alainlobog/status/1985407337239330876)\n\n8. [Show HN: Made MadLibs-style game to play with my kids](https://www.storygaps.org/)\n\n9. [Helios: A 98-qubit trapped-ion quantum computer](https://arxiv.org/abs/2511.05465)\n\n10. [Security Toolkit, a comprehensive collection of security tools and resources](https://www.securitytoolkits.com/)\n\n### Summary\n\n1. Apple's launch of the iPhone Pocket, priced at £220 and likened to a \"cut-up sock\" by critics, has sparked a wave of ridicule across the internet, highlighting consumer skepticism toward perceived overpriced accessories.\n2. A new app, Guardian, presented on Hacker News, aims to enhance wild mushroom foraging safety by helping users identify potentially dangerous species, showcasing innovation in leveraging technology for public health and safety.\n3. In 2025, the strongest recorded solar flare caused widespread radio blackouts across Africa and Europe, emphasizing the growing concern over solar activity's impact on Earth's technological infrastructure.\n4. The \"Cloud Native Heroku Magic\" represents a significant development in cloud computing, offering scalable, efficient solutions that continue to evolve, demonstrating the sector's ongoing innovation and its critical role in modern software deployment.\n5. Los Angeles is considering the use of sortition for its charter reform process, a novel approach that could introduce a more randomized, representative selection of individuals for public\n",
+    "stories": [
+      {
+        "title": "£220 'for a cut-up sock' — Apples's new iPhone Pocket ridiculed online",
+        "url": "https://www.bbc.com/news/articles/cn97ndgpnq7o",
+        "points": 34,
+        "comments": 19,
+        "author": "Lyngbakr",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: Guardian for Wild Mushroom Safety",
+        "url": "https://mushroomcheck.com",
+        "points": 3,
+        "comments": 3,
+        "author": "kakco-AI",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Strongest solar flare of 2025, sparking radio blackouts across Africa and Europe",
+        "url": "https://www.space.com/astronomy/sun/sun-unleashes-strongest-solar-flare-of-2025-sparking-radio-blackouts-across-africa-and-europe",
+        "points": 3,
+        "comments": 1,
+        "author": "Brajeshwar",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Cloud Native Heroku Magic",
+        "url": "https://www.heroku.com/blog/heroku-cloud-native-buildpacks/",
+        "points": 2,
+        "comments": 0,
+        "author": "runesoerensen",
+        "source": "Hacker News"
+      },
+      {
+        "title": "LA might use sortition for its charter reform process",
+        "url": "https://www.rewritela.org",
+        "points": 2,
+        "comments": 1,
+        "author": "maaaaxaxa",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The Murchison Murders",
+        "url": "https://en.wikipedia.org/wiki/Murchison_Murders",
+        "points": 1,
+        "comments": 0,
+        "author": "sans_souse",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Ivory Coast response to YouTube scammer",
+        "url": "https://twitter.com/Alainlobog/status/1985407337239330876",
+        "points": 1,
+        "comments": 0,
+        "author": "andy99",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: Made MadLibs-style game to play with my kids",
+        "url": "https://www.storygaps.org/",
+        "points": 1,
+        "comments": 0,
+        "author": "ronbenton",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Helios: A 98-qubit trapped-ion quantum computer",
+        "url": "https://arxiv.org/abs/2511.05465",
+        "points": 1,
+        "comments": 0,
+        "author": "EvgeniyZh",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Security Toolkit, a comprehensive collection of security tools and resources",
+        "url": "https://www.securitytoolkits.com/",
+        "points": 1,
+        "comments": 0,
+        "author": "salkahfi",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. Apple's launch of the iPhone Pocket, priced at £220 and likened to a \"cut-up sock\" by critics, has sparked a wave of ridicule across the internet, highlighting consumer skepticism toward perceived overpriced accessories.\n2. A new app, Guardian, presented on Hacker News, aims to enhance wild mushroom foraging safety by helping users identify potentially dangerous species, showcasing innovation in leveraging technology for public health and safety.\n3. In 2025, the strongest recorded solar flare caused widespread radio blackouts across Africa and Europe, emphasizing the growing concern over solar activity's impact on Earth's technological infrastructure.\n4. The \"Cloud Native Heroku Magic\" represents a significant development in cloud computing, offering scalable, efficient solutions that continue to evolve, demonstrating the sector's ongoing innovation and its critical role in modern software deployment.\n5. Los Angeles is considering the use of sortition for its charter reform process, a novel approach that could introduce a more randomized, representative selection of individuals for public"
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-13\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-13\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-13-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-13-pointillism.png)\n"
+}
