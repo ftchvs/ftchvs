@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-14",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-14\n\n### Top AI Stories\n\n1. [What’s the Best LLM (for YOUR project)?](https://www.youtube.com/watch?v=n4NokjyAklg)\n\n2. [Did Google Just Solve AI’s BIGGEST Problem?!](https://www.youtube.com/watch?v=40eUFiGVeMo)\n\n3. [The AI Blueprint for the Next Decade | BUILD 2025 Luminary Conversation](https://www.youtube.com/watch?v=-HWNc-Hd90U)\n\n4. [Complete Detailed Roadmap To Learn AI In 2025-26 by an AI Researcher](https://www.youtube.com/watch?v=xg0hNUWVIgQ)\n\n5. [Types of LLMS](https://www.youtube.com/watch?v=hi_yeJHbZhk)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\n1. Choosing the best Large Language Model (LLM) for a project requires understanding the specific needs and goals of the project, as various LLMs offer different strengths and capabilities tailored to diverse applications.\n\n2. Google has made a significant advancement in addressing a major challenge in AI, although the specifics of this breakthrough or its implications on the broader AI landscape are not detailed, it suggests a notable stride in AI development.\n\n3. The AI Blueprint for the Next Decade, as discussed in the BUILD 2025 Luminary Conversation, outlines strategic visions and essential focus areas for AI development and deployment over the next decade, emphasizing innovation, ethical considerations, and practical applications.\n\n4. A detailed roadmap to learning AI in 2025-26, crafted by an AI researcher, provides a comprehensive guide for aspiring AI professionals, highlighting the key skills, technologies, and knowledge areas to focus on for future expertise in the field.\n\n5. There are various types of Large Language Models (LLMs), each designed\n",
+    "stories": [
+      {
+        "title": "What’s the Best LLM (for YOUR project)?",
+        "url": "https://www.youtube.com/watch?v=n4NokjyAklg",
+        "points": 0,
+        "comments": 0,
+        "author": "Marina Wyss - AI & Machine Learning",
+        "source": "YouTube"
+      },
+      {
+        "title": "Did Google Just Solve AI’s BIGGEST Problem?!",
+        "url": "https://www.youtube.com/watch?v=40eUFiGVeMo",
+        "points": 0,
+        "comments": 0,
+        "author": "AI Copium",
+        "source": "YouTube"
+      },
+      {
+        "title": "The AI Blueprint for the Next Decade | BUILD 2025 Luminary Conversation",
+        "url": "https://www.youtube.com/watch?v=-HWNc-Hd90U",
+        "points": 0,
+        "comments": 0,
+        "author": "Snowflake Inc.",
+        "source": "YouTube"
+      },
+      {
+        "title": "Complete Detailed Roadmap To Learn AI In 2025-26 by an AI Researcher",
+        "url": "https://www.youtube.com/watch?v=xg0hNUWVIgQ",
+        "points": 0,
+        "comments": 0,
+        "author": "Harkirat Singh",
+        "source": "YouTube"
+      },
+      {
+        "title": "Types of LLMS",
+        "url": "https://www.youtube.com/watch?v=hi_yeJHbZhk",
+        "points": 0,
+        "comments": 0,
+        "author": "CodewithPrashant ",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. Choosing the best Large Language Model (LLM) for a project requires understanding the specific needs and goals of the project, as various LLMs offer different strengths and capabilities tailored to diverse applications.\n\n2. Google has made a significant advancement in addressing a major challenge in AI, although the specifics of this breakthrough or its implications on the broader AI landscape are not detailed, it suggests a notable stride in AI development.\n\n3. The AI Blueprint for the Next Decade, as discussed in the BUILD 2025 Luminary Conversation, outlines strategic visions and essential focus areas for AI development and deployment over the next decade, emphasizing innovation, ethical considerations, and practical applications.\n\n4. A detailed roadmap to learning AI in 2025-26, crafted by an AI researcher, provides a comprehensive guide for aspiring AI professionals, highlighting the key skills, technologies, and knowledge areas to focus on for future expertise in the field.\n\n5. There are various types of Large Language Models (LLMs), each designed",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-14\n\n### Top Stories\n\n1. [Kim Kardashian's Skims hits $5B valuation milestone in massive new $225M funding round](https://www.foxbusiness.com/retail/kim-kardashians-skims-hits-5b-valuation-milestone-massive-new-225m-funding-round)\n\n2. [Billion-dollar beverage company touts 'fun' new drink collaboration with young TikTok star](https://www.foxbusiness.com/media/billion-dollar-beverage-company-touts-fun-new-drink-collab-young-tiktok-star)\n\n3. [Disney ditches 'diversity' and 'DEI' in business report for the first time since 2019](https://www.foxbusiness.com/media/disney-ditches-diversity-dei-business-report-first-time-since-2019)\n\n4. [Home listings featuring water-saving fixtures surge nearly 290% as buyers prioritize conservation](https://www.foxbusiness.com/real-estate/home-listings-featuring-water-saving-fixtures-surge-nearly-290-buyers-prioritize-conservation)\n\n5. [Russia’s first AI robot faceplants on stage in humiliating Moscow debut](https://www.foxbusiness.com/fox-news-tech/russias-first-ai-robot-faceplants-stage-humiliating-moscow-debut)\n\n6. [National Debt Tracker: American taxpayers (you) are now on the hook for $38,121,217,149,187.64 as of 11/13/25](https://www.foxbusiness.com/economy/us-national-debt-tracker)\n\n7. [LARRY KUDLOW: Growthier and money-er will solve affordability](https://www.foxbusiness.com/politics/larry-kudlow-growthier-money-er-solve-affordability)\n\n8. [Disney CEO Bob Iger reacts to YouTube TV deal](https://www.foxbusiness.com/lifestyle/disney-ceo-bob-iger-reacts-youtube-tv-deal)\n\n9. [Inside look at MP Materials amid the rare earth race](https://www.foxbusiness.com/politics/inside-look-mp-materials-amid-rare-earth-race)\n\n10. [Target launches ‘10-4’ training, encouraging workers to smile at customers](https://www.foxbusiness.com/retail/target-launches-10-4-training-encouraging-workers-smile-customers)\n\n### Summary\n\nKim Kardashian's shapewear brand, Skims, has achieved a valuation of $5 billion after securing $225 million in new funding, highlighting the brand's rapid growth and market impact. Meanwhile, a billion-dollar beverage company is leveraging the influence of a young TikTok star to introduce a 'fun' new drink, underscoring the power of social media in modern product marketing. Disney has notably removed mentions of 'diversity' and 'DEI' from its business report for the first time in years, signaling a shift in corporate communication strategies. In the real estate sector, there's a significant rise in home listings featuring water-saving fixtures, reflecting growing consumer demand for environmental conservation. Lastly, Russia's unveiling of its first AI robot ended in embarrassment as it malfunctioned on stage, indicating the challenges and unpredictability in the development of AI technologies.\n",
+    "stories": [
+      {
+        "title": "Kim Kardashian's Skims hits $5B valuation milestone in massive new $225M funding round",
+        "url": "https://www.foxbusiness.com/retail/kim-kardashians-skims-hits-5b-valuation-milestone-massive-new-225m-funding-round",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Fri, 14 Nov 2025 00:58:10 GMT"
+      },
+      {
+        "title": "Billion-dollar beverage company touts 'fun' new drink collaboration with young TikTok star",
+        "url": "https://www.foxbusiness.com/media/billion-dollar-beverage-company-touts-fun-new-drink-collab-young-tiktok-star",
+        "source": "Fox Business",
+        "author": "Stephanie Samsel",
+        "published": "Fri, 14 Nov 2025 00:12:26 GMT"
+      },
+      {
+        "title": "Disney ditches 'diversity' and 'DEI' in business report for the first time since 2019",
+        "url": "https://www.foxbusiness.com/media/disney-ditches-diversity-dei-business-report-first-time-since-2019",
+        "source": "Fox Business",
+        "author": "Lindsay Kornick",
+        "published": "Fri, 14 Nov 2025 00:00:10 GMT"
+      },
+      {
+        "title": "Home listings featuring water-saving fixtures surge nearly 290% as buyers prioritize conservation",
+        "url": "https://www.foxbusiness.com/real-estate/home-listings-featuring-water-saving-fixtures-surge-nearly-290-buyers-prioritize-conservation",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Thu, 13 Nov 2025 23:42:33 GMT"
+      },
+      {
+        "title": "Russia’s first AI robot faceplants on stage in humiliating Moscow debut",
+        "url": "https://www.foxbusiness.com/fox-news-tech/russias-first-ai-robot-faceplants-stage-humiliating-moscow-debut",
+        "source": "Fox Business",
+        "author": "Emma Bussey",
+        "published": "Thu, 13 Nov 2025 23:23:29 GMT"
+      },
+      {
+        "title": "National Debt Tracker: American taxpayers (you) are now on the hook for $38,121,217,149,187.64 as of 11/13/25",
+        "url": "https://www.foxbusiness.com/economy/us-national-debt-tracker",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Thu, 13 Nov 2025 23:11:48 GMT"
+      },
+      {
+        "title": "LARRY KUDLOW: Growthier and money-er will solve affordability",
+        "url": "https://www.foxbusiness.com/politics/larry-kudlow-growthier-money-er-solve-affordability",
+        "source": "Fox Business",
+        "author": "Larry Kudlow",
+        "published": "Thu, 13 Nov 2025 23:11:25 GMT"
+      },
+      {
+        "title": "Disney CEO Bob Iger reacts to YouTube TV deal",
+        "url": "https://www.foxbusiness.com/lifestyle/disney-ceo-bob-iger-reacts-youtube-tv-deal",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Thu, 13 Nov 2025 22:26:31 GMT"
+      },
+      {
+        "title": "Inside look at MP Materials amid the rare earth race",
+        "url": "https://www.foxbusiness.com/politics/inside-look-mp-materials-amid-rare-earth-race",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Thu, 13 Nov 2025 20:52:09 GMT"
+      },
+      {
+        "title": "Target launches ‘10-4’ training, encouraging workers to smile at customers",
+        "url": "https://www.foxbusiness.com/retail/target-launches-10-4-training-encouraging-workers-smile-customers",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Thu, 13 Nov 2025 20:22:15 GMT"
+      }
+    ],
+    "summary": "Kim Kardashian's shapewear brand, Skims, has achieved a valuation of $5 billion after securing $225 million in new funding, highlighting the brand's rapid growth and market impact. Meanwhile, a billion-dollar beverage company is leveraging the influence of a young TikTok star to introduce a 'fun' new drink, underscoring the power of social media in modern product marketing. Disney has notably removed mentions of 'diversity' and 'DEI' from its business report for the first time in years, signaling a shift in corporate communication strategies. In the real estate sector, there's a significant rise in home listings featuring water-saving fixtures, reflecting growing consumer demand for environmental conservation. Lastly, Russia's unveiling of its first AI robot ended in embarrassment as it malfunctioned on stage, indicating the challenges and unpredictability in the development of AI technologies."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-14\n\n### Top Stories\n\n1. [Who Pays When A.I. Is Wrong?](https://www.nytimes.com/2025/11/12/business/media/ai-defamation-libel-slander.html)\n\n2. [Vine reboot called Divine has launched](https://popculturenews.com/vine-is-back/)\n\n3. [After years of saying no, Tesla reportedly adding Apple CarPlay to its cars](https://arstechnica.com/cars/2025/11/after-years-of-saying-no-tesla-reportedly-adding-apple-carplay-to-its-cars/)\n\n4. [Why Hotel-Room Cancellations Disappeared](https://www.theatlantic.com/technology/2025/11/hotel-room-cancellation-policy/684917/)\n\n5. [How to Get a North Korea / Antarctica VPS](https://blog.lyc8503.net/en/post/asn-5-worldwide-servers/)\n\n6. [Postgres IPC:SyncRep – Sync Replication Is Not Actually Sync Replication](https://ardentperf.com/2025/10/27/explaining-ipcsyncrep-postgres-sync-replication-is-not-actually-sync-replication/)\n\n7. [Microsoft-backed Veir is bringing superconductors to data centers](https://techcrunch.com/2025/11/12/microsoft-backed-veir-targets-data-centers-for-its-megawatt-class-superconductors/)\n\n8. [Tesla Is Working to Add Apple CarPlay in Bid to Boost Vehicle Sales](https://www.bloomberg.com/news/articles/2025-11-13/tesla-is-working-to-add-apple-carplay-in-bid-to-boost-vehicle-sales)\n\n9. [Electric Vehicle Range Prediction Models: A Review](https://www.mdpi.com/2032-6653/16/11/607)\n\n10. [Build apps with any modality input, reasoning, and any modality](https://github.com/8090-inc/xrx-core)\n\n### Summary\n\n1. The article explores the complexities and accountability issues surrounding errors made by artificial intelligence, questioning who is financially and ethically responsible when AI systems fail or cause harm.\n2. Divine, a new platform aiming to revive the spirit of the once-popular short-form video app Vine, has officially been launched, marking a significant moment for fans of the original service.\n3. Tesla is reportedly planning to integrate Apple CarPlay into its vehicles, a notable shift after years of resistance from the electric car maker, enhancing the in-car experience for iPhone users.\n4. The disappearance of hotel-room cancellations as a flexible option for travelers is examined, highlighting the changing policies and economic factors influencing the hospitality industry's approach towards booking flexibility.\n5. The article provides guidance on acquiring Virtual Private Server (VPS) hosting in the unique and politically complex locations of North Korea and Antarctica, touching on the technical and regulatory challenges involved.\n",
+    "stories": [
+      {
+        "title": "Who Pays When A.I. Is Wrong?",
+        "url": "https://www.nytimes.com/2025/11/12/business/media/ai-defamation-libel-slander.html",
+        "points": 3,
+        "comments": 0,
+        "author": "JumpCrisscross",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Vine reboot called Divine has launched",
+        "url": "https://popculturenews.com/vine-is-back/",
+        "points": 3,
+        "comments": 1,
+        "author": "choult",
+        "source": "Hacker News"
+      },
+      {
+        "title": "After years of saying no, Tesla reportedly adding Apple CarPlay to its cars",
+        "url": "https://arstechnica.com/cars/2025/11/after-years-of-saying-no-tesla-reportedly-adding-apple-carplay-to-its-cars/",
+        "points": 3,
+        "comments": 3,
+        "author": "JumpCrisscross",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Why Hotel-Room Cancellations Disappeared",
+        "url": "https://www.theatlantic.com/technology/2025/11/hotel-room-cancellation-policy/684917/",
+        "points": 2,
+        "comments": 1,
+        "author": "fortran77",
+        "source": "Hacker News"
+      },
+      {
+        "title": "How to Get a North Korea / Antarctica VPS",
+        "url": "https://blog.lyc8503.net/en/post/asn-5-worldwide-servers/",
+        "points": 1,
+        "comments": 0,
+        "author": "uneven9434",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Postgres IPC:SyncRep – Sync Replication Is Not Actually Sync Replication",
+        "url": "https://ardentperf.com/2025/10/27/explaining-ipcsyncrep-postgres-sync-replication-is-not-actually-sync-replication/",
+        "points": 1,
+        "comments": 0,
+        "author": "tanelpoder",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Microsoft-backed Veir is bringing superconductors to data centers",
+        "url": "https://techcrunch.com/2025/11/12/microsoft-backed-veir-targets-data-centers-for-its-megawatt-class-superconductors/",
+        "points": 1,
+        "comments": 1,
+        "author": "sudonanohome",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Tesla Is Working to Add Apple CarPlay in Bid to Boost Vehicle Sales",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-13/tesla-is-working-to-add-apple-carplay-in-bid-to-boost-vehicle-sales",
+        "points": 1,
+        "comments": 0,
+        "author": "JumpCrisscross",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Electric Vehicle Range Prediction Models: A Review",
+        "url": "https://www.mdpi.com/2032-6653/16/11/607",
+        "points": 1,
+        "comments": 0,
+        "author": "PaulHoule",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Build apps with any modality input, reasoning, and any modality",
+        "url": "https://github.com/8090-inc/xrx-core",
+        "points": 1,
+        "comments": 0,
+        "author": "amitav1",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. The article explores the complexities and accountability issues surrounding errors made by artificial intelligence, questioning who is financially and ethically responsible when AI systems fail or cause harm.\n2. Divine, a new platform aiming to revive the spirit of the once-popular short-form video app Vine, has officially been launched, marking a significant moment for fans of the original service.\n3. Tesla is reportedly planning to integrate Apple CarPlay into its vehicles, a notable shift after years of resistance from the electric car maker, enhancing the in-car experience for iPhone users.\n4. The disappearance of hotel-room cancellations as a flexible option for travelers is examined, highlighting the changing policies and economic factors influencing the hospitality industry's approach towards booking flexibility.\n5. The article provides guidance on acquiring Virtual Private Server (VPS) hosting in the unique and politically complex locations of North Korea and Antarctica, touching on the technical and regulatory challenges involved."
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-14\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-14\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-14-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-14-pointillism.png)\n"
+}
