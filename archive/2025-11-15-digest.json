@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-15",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-15\n\n### Top AI Stories\n\n1. [Did Google Just Solve AI’s BIGGEST Problem?!](https://www.youtube.com/watch?v=40eUFiGVeMo)\n\n2. [What’s the Best LLM (for YOUR project)?](https://www.youtube.com/watch?v=n4NokjyAklg)\n\n3. [Complete Detailed Roadmap To Learn AI In 2025-26 by an AI Researcher](https://www.youtube.com/watch?v=xg0hNUWVIgQ)\n\n4. [The AI Blueprint for the Next Decade | BUILD 2025 Luminary Conversation](https://www.youtube.com/watch?v=-HWNc-Hd90U)\n\n5. [The Ultimate Guide to LLM Terms in Machine Learning](https://www.youtube.com/watch?v=NksoOWrR4YM)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nThe content highlights pivotal advancements and guidance in the field of artificial intelligence, focusing on addressing significant challenges, selecting the most suitable Large Language Models (LLMs) for specific projects, and providing comprehensive learning roadmaps for AI mastery in the upcoming years. It also outlines strategic visions for AI development over the next decade and demystifies the terminology associated with LLMs in machine learning, aiming to empower individuals and organizations to navigate the rapidly evolving AI landscape more effectively.\n",
+    "stories": [
+      {
+        "title": "Did Google Just Solve AI’s BIGGEST Problem?!",
+        "url": "https://www.youtube.com/watch?v=40eUFiGVeMo",
+        "points": 0,
+        "comments": 0,
+        "author": "AI Copium",
+        "source": "YouTube"
+      },
+      {
+        "title": "What’s the Best LLM (for YOUR project)?",
+        "url": "https://www.youtube.com/watch?v=n4NokjyAklg",
+        "points": 0,
+        "comments": 0,
+        "author": "Marina Wyss - AI & Machine Learning",
+        "source": "YouTube"
+      },
+      {
+        "title": "Complete Detailed Roadmap To Learn AI In 2025-26 by an AI Researcher",
+        "url": "https://www.youtube.com/watch?v=xg0hNUWVIgQ",
+        "points": 0,
+        "comments": 0,
+        "author": "Harkirat Singh",
+        "source": "YouTube"
+      },
+      {
+        "title": "The AI Blueprint for the Next Decade | BUILD 2025 Luminary Conversation",
+        "url": "https://www.youtube.com/watch?v=-HWNc-Hd90U",
+        "points": 0,
+        "comments": 0,
+        "author": "Snowflake Inc.",
+        "source": "YouTube"
+      },
+      {
+        "title": "The Ultimate Guide to LLM Terms in Machine Learning",
+        "url": "https://www.youtube.com/watch?v=NksoOWrR4YM",
+        "points": 0,
+        "comments": 0,
+        "author": "VGRTutorialsPoint",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "The content highlights pivotal advancements and guidance in the field of artificial intelligence, focusing on addressing significant challenges, selecting the most suitable Large Language Models (LLMs) for specific projects, and providing comprehensive learning roadmaps for AI mastery in the upcoming years. It also outlines strategic visions for AI development over the next decade and demystifies the terminology associated with LLMs in machine learning, aiming to empower individuals and organizations to navigate the rapidly evolving AI landscape more effectively.",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-15\n\n### Top Stories\n\n1. [Trump rolls back tariffs on key imports, citing price relief for U.S. families and businesses](https://www.foxbusiness.com/politics/trump-rolls-back-tariffs-key-imports-citing-price-relief-u-s-families-businesses)\n\n2. [Amazon robotics chief: ‘I want to eliminate every menial, mundane job’ as AI reshapes warehouse work](https://www.foxbusiness.com/technology/amazon-robotics-chief-wants-eliminate-every-menial-mundane-job-company-within-years-warehouse-work)\n\n3. [Redfin teams up with Sierra to revolutionize homebuying with new conversational search tool](https://www.foxbusiness.com/media/redfin-teams-up-sierra-ai-revolutionize-homebuying-new-conversational-search-tool)\n\n4. [Flight restrictions slashed at 40 major US airports as government reopens, staffing improves](https://www.foxbusiness.com/money/flight-restrictions-slashed-40-major-us-airports-government-reopens-staffing-improves)\n\n5. [LARRY KUDLOW: Why are Gen Z-ers so dour, depressed, and unemployed?](https://www.foxbusiness.com/politics/larry-kudlow-why-gen-z-ers-so-dour-depressed-unemployed)\n\n6. [Stephen Curry, Under Armour part ways so NBA superstar can focus on independent brand](https://www.foxbusiness.com/sports/stephen-curry-under-armour-part-ways-so-nba-superstar-can-focus-independent-brand)\n\n7. [Bitcoin’s bear market week](https://www.foxbusiness.com/markets/bitcoins-bear-market-week)\n\n8. [US crude oil stockpiles rise as production hits record](https://www.foxbusiness.com/energy/us-crude-oil-stockpiles-rise-production-hits-record)\n\n9. [Trump axes Biden plan that would have forced airlines to pay passengers cash for delays](https://www.foxbusiness.com/fox-news-air-space/trump-axes-biden-plan-would-have-forced-airlines-pay-passengers-cash-delays)\n\n10. [Toyota recalls about 127K pickup trucks, SUVs over potential engine issues](https://www.foxbusiness.com/lifestyle/toyota-recalls-about-127k-pickup-trucks-suvs-over-potential-engine-issues)\n\n### Summary\n\n1. The Trump administration has reduced tariffs on essential imports, aiming to alleviate financial pressures on American households and companies.\n2. Amazon's head of robotics expresses a desire to automate all repetitive and uninteresting jobs, highlighting the transformative impact of AI on warehouse operations.\n3. Redfin collaborates with Sierra to introduce an innovative conversational search tool, aiming to significantly enhance the homebuying process.\n4. The U.S. government has lifted flight restrictions at 40 major airports, attributed to the reopening of the government and improved staffing conditions.\n5. Larry Kudlow discusses the concerning trends of pessimism, depression, and unemployment among Generation Z, questioning the underlying causes.\n",
+    "stories": [
+      {
+        "title": "Trump rolls back tariffs on key imports, citing price relief for U.S. families and businesses",
+        "url": "https://www.foxbusiness.com/politics/trump-rolls-back-tariffs-key-imports-citing-price-relief-u-s-families-businesses",
+        "source": "Fox Business",
+        "author": "Louis Casiano",
+        "published": "Sat, 15 Nov 2025 00:10:28 GMT"
+      },
+      {
+        "title": "Amazon robotics chief: ‘I want to eliminate every menial, mundane job’ as AI reshapes warehouse work",
+        "url": "https://www.foxbusiness.com/technology/amazon-robotics-chief-wants-eliminate-every-menial-mundane-job-company-within-years-warehouse-work",
+        "source": "Fox Business",
+        "author": "Susan Li",
+        "published": "Fri, 14 Nov 2025 23:52:50 GMT"
+      },
+      {
+        "title": "Redfin teams up with Sierra to revolutionize homebuying with new conversational search tool",
+        "url": "https://www.foxbusiness.com/media/redfin-teams-up-sierra-ai-revolutionize-homebuying-new-conversational-search-tool",
+        "source": "Fox Business",
+        "author": "Maria Lencki",
+        "published": "Fri, 14 Nov 2025 23:36:35 GMT"
+      },
+      {
+        "title": "Flight restrictions slashed at 40 major US airports as government reopens, staffing improves",
+        "url": "https://www.foxbusiness.com/money/flight-restrictions-slashed-40-major-us-airports-government-reopens-staffing-improves",
+        "source": "Fox Business",
+        "author": "Alexandra Koch",
+        "published": "Fri, 14 Nov 2025 23:08:05 GMT"
+      },
+      {
+        "title": "LARRY KUDLOW: Why are Gen Z-ers so dour, depressed, and unemployed?",
+        "url": "https://www.foxbusiness.com/politics/larry-kudlow-why-gen-z-ers-so-dour-depressed-unemployed",
+        "source": "Fox Business",
+        "author": "Larry Kudlow",
+        "published": "Fri, 14 Nov 2025 23:06:22 GMT"
+      },
+      {
+        "title": "Stephen Curry, Under Armour part ways so NBA superstar can focus on independent brand",
+        "url": "https://www.foxbusiness.com/sports/stephen-curry-under-armour-part-ways-so-nba-superstar-can-focus-independent-brand",
+        "source": "Fox Business",
+        "author": "Ryan Morik",
+        "published": "Fri, 14 Nov 2025 21:37:46 GMT"
+      },
+      {
+        "title": "Bitcoin’s bear market week",
+        "url": "https://www.foxbusiness.com/markets/bitcoins-bear-market-week",
+        "source": "Fox Business",
+        "author": "Suzanne O'Halloran",
+        "published": "Fri, 14 Nov 2025 21:32:37 GMT"
+      },
+      {
+        "title": "US crude oil stockpiles rise as production hits record",
+        "url": "https://www.foxbusiness.com/energy/us-crude-oil-stockpiles-rise-production-hits-record",
+        "source": "Fox Business",
+        "author": "Fox Business",
+        "published": "Fri, 14 Nov 2025 21:13:27 GMT"
+      },
+      {
+        "title": "Trump axes Biden plan that would have forced airlines to pay passengers cash for delays",
+        "url": "https://www.foxbusiness.com/fox-news-air-space/trump-axes-biden-plan-would-have-forced-airlines-pay-passengers-cash-delays",
+        "source": "Fox Business",
+        "author": "Alexandra Koch",
+        "published": "Fri, 14 Nov 2025 20:10:52 GMT"
+      },
+      {
+        "title": "Toyota recalls about 127K pickup trucks, SUVs over potential engine issues",
+        "url": "https://www.foxbusiness.com/lifestyle/toyota-recalls-about-127k-pickup-trucks-suvs-over-potential-engine-issues",
+        "source": "Fox Business",
+        "author": "Matthew Kazin",
+        "published": "Fri, 14 Nov 2025 20:06:42 GMT"
+      }
+    ],
+    "summary": "1. The Trump administration has reduced tariffs on essential imports, aiming to alleviate financial pressures on American households and companies.\n2. Amazon's head of robotics expresses a desire to automate all repetitive and uninteresting jobs, highlighting the transformative impact of AI on warehouse operations.\n3. Redfin collaborates with Sierra to introduce an innovative conversational search tool, aiming to significantly enhance the homebuying process.\n4. The U.S. government has lifted flight restrictions at 40 major airports, attributed to the reopening of the government and improved staffing conditions.\n5. Larry Kudlow discusses the concerning trends of pessimism, depression, and unemployment among Generation Z, questioning the underlying causes."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-15\n\n### Top Stories\n\n1. [A New York film festival canceled due to Chinese authorities pressure](https://www.nbcnews.com/news/us-news/new-york-film-festival-canceled-chinese-pressure-rcna243943)\n\n2. [The first of 30 Bob Ross works were auctioned for public TV: They broke records](https://www.npr.org/2025/10/08/nx-s1-5566744/bob-ross-paintings-auction-public-media)\n\n3. [Seven killed, 27 injured in explosion at police station in India's Kashmir](https://www.rnz.co.nz/news/world/578961/seven-killed-27-injured-in-explosion-at-police-station-in-india-s-kashmir-ndtv-reports)\n\n4. [VisiData – open-source spreadsheet for the terminal](https://www.visidata.org/)\n\n5. [Show HN: BranchBox – isolated dev environments per feature](https://github.com/branchbox/branchbox)\n\n6. [Review of Spreadsheet User Interfaces](https://www.vogt.world/review-of-spreadsheet-user-interfaces/)\n\n7. [Zig GUI from Scratch](https://www.vogt.world/zig-gui-from-scratch-part-1/)\n\n8. [Find and share the best Black Friday deals](https://rewardkitty.com/)\n\n9. [Show HN: Instagram Saved Posts Exporter](https://chromewebstore.google.com/detail/instagram-saved-posts-exp/opgclnehegaekpalmclkdaomgljpbadp)\n\n10. [Starlight Spotlight: A Hospital Wii in a New Light](https://dolphin-emu.org/blog/2025/11/14/starlight-spotlight/)\n\n### Summary\n\n1. A New York film festival was canceled following pressure from Chinese authorities, highlighting the influence of political factors on international cultural events.\n2. The auction of Bob Ross's artworks for public TV not only shattered records but also underscored the enduring popularity and financial value of the beloved painter's works.\n3. A devastating explosion at a police station in India's Kashmir resulted in significant casualties, underscoring ongoing security challenges in the region.\n4. VisiData, an open-source spreadsheet designed for terminal use, represents a significant development in data analysis tools, offering a powerful alternative for tech professionals.\n5. BranchBox introduced isolated development environments for each feature, showcasing an innovative approach to software development that enhances efficiency and collaboration among developers.\n",
+    "stories": [
+      {
+        "title": "A New York film festival canceled due to Chinese authorities pressure",
+        "url": "https://www.nbcnews.com/news/us-news/new-york-film-festival-canceled-chinese-pressure-rcna243943",
+        "points": 6,
+        "comments": 1,
+        "author": "737min",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The first of 30 Bob Ross works were auctioned for public TV: They broke records",
+        "url": "https://www.npr.org/2025/10/08/nx-s1-5566744/bob-ross-paintings-auction-public-media",
+        "points": 3,
+        "comments": 0,
+        "author": "1659447091",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Seven killed, 27 injured in explosion at police station in India's Kashmir",
+        "url": "https://www.rnz.co.nz/news/world/578961/seven-killed-27-injured-in-explosion-at-police-station-in-india-s-kashmir-ndtv-reports",
+        "points": 2,
+        "comments": 0,
+        "author": "colinprince",
+        "source": "Hacker News"
+      },
+      {
+        "title": "VisiData – open-source spreadsheet for the terminal",
+        "url": "https://www.visidata.org/",
+        "points": 1,
+        "comments": 0,
+        "author": "andsoitis",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: BranchBox – isolated dev environments per feature",
+        "url": "https://github.com/branchbox/branchbox",
+        "points": 1,
+        "comments": 0,
+        "author": "rida",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Review of Spreadsheet User Interfaces",
+        "url": "https://www.vogt.world/review-of-spreadsheet-user-interfaces/",
+        "points": 1,
+        "comments": 0,
+        "author": "andsoitis",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Zig GUI from Scratch",
+        "url": "https://www.vogt.world/zig-gui-from-scratch-part-1/",
+        "points": 1,
+        "comments": 0,
+        "author": "andsoitis",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Find and share the best Black Friday deals",
+        "url": "https://rewardkitty.com/",
+        "points": 1,
+        "comments": 0,
+        "author": "devarifhossain",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: Instagram Saved Posts Exporter",
+        "url": "https://chromewebstore.google.com/detail/instagram-saved-posts-exp/opgclnehegaekpalmclkdaomgljpbadp",
+        "points": 1,
+        "comments": 1,
+        "author": "qwikhost",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Starlight Spotlight: A Hospital Wii in a New Light",
+        "url": "https://dolphin-emu.org/blog/2025/11/14/starlight-spotlight/",
+        "points": 1,
+        "comments": 0,
+        "author": "zdw",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. A New York film festival was canceled following pressure from Chinese authorities, highlighting the influence of political factors on international cultural events.\n2. The auction of Bob Ross's artworks for public TV not only shattered records but also underscored the enduring popularity and financial value of the beloved painter's works.\n3. A devastating explosion at a police station in India's Kashmir resulted in significant casualties, underscoring ongoing security challenges in the region.\n4. VisiData, an open-source spreadsheet designed for terminal use, represents a significant development in data analysis tools, offering a powerful alternative for tech professionals.\n5. BranchBox introduced isolated development environments for each feature, showcasing an innovative approach to software development that enhances efficiency and collaboration among developers."
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-15\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-15\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-15-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-15-pointillism.png)\n"
+}
