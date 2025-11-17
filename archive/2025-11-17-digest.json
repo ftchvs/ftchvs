@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-17",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-17\n\n### Top AI Stories\n\n1. [Local AI just leveled up... Llama.cpp vs Ollama](https://www.youtube.com/watch?v=2t9XrPcAiHg)\n\n2. [Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)](https://www.youtube.com/watch?v=G2zI6tNTDeg)\n\n3. [The Ultimate Guide to LLM Terms in Machine Learning](https://www.youtube.com/watch?v=NksoOWrR4YM)\n\n4. [When Did LLMs Get This Good At Physics?](https://www.youtube.com/watch?v=njNrTUMC6qE)\n\n5. [The AI Blueprint for the Next Decade | BUILD 2025 Luminary Conversation](https://www.youtube.com/watch?v=-HWNc-Hd90U)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\n1. The landscape of local AI has advanced significantly, highlighted by a comparison between Llama.cpp and Ollama, showcasing the latest developments in AI capabilities and efficiency enhancements.\n\n2. A groundbreaking discovery by researchers has challenged the foundational assumption about Large Language Models (LLMs), suggesting that previous understandings of LLMs' capabilities and limitations were incorrect.\n\n3. A comprehensive guide to LLM terms in machine learning has been introduced, providing essential definitions and explanations to help both newcomers and seasoned professionals navigate the complex terminology of LLMs.\n\n4. The remarkable improvement in Large Language Models' (LLMs) ability to understand and predict physical phenomena has raised questions about when and how these AI models became so proficient in physics.\n\n5. The \"AI Blueprint for the Next Decade\" from the BUILD 2025 Luminary Conversation outlines strategic directions and goals for AI development, emphasizing innovation, application, and ethical considerations for the coming years.\n",
+    "stories": [
+      {
+        "title": "Local AI just leveled up... Llama.cpp vs Ollama",
+        "url": "https://www.youtube.com/watch?v=2t9XrPcAiHg",
+        "points": 0,
+        "comments": 0,
+        "author": "Alex Ziskind",
+        "source": "YouTube"
+      },
+      {
+        "title": "Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)",
+        "url": "https://www.youtube.com/watch?v=G2zI6tNTDeg",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "The Ultimate Guide to LLM Terms in Machine Learning",
+        "url": "https://www.youtube.com/watch?v=NksoOWrR4YM",
+        "points": 0,
+        "comments": 0,
+        "author": "VGRTutorialsPoint",
+        "source": "YouTube"
+      },
+      {
+        "title": "When Did LLMs Get This Good At Physics?",
+        "url": "https://www.youtube.com/watch?v=njNrTUMC6qE",
+        "points": 0,
+        "comments": 0,
+        "author": "Sabine Hossenfelder",
+        "source": "YouTube"
+      },
+      {
+        "title": "The AI Blueprint for the Next Decade | BUILD 2025 Luminary Conversation",
+        "url": "https://www.youtube.com/watch?v=-HWNc-Hd90U",
+        "points": 0,
+        "comments": 0,
+        "author": "Snowflake Inc.",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. The landscape of local AI has advanced significantly, highlighted by a comparison between Llama.cpp and Ollama, showcasing the latest developments in AI capabilities and efficiency enhancements.\n\n2. A groundbreaking discovery by researchers has challenged the foundational assumption about Large Language Models (LLMs), suggesting that previous understandings of LLMs' capabilities and limitations were incorrect.\n\n3. A comprehensive guide to LLM terms in machine learning has been introduced, providing essential definitions and explanations to help both newcomers and seasoned professionals navigate the complex terminology of LLMs.\n\n4. The remarkable improvement in Large Language Models' (LLMs) ability to understand and predict physical phenomena has raised questions about when and how these AI models became so proficient in physics.\n\n5. The \"AI Blueprint for the Next Decade\" from the BUILD 2025 Luminary Conversation outlines strategic directions and goals for AI development, emphasizing innovation, application, and ethical considerations for the coming years.",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-17\n\n### Top Stories\n\n1. [Chick-fil-A testing new sandwiches in 2 cities](https://www.foxbusiness.com/lifestyle/chick-fil-a-testing-new-sandwiches-2-cities)\n\n2. [This is the most affordable city in the US](https://www.foxbusiness.com/real-estate/most-affordable-city-us)\n\n3. [Disney launches newest cruise ship amid massive seafaring expansion](https://www.foxbusiness.com/lifestyle/disney-launches-newest-cruise-ship-massive-seafaring-expansion)\n\n4. [Google to invest $40B in Texas data centers in major AI push](https://www.foxbusiness.com/economy/google-invest-40b-texas-data-centers-major-ai-push)\n\n5. [Paul Newman and Joanne Woodward's New York apartment hits market for first time in 40 years for $1.69M](https://www.foxbusiness.com/fox-news-entertainment/paul-newman-joanne-woodwards-new-york-apartment-hits-market-first-time-40-years-1-69m)\n\n6. [Bill Ackman to unveil plan for mortgage giants Fannie Mae and Freddie Mac this week](https://www.foxbusiness.com/politics/bill-ackman-unveil-new-plan-fannie-mae-freddie-mac-tuesday-livestream)\n\n7. [FAA will lift emergency flight reductions Monday](https://www.nbcnews.com/news/us-news/faa-will-lift-emergency-flight-reductions-monday-rcna244282)\n\n8. [Is the Dream of Home Ownership Dead for Younger Americans?](https://www.today.com/video/dream-of-home-ownership-grows-more-out-of-reach-252146245637)\n\n9. [Matthew Belloni Is Yelling ‘Iceberg!’ on the Hollywood Titanic](https://www.nytimes.com/2025/11/16/business/matthew-belloni-puck-hollywood.html)\n\n10. [Pasta at Twice the Price? Some Italian Producers Face Huge U.S. Tariffs.](https://www.nytimes.com/2025/11/16/business/italian-pasta-tariffs-trump.html)\n\n### Summary\n\nChick-fil-A is experimenting with new sandwich offerings in select cities, signaling potential menu expansions. Meanwhile, a report identifies the most affordable city in the U.S., providing insight into economic and housing trends. Disney is enhancing its cruise line fleet with the launch of its latest ship, part of a broader initiative to expand its maritime presence. Google announces a significant $40 billion investment in Texas data centers, underscoring its commitment to advancing artificial intelligence technology. Lastly, the New York apartment of celebrated actors Paul Newman and Joanne Woodward has been listed for sale at $1.69 million, marking its first availability in four decades and highlighting the enduring allure of celebrity-associated real estate.\n",
+    "stories": [
+      {
+        "title": "Chick-fil-A testing new sandwiches in 2 cities",
+        "url": "https://www.foxbusiness.com/lifestyle/chick-fil-a-testing-new-sandwiches-2-cities",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Sun, 16 Nov 2025 19:12:11 GMT"
+      },
+      {
+        "title": "This is the most affordable city in the US",
+        "url": "https://www.foxbusiness.com/real-estate/most-affordable-city-us",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Sun, 16 Nov 2025 17:59:19 GMT"
+      },
+      {
+        "title": "Disney launches newest cruise ship amid massive seafaring expansion",
+        "url": "https://www.foxbusiness.com/lifestyle/disney-launches-newest-cruise-ship-massive-seafaring-expansion",
+        "source": "Fox Business",
+        "author": "Pilar Arias",
+        "published": "Sun, 16 Nov 2025 15:47:37 GMT"
+      },
+      {
+        "title": "Google to invest $40B in Texas data centers in major AI push",
+        "url": "https://www.foxbusiness.com/economy/google-invest-40b-texas-data-centers-major-ai-push",
+        "source": "Fox Business",
+        "author": "Pilar Arias",
+        "published": "Sun, 16 Nov 2025 13:15:10 GMT"
+      },
+      {
+        "title": "Paul Newman and Joanne Woodward's New York apartment hits market for first time in 40 years for $1.69M",
+        "url": "https://www.foxbusiness.com/fox-news-entertainment/paul-newman-joanne-woodwards-new-york-apartment-hits-market-first-time-40-years-1-69m",
+        "source": "Fox Business",
+        "author": "Lori Bashian",
+        "published": "Sun, 16 Nov 2025 13:00:00 GMT"
+      },
+      {
+        "title": "Bill Ackman to unveil plan for mortgage giants Fannie Mae and Freddie Mac this week",
+        "url": "https://www.foxbusiness.com/politics/bill-ackman-unveil-new-plan-fannie-mae-freddie-mac-tuesday-livestream",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Sun, 16 Nov 2025 12:23:47 GMT"
+      },
+      {
+        "title": "FAA will lift emergency flight reductions Monday",
+        "url": "https://www.nbcnews.com/news/us-news/faa-will-lift-emergency-flight-reductions-monday-rcna244282",
+        "source": "NBC News",
+        "author": "Jay Blackman",
+        "published": "Mon, 17 Nov 2025 01:12:42 GMT"
+      },
+      {
+        "title": "Is the Dream of Home Ownership Dead for Younger Americans?",
+        "url": "https://www.today.com/video/dream-of-home-ownership-grows-more-out-of-reach-252146245637",
+        "source": "NBC News",
+        "author": "NBC News",
+        "published": "Sun, 16 Nov 2025 13:49:25 GMT"
+      },
+      {
+        "title": "Matthew Belloni Is Yelling ‘Iceberg!’ on the Hollywood Titanic",
+        "url": "https://www.nytimes.com/2025/11/16/business/matthew-belloni-puck-hollywood.html",
+        "source": "NYTimes",
+        "author": "Irina Aleksander",
+        "published": "Sun, 16 Nov 2025 20:51:10 +0000"
+      },
+      {
+        "title": "Pasta at Twice the Price? Some Italian Producers Face Huge U.S. Tariffs.",
+        "url": "https://www.nytimes.com/2025/11/16/business/italian-pasta-tariffs-trump.html",
+        "source": "NYTimes",
+        "author": "Eshe Nelson and Gianni Cipriano",
+        "published": "Sun, 16 Nov 2025 10:00:48 +0000"
+      }
+    ],
+    "summary": "Chick-fil-A is experimenting with new sandwich offerings in select cities, signaling potential menu expansions. Meanwhile, a report identifies the most affordable city in the U.S., providing insight into economic and housing trends. Disney is enhancing its cruise line fleet with the launch of its latest ship, part of a broader initiative to expand its maritime presence. Google announces a significant $40 billion investment in Texas data centers, underscoring its commitment to advancing artificial intelligence technology. Lastly, the New York apartment of celebrated actors Paul Newman and Joanne Woodward has been listed for sale at $1.69 million, marking its first availability in four decades and highlighting the enduring allure of celebrity-associated real estate."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-17\n\n### Top Stories\n\n1. [Show HN: 13Radar – Real-Time Hedge Fund Portfolio Analytics](https://www.13radar.com/)\n\n2. [A.I. Cheating Rattles Top Universities in South Korea](https://www.nytimes.com/2025/11/14/world/asia/south-korea-ai-cheating-college.html)\n\n3. [How Men and Women Spend Their Days](https://flowingdata.com/2025/11/04/spend-days-men-women-2024/)\n\n4. [High Schoolers Built a Swipeable Local Business Directory](https://news.ycombinator.com/item?id=45950007)\n\n5. [U.S. to designate Maduro-linked Cartel de los Soles as terrorists](https://bnonews.com/index.php/2025/11/u-s-to-designate-maduro-linked-cartel-de-los-soles-as-terrorist-organization/)\n\n6. [The Optimization Trap](https://domofutu.substack.com/p/the-optimization-trap)\n\n7. [Monotonic Collections: a middle ground between immutable and mutable](https://neilmadden.blog/2025/11/11/monotonic-collections-a-middle-ground-between-immutable-and-fully-mutable/)\n\n8. [Go60 – MoErgo](https://www.moergo.com/pages/go60)\n\n9. [Show HN: Isitendoflife.com Simple EOL Visibility](https://isiteol.metaport.sh/python)\n\n10. [Nanopass Framework](https://nanopass.org)\n\n### Summary\n\n1. 13Radar presents a platform for real-time analytics on hedge fund portfolios, offering a novel tool for investors to gain insights into market trends and hedge fund strategies.\n\n2. Universities in South Korea are grappling with the challenge of AI-assisted cheating, highlighting the growing concerns around academic integrity in the age of advanced technological tools.\n\n3. Research on the daily activities of men and women reveals significant differences in how each gender allocates their time, shedding light on societal roles and personal priorities.\n\n4. A group of high school students has developed a swipeable directory for local businesses, showcasing the potential of youth-driven initiatives to support community commerce through innovative technology.\n\n5. The U.S. government plans to label the Maduro-linked Cartel de los Soles as a terrorist organization, indicating a strategic move to address security concerns and illicit activities through policy and technological measures.\n",
+    "stories": [
+      {
+        "title": "Show HN: 13Radar – Real-Time Hedge Fund Portfolio Analytics",
+        "url": "https://www.13radar.com/",
+        "points": 5,
+        "comments": 2,
+        "author": "brokerjames",
+        "source": "Hacker News"
+      },
+      {
+        "title": "A.I. Cheating Rattles Top Universities in South Korea",
+        "url": "https://www.nytimes.com/2025/11/14/world/asia/south-korea-ai-cheating-college.html",
+        "points": 2,
+        "comments": 1,
+        "author": "bookofjoe",
+        "source": "Hacker News"
+      },
+      {
+        "title": "How Men and Women Spend Their Days",
+        "url": "https://flowingdata.com/2025/11/04/spend-days-men-women-2024/",
+        "points": 2,
+        "comments": 0,
+        "author": "gmays",
+        "source": "Hacker News"
+      },
+      {
+        "title": "High Schoolers Built a Swipeable Local Business Directory",
+        "url": "https://news.ycombinator.com/item?id=45950007",
+        "points": 2,
+        "comments": 0,
+        "author": "nabirarashid",
+        "source": "Hacker News"
+      },
+      {
+        "title": "U.S. to designate Maduro-linked Cartel de los Soles as terrorists",
+        "url": "https://bnonews.com/index.php/2025/11/u-s-to-designate-maduro-linked-cartel-de-los-soles-as-terrorist-organization/",
+        "points": 2,
+        "comments": 0,
+        "author": "wslh",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The Optimization Trap",
+        "url": "https://domofutu.substack.com/p/the-optimization-trap",
+        "points": 2,
+        "comments": 0,
+        "author": "domofutu",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Monotonic Collections: a middle ground between immutable and mutable",
+        "url": "https://neilmadden.blog/2025/11/11/monotonic-collections-a-middle-ground-between-immutable-and-fully-mutable/",
+        "points": 1,
+        "comments": 0,
+        "author": "it4rb",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Go60 – MoErgo",
+        "url": "https://www.moergo.com/pages/go60",
+        "points": 1,
+        "comments": 0,
+        "author": "cusx",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: Isitendoflife.com Simple EOL Visibility",
+        "url": "https://isiteol.metaport.sh/python",
+        "points": 1,
+        "comments": 1,
+        "author": "theruss",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Nanopass Framework",
+        "url": "https://nanopass.org",
+        "points": 1,
+        "comments": 0,
+        "author": "swatson741",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. 13Radar presents a platform for real-time analytics on hedge fund portfolios, offering a novel tool for investors to gain insights into market trends and hedge fund strategies.\n\n2. Universities in South Korea are grappling with the challenge of AI-assisted cheating, highlighting the growing concerns around academic integrity in the age of advanced technological tools.\n\n3. Research on the daily activities of men and women reveals significant differences in how each gender allocates their time, shedding light on societal roles and personal priorities.\n\n4. A group of high school students has developed a swipeable directory for local businesses, showcasing the potential of youth-driven initiatives to support community commerce through innovative technology.\n\n5. The U.S. government plans to label the Maduro-linked Cartel de los Soles as a terrorist organization, indicating a strategic move to address security concerns and illicit activities through policy and technological measures."
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-17\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-17\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-17-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-17-pointillism.png)\n"
+}
