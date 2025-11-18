@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-18",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-18\n\n### Top AI Stories\n\n1. [Local AI just leveled up... Llama.cpp vs Ollama](https://www.youtube.com/watch?v=2t9XrPcAiHg)\n\n2. [Researchers at Apple answer the big question, do LLMs know what they don’t know? #ai #llm #fyp](https://www.youtube.com/watch?v=33TfDaovLGc)\n\n3. [Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)](https://www.youtube.com/watch?v=G2zI6tNTDeg)\n\n4. [GPT 5.1 - The AI Update Nobody Expected...](https://www.youtube.com/watch?v=0dLfE_ek-WM)\n\n5. [Could LLMs Be The Route To Superintelligence? — With Mustafa Suleyman](https://www.youtube.com/watch?v=j_3MPTLhHxM)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nRecent advancements in artificial intelligence (AI) have introduced significant developments and discussions around Large Language Models (LLMs), highlighting both their capabilities and limitations. Innovations such as Llama.cpp and Ollama mark a notable progression in local AI performance, while researchers, including those at Apple, are deeply investigating LLMs' awareness of their knowledge boundaries, challenging prior assumptions about their understanding. Additionally, the unexpected release of GPT 5.1 signifies a major leap in AI technology, raising discussions on whether LLMs could pave the way to achieving superintelligence, as suggested by experts like Mustafa Suleyman. These developments underscore a pivotal moment in AI research, emphasizing the exploration of LLMs' potential and the reevaluation of fundamental assumptions about their operation.\n",
+    "stories": [
+      {
+        "title": "Local AI just leveled up... Llama.cpp vs Ollama",
+        "url": "https://www.youtube.com/watch?v=2t9XrPcAiHg",
+        "points": 0,
+        "comments": 0,
+        "author": "Alex Ziskind",
+        "source": "YouTube"
+      },
+      {
+        "title": "Researchers at Apple answer the big question, do LLMs know what they don’t know? #ai #llm #fyp",
+        "url": "https://www.youtube.com/watch?v=33TfDaovLGc",
+        "points": 0,
+        "comments": 0,
+        "author": "Parthknowsai",
+        "source": "YouTube"
+      },
+      {
+        "title": "Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)",
+        "url": "https://www.youtube.com/watch?v=G2zI6tNTDeg",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "GPT 5.1 - The AI Update Nobody Expected...",
+        "url": "https://www.youtube.com/watch?v=0dLfE_ek-WM",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "Could LLMs Be The Route To Superintelligence? — With Mustafa Suleyman",
+        "url": "https://www.youtube.com/watch?v=j_3MPTLhHxM",
+        "points": 0,
+        "comments": 0,
+        "author": "Alex Kantrowitz",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "Recent advancements in artificial intelligence (AI) have introduced significant developments and discussions around Large Language Models (LLMs), highlighting both their capabilities and limitations. Innovations such as Llama.cpp and Ollama mark a notable progression in local AI performance, while researchers, including those at Apple, are deeply investigating LLMs' awareness of their knowledge boundaries, challenging prior assumptions about their understanding. Additionally, the unexpected release of GPT 5.1 signifies a major leap in AI technology, raising discussions on whether LLMs could pave the way to achieving superintelligence, as suggested by experts like Mustafa Suleyman. These developments underscore a pivotal moment in AI research, emphasizing the exploration of LLMs' potential and the reevaluation of fundamental assumptions about their operation.",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-18\n\n### Top Stories\n\n1. [LARRY KUDLOW: Trump’s strong growth at low inflation should put the fake news to rest](https://www.foxbusiness.com/politics/larry-kudlow-trumps-strong-growth-low-inflation-should-put-fake-news-rest)\n\n2. [See inside Ford’s new world headquarters, where innovation meets design](https://www.foxbusiness.com/lifestyle/see-inside-fords-new-world-headquarters-where-innovation-meets-design)\n\n3. [Google shares hit record after Buffett's Berkshire surprise investment](https://www.foxbusiness.com/markets/google-shares-soar-record-high-buffetts-berkshire-makes-surprise-4b-investment-move)\n\n4. [Trump team pledges to drive beef prices down by 2026 as USDA chief pushes back on $10-per-pound warning](https://www.foxbusiness.com/economy/trump-team-pledges-to-drive-beef-prices-down-by-2026-usda-chief-pushes-back-on-10-per-pound-warning)\n\n5. [Beloved steakhouse chain is making a comeback](https://www.foxbusiness.com/lifestyle/beloved-steakhouse-chain-making-comeback)\n\n6. [All SNAP recipients required to reapply as Trump admin cracks down on fraud: 'Business as usual is over'](https://www.foxbusiness.com/politics/all-snap-recipients-required-reapply-trump-admin-cracks-down-fraud-business-usual-over)\n\n7. [Bessent warns 'perfect storm' brewing for beef prices, details Trump's $2,000 plan for working families](https://www.foxbusiness.com/economy/bessent-warns-perfect-storm-brewing-beef-prices-details-trumps-2000-plan-working-families)\n\n8. [Traders bet Supreme Court won’t back Trump on tariffs, dimming rebate hopes](https://www.foxbusiness.com/politics/traders-bet-supreme-court-wont-back-trump-tariffs-dimming-rebate-hopes)\n\n9. [Trump says grocery prices already 'much lower' than Biden era, suggests further relief coming](https://www.foxbusiness.com/politics/trump-says-grocery-prices-already-much-lower-biden-era-suggests-further-relief-coming)\n\n10. [FAA to lift emergency flight restrictions Monday morning as air traffic staffing rebounds](https://www.foxbusiness.com/fox-news-travel/faa-end-emergency-order-resume-normal-air-traffic-operations-monday)\n\n### Summary\n\nLarry Kudlow defends Trump's economic policies, highlighting a period of strong growth and low inflation as evidence against critics. Ford unveils its new world headquarters, emphasizing a blend of innovation and design. Google's stock reaches a new high following an unexpected investment from Warren Buffett's Berkshire Hathaway. The Trump administration commits to reducing beef prices by 2026, despite the USDA chief's warning of potential price hikes. Meanwhile, a popular steakhouse chain is poised for a resurgence, signaling potential growth in the restaurant industry.\n",
+    "stories": [
+      {
+        "title": "LARRY KUDLOW: Trump’s strong growth at low inflation should put the fake news to rest",
+        "url": "https://www.foxbusiness.com/politics/larry-kudlow-trumps-strong-growth-low-inflation-should-put-fake-news-rest",
+        "source": "Fox Business",
+        "author": "Larry Kudlow",
+        "published": "Mon, 17 Nov 2025 23:06:13 GMT"
+      },
+      {
+        "title": "See inside Ford’s new world headquarters, where innovation meets design",
+        "url": "https://www.foxbusiness.com/lifestyle/see-inside-fords-new-world-headquarters-where-innovation-meets-design",
+        "source": "Fox Business",
+        "author": "Matthew Kazin",
+        "published": "Mon, 17 Nov 2025 20:57:58 GMT"
+      },
+      {
+        "title": "Google shares hit record after Buffett's Berkshire surprise investment",
+        "url": "https://www.foxbusiness.com/markets/google-shares-soar-record-high-buffetts-berkshire-makes-surprise-4b-investment-move",
+        "source": "Fox Business",
+        "author": "Fox Business",
+        "published": "Mon, 17 Nov 2025 20:25:08 GMT"
+      },
+      {
+        "title": "Trump team pledges to drive beef prices down by 2026 as USDA chief pushes back on $10-per-pound warning",
+        "url": "https://www.foxbusiness.com/economy/trump-team-pledges-to-drive-beef-prices-down-by-2026-usda-chief-pushes-back-on-10-per-pound-warning",
+        "source": "Fox Business",
+        "author": "Kristen Altus",
+        "published": "Mon, 17 Nov 2025 19:20:26 GMT"
+      },
+      {
+        "title": "Beloved steakhouse chain is making a comeback",
+        "url": "https://www.foxbusiness.com/lifestyle/beloved-steakhouse-chain-making-comeback",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Mon, 17 Nov 2025 18:06:15 GMT"
+      },
+      {
+        "title": "All SNAP recipients required to reapply as Trump admin cracks down on fraud: 'Business as usual is over'",
+        "url": "https://www.foxbusiness.com/politics/all-snap-recipients-required-reapply-trump-admin-cracks-down-fraud-business-usual-over",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Mon, 17 Nov 2025 17:38:47 GMT"
+      },
+      {
+        "title": "Bessent warns 'perfect storm' brewing for beef prices, details Trump's $2,000 plan for working families",
+        "url": "https://www.foxbusiness.com/economy/bessent-warns-perfect-storm-brewing-beef-prices-details-trumps-2000-plan-working-families",
+        "source": "Fox Business",
+        "author": "Kristen Altus",
+        "published": "Mon, 17 Nov 2025 14:47:38 GMT"
+      },
+      {
+        "title": "Traders bet Supreme Court won’t back Trump on tariffs, dimming rebate hopes",
+        "url": "https://www.foxbusiness.com/politics/traders-bet-supreme-court-wont-back-trump-tariffs-dimming-rebate-hopes",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Mon, 17 Nov 2025 14:17:20 GMT"
+      },
+      {
+        "title": "Trump says grocery prices already 'much lower' than Biden era, suggests further relief coming",
+        "url": "https://www.foxbusiness.com/politics/trump-says-grocery-prices-already-much-lower-biden-era-suggests-further-relief-coming",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Mon, 17 Nov 2025 03:37:47 GMT"
+      },
+      {
+        "title": "FAA to lift emergency flight restrictions Monday morning as air traffic staffing rebounds",
+        "url": "https://www.foxbusiness.com/fox-news-travel/faa-end-emergency-order-resume-normal-air-traffic-operations-monday",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Mon, 17 Nov 2025 02:25:15 GMT"
+      }
+    ],
+    "summary": "Larry Kudlow defends Trump's economic policies, highlighting a period of strong growth and low inflation as evidence against critics. Ford unveils its new world headquarters, emphasizing a blend of innovation and design. Google's stock reaches a new high following an unexpected investment from Warren Buffett's Berkshire Hathaway. The Trump administration commits to reducing beef prices by 2026, despite the USDA chief's warning of potential price hikes. Meanwhile, a popular steakhouse chain is poised for a resurgence, signaling potential growth in the restaurant industry."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-18\n\n### Top Stories\n\n1. [Legendary game designer, programmer Rebecca Heineman has died](https://www.pcgamer.com/gaming-industry/legendary-game-designer-programmer-space-invaders-champion-and-lgbtq-trailblazer-rebecca-heineman-has-died/)\n\n2. [Replicate Is Joining Cloudflare](https://blog.cloudflare.com/replicate-joins-cloudflare/)\n\n3. [I caught Google Gemini using my data–and then covering it up](https://unbuffered.stream/gemini-personal-context/)\n\n4. [Iframe with Hot Reload for Code Agents](https://github.com/cesarleaz/iframe-hotreload)\n\n5. [Parasitic ant tricks workers into killing their queen, then takes the throne](https://phys.org/news/2025-11-parasitic-ant-workers-queen-throne.html)\n\n6. [Robots learn from experience making espresso, building boxes and folding laundry](https://www.pi.website/blog/pistar06)\n\n7. [Out-of-Distribution Generalization in Transformers via Latent Space Reasoning](https://arxiv.org/abs/2510.14095)\n\n8. [Duolingo Isn't 'Free' Anymore – Lily Told Me Why [video]](https://www.youtube.com/watch?v=y8cd1oT3G4Q)\n\n9. [Music sequenced on Atari MegaSTE](https://tonleiter.net/reihenhaus/)\n\n10. [Texas Board of Education signals push to the right in social studies overhaul](https://www.texastribune.org/2025/11/14/texas-sboe-social-studies-redesign-conservative-advisers/)\n\n### Summary\n\n1. Rebecca Heineman, a pioneering figure in gaming known for her legendary game design and programming, has passed away, marking the end of an era in the gaming industry.\n2. Replicate, a notable entity in the tech world, is set to become part of Cloudflare, indicating a significant move in the cloud computing and services sector.\n3. An investigative piece has revealed Google Gemini's unauthorized use of personal data, followed by an attempt to obscure this privacy invasion, highlighting ongoing concerns about user data privacy in tech.\n4. The development of an iframe with Hot Reload functionality is enhancing the workflow for Code Agents, offering a more efficient and dynamic coding experience.\n5. A study reveals a parasitic ant species that manipulates worker ants into overthrowing their queen, subsequently taking over, showcasing intriguing adaptive behaviors in nature that could inspire bio-inspired tech innovations.\n",
+    "stories": [
+      {
+        "title": "Legendary game designer, programmer Rebecca Heineman has died",
+        "url": "https://www.pcgamer.com/gaming-industry/legendary-game-designer-programmer-space-invaders-champion-and-lgbtq-trailblazer-rebecca-heineman-has-died/",
+        "points": 4,
+        "comments": 0,
+        "author": "shdon",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Replicate Is Joining Cloudflare",
+        "url": "https://blog.cloudflare.com/replicate-joins-cloudflare/",
+        "points": 3,
+        "comments": 0,
+        "author": "soheilpro",
+        "source": "Hacker News"
+      },
+      {
+        "title": "I caught Google Gemini using my data–and then covering it up",
+        "url": "https://unbuffered.stream/gemini-personal-context/",
+        "points": 2,
+        "comments": 0,
+        "author": "JakaJancar",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Iframe with Hot Reload for Code Agents",
+        "url": "https://github.com/cesarleaz/iframe-hotreload",
+        "points": 1,
+        "comments": 0,
+        "author": "gabyword",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Parasitic ant tricks workers into killing their queen, then takes the throne",
+        "url": "https://phys.org/news/2025-11-parasitic-ant-workers-queen-throne.html",
+        "points": 1,
+        "comments": 1,
+        "author": "wglb",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Robots learn from experience making espresso, building boxes and folding laundry",
+        "url": "https://www.pi.website/blog/pistar06",
+        "points": 1,
+        "comments": 0,
+        "author": "modeless",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Out-of-Distribution Generalization in Transformers via Latent Space Reasoning",
+        "url": "https://arxiv.org/abs/2510.14095",
+        "points": 1,
+        "comments": 1,
+        "author": "marojejian",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Duolingo Isn't 'Free' Anymore – Lily Told Me Why [video]",
+        "url": "https://www.youtube.com/watch?v=y8cd1oT3G4Q",
+        "points": 1,
+        "comments": 0,
+        "author": "zeristor",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Music sequenced on Atari MegaSTE",
+        "url": "https://tonleiter.net/reihenhaus/",
+        "points": 1,
+        "comments": 0,
+        "author": "nperson",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Texas Board of Education signals push to the right in social studies overhaul",
+        "url": "https://www.texastribune.org/2025/11/14/texas-sboe-social-studies-redesign-conservative-advisers/",
+        "points": 1,
+        "comments": 0,
+        "author": "1659447091",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. Rebecca Heineman, a pioneering figure in gaming known for her legendary game design and programming, has passed away, marking the end of an era in the gaming industry.\n2. Replicate, a notable entity in the tech world, is set to become part of Cloudflare, indicating a significant move in the cloud computing and services sector.\n3. An investigative piece has revealed Google Gemini's unauthorized use of personal data, followed by an attempt to obscure this privacy invasion, highlighting ongoing concerns about user data privacy in tech.\n4. The development of an iframe with Hot Reload functionality is enhancing the workflow for Code Agents, offering a more efficient and dynamic coding experience.\n5. A study reveals a parasitic ant species that manipulates worker ants into overthrowing their queen, subsequently taking over, showcasing intriguing adaptive behaviors in nature that could inspire bio-inspired tech innovations."
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-18\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-18\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-18-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-18-pointillism.png)\n"
+}
