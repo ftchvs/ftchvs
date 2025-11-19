@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-19",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-19\n\n### Top AI Stories\n\n1. [Local AI just leveled up... Llama.cpp vs Ollama](https://www.youtube.com/watch?v=2t9XrPcAiHg)\n\n2. [Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)](https://www.youtube.com/watch?v=G2zI6tNTDeg)\n\n3. [Researchers at Apple answer the big question, do LLMs know what they don’t know? #ai #llm #fyp](https://www.youtube.com/watch?v=33TfDaovLGc)\n\n4. [GPT 5.1 - The AI Update Nobody Expected...](https://www.youtube.com/watch?v=0dLfE_ek-WM)\n\n5. [This Chip Could Give OpenAI an Unfair Advantage.](https://www.youtube.com/watch?v=eQqCUJGDr-U)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nThe AI field is witnessing significant advancements and surprises, as demonstrated by the emergence of Llama.cpp and Ollama, indicating a new level of local AI capabilities. Researchers are challenging and revising fundamental assumptions about Large Language Models (LLMs), revealing gaps in our understanding of AI's knowledge limits. Apple's research team delves into whether LLMs can recognize their own knowledge boundaries. Meanwhile, the unexpected release of GPT 5.1 highlights unforeseen progress in AI development. Additionally, a new chip technology could potentially give OpenAI a distinct competitive edge, hinting at hardware innovations that may further alter the AI landscape. These developments collectively underscore a period of rapid evolution and reassessment in AI technologies and their theoretical underpinnings.\n",
+    "stories": [
+      {
+        "title": "Local AI just leveled up... Llama.cpp vs Ollama",
+        "url": "https://www.youtube.com/watch?v=2t9XrPcAiHg",
+        "points": 0,
+        "comments": 0,
+        "author": "Alex Ziskind",
+        "source": "YouTube"
+      },
+      {
+        "title": "Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)",
+        "url": "https://www.youtube.com/watch?v=G2zI6tNTDeg",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "Researchers at Apple answer the big question, do LLMs know what they don’t know? #ai #llm #fyp",
+        "url": "https://www.youtube.com/watch?v=33TfDaovLGc",
+        "points": 0,
+        "comments": 0,
+        "author": "Parthknowsai",
+        "source": "YouTube"
+      },
+      {
+        "title": "GPT 5.1 - The AI Update Nobody Expected...",
+        "url": "https://www.youtube.com/watch?v=0dLfE_ek-WM",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "This Chip Could Give OpenAI an Unfair Advantage.",
+        "url": "https://www.youtube.com/watch?v=eQqCUJGDr-U",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "The AI field is witnessing significant advancements and surprises, as demonstrated by the emergence of Llama.cpp and Ollama, indicating a new level of local AI capabilities. Researchers are challenging and revising fundamental assumptions about Large Language Models (LLMs), revealing gaps in our understanding of AI's knowledge limits. Apple's research team delves into whether LLMs can recognize their own knowledge boundaries. Meanwhile, the unexpected release of GPT 5.1 highlights unforeseen progress in AI development. Additionally, a new chip technology could potentially give OpenAI a distinct competitive edge, hinting at hardware innovations that may further alter the AI landscape. These developments collectively underscore a period of rapid evolution and reassessment in AI technologies and their theoretical underpinnings.",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-19\n\n### Top Stories\n\n1. [Honda recalls 256K cars nationwide over potentially dangerous software glitch](https://www.foxbusiness.com/lifestyle/honda-recalls-256k-cars-nationwide-over-potentially-dangerous-software-glitch)\n\n2. [LARRY KUDLOW: The Trumpian economy can be a new City on the Hill](https://www.foxbusiness.com/politics/larry-kudlow-trumpian-economy-can-new-city-hill)\n\n3. [Bonds are heading for the best year since 2020](https://www.foxbusiness.com/markets/bonds-deliver-best-year-since-2020-fed-cuts-fuel-strong-market-rally-across-treasury-sector)\n\n4. [Panera reveals turnaround strategy to reverse stagnant sales](https://www.foxbusiness.com/lifestyle/panera-reveals-turnaround-strategy-reverse-stagnant-sales)\n\n5. [Ackman says taxpayers could reap $300B under his plan for Fannie Mae, Freddie Mac](https://www.foxbusiness.com/politics/ackman-says-taxpayers-could-reap-300b-under-his-plan-fannie-mae-freddie-mac)\n\n6. [Chicago community leader makes plea for billionaires' return to the Windy City](https://www.foxbusiness.com/media/chicago-community-leader-makes-plea-billionaires-return-windy-city)\n\n7. [National Debt Tracker: American taxpayers (you) are now on the hook for $38,153,732,193,790.00 as of 11/13/25](https://www.foxbusiness.com/economy/us-national-debt-tracker)\n\n8. [Trump says US is in a 'golden age' as 'prices are coming down'](https://www.foxbusiness.com/lifestyle/trump-says-us-golden-age-prices-coming-down)\n\n9. [AI-related layoffs could threaten prime borrowers, Klarna CEO warns](https://www.foxbusiness.com/lifestyle/ai-related-layoffs-could-threaten-prime-borrowers-klarna-ceo-warns)\n\n10. [Cloudflare down: ChatGPT, X among sites affected by global network issues](https://www.foxbusiness.com/technology/cloudflare-chatgpt-x-among-sites-affected-global-network-issues)\n\n### Summary\n\nHonda is recalling 256,000 vehicles across the U.S. due to a software issue that could pose safety risks. Larry Kudlow advocates for economic strategies reminiscent of the Trump administration, suggesting potential prosperity. Bonds are on track to achieve their most successful year since 2020, signaling a strong performance in the bond market. Panera has unveiled a new strategy aimed at revitalizing its sales after a period of stagnation. Lastly, investor Bill Ackman proposes a plan for Fannie Mae and Freddie Mac that he believes could generate $300 billion for taxpayers, indicating significant financial implications for government-sponsored enterprises.\n",
+    "stories": [
+      {
+        "title": "Honda recalls 256K cars nationwide over potentially dangerous software glitch",
+        "url": "https://www.foxbusiness.com/lifestyle/honda-recalls-256k-cars-nationwide-over-potentially-dangerous-software-glitch",
+        "source": "Fox Business",
+        "author": "Bonny Chu",
+        "published": "Tue, 18 Nov 2025 23:22:57 GMT"
+      },
+      {
+        "title": "LARRY KUDLOW: The Trumpian economy can be a new City on the Hill",
+        "url": "https://www.foxbusiness.com/politics/larry-kudlow-trumpian-economy-can-new-city-hill",
+        "source": "Fox Business",
+        "author": "Larry Kudlow",
+        "published": "Tue, 18 Nov 2025 22:55:49 GMT"
+      },
+      {
+        "title": "Bonds are heading for the best year since 2020",
+        "url": "https://www.foxbusiness.com/markets/bonds-deliver-best-year-since-2020-fed-cuts-fuel-strong-market-rally-across-treasury-sector",
+        "source": "Fox Business",
+        "author": "Fox Business",
+        "published": "Tue, 18 Nov 2025 20:12:47 GMT"
+      },
+      {
+        "title": "Panera reveals turnaround strategy to reverse stagnant sales",
+        "url": "https://www.foxbusiness.com/lifestyle/panera-reveals-turnaround-strategy-reverse-stagnant-sales",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Tue, 18 Nov 2025 19:43:23 GMT"
+      },
+      {
+        "title": "Ackman says taxpayers could reap $300B under his plan for Fannie Mae, Freddie Mac",
+        "url": "https://www.foxbusiness.com/politics/ackman-says-taxpayers-could-reap-300b-under-his-plan-fannie-mae-freddie-mac",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Tue, 18 Nov 2025 18:18:48 GMT"
+      },
+      {
+        "title": "Chicago community leader makes plea for billionaires' return to the Windy City",
+        "url": "https://www.foxbusiness.com/media/chicago-community-leader-makes-plea-billionaires-return-windy-city",
+        "source": "Fox Business",
+        "author": "Kristen Altus",
+        "published": "Tue, 18 Nov 2025 17:41:59 GMT"
+      },
+      {
+        "title": "National Debt Tracker: American taxpayers (you) are now on the hook for $38,153,732,193,790.00 as of 11/13/25",
+        "url": "https://www.foxbusiness.com/economy/us-national-debt-tracker",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Tue, 18 Nov 2025 17:39:26 GMT"
+      },
+      {
+        "title": "Trump says US is in a 'golden age' as 'prices are coming down'",
+        "url": "https://www.foxbusiness.com/lifestyle/trump-says-us-golden-age-prices-coming-down",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Tue, 18 Nov 2025 17:03:13 GMT"
+      },
+      {
+        "title": "AI-related layoffs could threaten prime borrowers, Klarna CEO warns",
+        "url": "https://www.foxbusiness.com/lifestyle/ai-related-layoffs-could-threaten-prime-borrowers-klarna-ceo-warns",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Tue, 18 Nov 2025 14:31:08 GMT"
+      },
+      {
+        "title": "Cloudflare down: ChatGPT, X among sites affected by global network issues",
+        "url": "https://www.foxbusiness.com/technology/cloudflare-chatgpt-x-among-sites-affected-global-network-issues",
+        "source": "Fox Business",
+        "author": "Stephen Sorace",
+        "published": "Tue, 18 Nov 2025 13:41:53 GMT"
+      }
+    ],
+    "summary": "Honda is recalling 256,000 vehicles across the U.S. due to a software issue that could pose safety risks. Larry Kudlow advocates for economic strategies reminiscent of the Trump administration, suggesting potential prosperity. Bonds are on track to achieve their most successful year since 2020, signaling a strong performance in the bond market. Panera has unveiled a new strategy aimed at revitalizing its sales after a period of stagnation. Lastly, investor Bill Ackman proposes a plan for Fannie Mae and Freddie Mac that he believes could generate $300 billion for taxpayers, indicating significant financial implications for government-sponsored enterprises."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-19\n\n### Top Stories\n\n1. [Meta's Crime Empire [video]](https://www.youtube.com/watch?v=z8wdS7TTw2w)\n\n2. [GOP overhaul of broadband permit laws: Cities hate it, cable companies love it](https://arstechnica.com/tech-policy/2025/11/gop-overhaul-of-broadband-permit-laws-cities-hate-it-cable-companies-love-it/)\n\n3. [Why mysterious structures within Earth's mantle hold clues to life here](https://phys.org/news/2025-11-mysterious-earth-mantle-clues-life.html)\n\n4. [Kryptos K4 summary and final guesses video](https://www.youtube.com/watch?v=O11UBt4j8TI)\n\n5. [Cloudflare outage on November 18, 2025 – Caused by single .unwrap()](https://old.reddit.com/r/rust/comments/1p0susm/cloudflare_outage_on_november_18_2025_caused_by/)\n\n6. [Adaptations of Yesterday by the Beatles](https://secondhandsongs.com/performance/1409/all)\n\n7. [3.5B Accounts: Complete WhatsApp Directory Retrieved and Evaluated](https://www.heise.de/en/news/3-5-Billion-Accounts-Complete-WhatsApp-Directory-Retrieved-and-Evaluated-11083244.html)\n\n8. [A Month of Chat-Oriented Programming](https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/)\n\n9. [The Fate of Data Model Dependency](https://medium.com/@HobokenDays/the-fate-of-shared-data-model-cf8a3dc88ac9)\n\n10. [Neopets.com Changed My Life (2019)](https://annastreetman.com/2019/05/19/how-neopets-com-changed-my-life/)\n\n### Summary\n\n1. \"Meta's Crime Empire\" video likely investigates the role of Meta Platforms in facilitating or combating digital crime, highlighting controversies or actions taken by the company in this domain.\n\n2. The GOP's proposed overhaul of broadband permit laws is polarizing, drawing criticism from cities due to concerns over local control and governance, while being applauded by cable companies for potentially streamlining infrastructure deployment.\n\n3. Research into mysterious structures within Earth's mantle suggests they could be crucial in understanding the planet's geological history and biological processes, offering new insights into the origins and evolution of life on Earth.\n\n4. The \"Kryptos K4 summary and final guesses video\" delves into the last unsolved part of the Kryptos sculpture's encrypted message, presenting theories and potential solutions to this enduring cryptographic mystery.\n\n5. Cloudflare experienced a significant outage on November 18, 2025, attributed to a coding error involving a single '.unwrap()' function, underscoring the fragility of global internet infrastructure and\n",
+    "stories": [
+      {
+        "title": "Meta's Crime Empire [video]",
+        "url": "https://www.youtube.com/watch?v=z8wdS7TTw2w",
+        "points": 3,
+        "comments": 0,
+        "author": "locusm",
+        "source": "Hacker News"
+      },
+      {
+        "title": "GOP overhaul of broadband permit laws: Cities hate it, cable companies love it",
+        "url": "https://arstechnica.com/tech-policy/2025/11/gop-overhaul-of-broadband-permit-laws-cities-hate-it-cable-companies-love-it/",
+        "points": 3,
+        "comments": 0,
+        "author": "duxup",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Why mysterious structures within Earth's mantle hold clues to life here",
+        "url": "https://phys.org/news/2025-11-mysterious-earth-mantle-clues-life.html",
+        "points": 2,
+        "comments": 1,
+        "author": "wglb",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Kryptos K4 summary and final guesses video",
+        "url": "https://www.youtube.com/watch?v=O11UBt4j8TI",
+        "points": 1,
+        "comments": 0,
+        "author": "elahieh",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Cloudflare outage on November 18, 2025 – Caused by single .unwrap()",
+        "url": "https://old.reddit.com/r/rust/comments/1p0susm/cloudflare_outage_on_november_18_2025_caused_by/",
+        "points": 1,
+        "comments": 0,
+        "author": "manaskarekar",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Adaptations of Yesterday by the Beatles",
+        "url": "https://secondhandsongs.com/performance/1409/all",
+        "points": 1,
+        "comments": 1,
+        "author": "bariumbitmap",
+        "source": "Hacker News"
+      },
+      {
+        "title": "3.5B Accounts: Complete WhatsApp Directory Retrieved and Evaluated",
+        "url": "https://www.heise.de/en/news/3-5-Billion-Accounts-Complete-WhatsApp-Directory-Retrieved-and-Evaluated-11083244.html",
+        "points": 1,
+        "comments": 0,
+        "author": "therealmarv",
+        "source": "Hacker News"
+      },
+      {
+        "title": "A Month of Chat-Oriented Programming",
+        "url": "https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/",
+        "points": 1,
+        "comments": 0,
+        "author": "signa11",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The Fate of Data Model Dependency",
+        "url": "https://medium.com/@HobokenDays/the-fate-of-shared-data-model-cf8a3dc88ac9",
+        "points": 1,
+        "comments": 0,
+        "author": "steven86",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Neopets.com Changed My Life (2019)",
+        "url": "https://annastreetman.com/2019/05/19/how-neopets-com-changed-my-life/",
+        "points": 1,
+        "comments": 0,
+        "author": "bariumbitmap",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. \"Meta's Crime Empire\" video likely investigates the role of Meta Platforms in facilitating or combating digital crime, highlighting controversies or actions taken by the company in this domain.\n\n2. The GOP's proposed overhaul of broadband permit laws is polarizing, drawing criticism from cities due to concerns over local control and governance, while being applauded by cable companies for potentially streamlining infrastructure deployment.\n\n3. Research into mysterious structures within Earth's mantle suggests they could be crucial in understanding the planet's geological history and biological processes, offering new insights into the origins and evolution of life on Earth.\n\n4. The \"Kryptos K4 summary and final guesses video\" delves into the last unsolved part of the Kryptos sculpture's encrypted message, presenting theories and potential solutions to this enduring cryptographic mystery.\n\n5. Cloudflare experienced a significant outage on November 18, 2025, attributed to a coding error involving a single '.unwrap()' function, underscoring the fragility of global internet infrastructure and"
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-19\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-19\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-19-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-19-pointillism.png)\n"
+}
