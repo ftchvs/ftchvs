@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-20",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-20\n\n### Top AI Stories\n\n1. [Local AI just leveled up... Llama.cpp vs Ollama](https://www.youtube.com/watch?v=2t9XrPcAiHg)\n\n2. [GPT 5.1 - The AI Update Nobody Expected...](https://www.youtube.com/watch?v=0dLfE_ek-WM)\n\n3. [Question 2 Understanding the Differences Between AI, Machine Learning, and Deep Learning Nest Dolls](https://www.youtube.com/watch?v=pGjmqsLoIG8)\n\n4. [Meta’s AI Genius Just Quit — Even Zuckerberg Seems Surprised.](https://www.youtube.com/watch?v=W2tr1Q3D1ZI)\n\n5. [Michael Levin Explains the Future of AI &amp; Humanity](https://www.youtube.com/watch?v=YoRMZhuk3lY)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\n1. The AI landscape is witnessing significant advancements, highlighted by the competition between local AI technologies like Llama.cpp and Ollama, indicating a new era of innovation and capability in AI applications.\n\n2. GPT 5.1 represents an unexpected leap in AI technology, showcasing improvements and features that have taken both users and industry experts by surprise, further pushing the boundaries of what AI can achieve.\n\n3. The article clarifies the distinctions among artificial intelligence, machine learning, and deep learning, using the analogy of nested dolls to simplify the complex relationships and dependencies between these technologies.\n\n4. The unexpected departure of a leading AI expert from Meta has caught the attention of the tech world, including Mark Zuckerberg, signaling potential shifts in the company's AI strategy and the industry's competitive landscape.\n\n5. Michael Levin's insights into the future of AI and humanity suggest a transformative impact of AI technologies on society, emphasizing the need for ethical considerations and the potential for AI to redefine human existence.\n",
+    "stories": [
+      {
+        "title": "Local AI just leveled up... Llama.cpp vs Ollama",
+        "url": "https://www.youtube.com/watch?v=2t9XrPcAiHg",
+        "points": 0,
+        "comments": 0,
+        "author": "Alex Ziskind",
+        "source": "YouTube"
+      },
+      {
+        "title": "GPT 5.1 - The AI Update Nobody Expected...",
+        "url": "https://www.youtube.com/watch?v=0dLfE_ek-WM",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "Question 2 Understanding the Differences Between AI, Machine Learning, and Deep Learning Nest Dolls",
+        "url": "https://www.youtube.com/watch?v=pGjmqsLoIG8",
+        "points": 0,
+        "comments": 0,
+        "author": "AI with Honor",
+        "source": "YouTube"
+      },
+      {
+        "title": "Meta’s AI Genius Just Quit — Even Zuckerberg Seems Surprised.",
+        "url": "https://www.youtube.com/watch?v=W2tr1Q3D1ZI",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "Michael Levin Explains the Future of AI &amp; Humanity",
+        "url": "https://www.youtube.com/watch?v=YoRMZhuk3lY",
+        "points": 0,
+        "comments": 0,
+        "author": "Variable Minds with Andréa Morris",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. The AI landscape is witnessing significant advancements, highlighted by the competition between local AI technologies like Llama.cpp and Ollama, indicating a new era of innovation and capability in AI applications.\n\n2. GPT 5.1 represents an unexpected leap in AI technology, showcasing improvements and features that have taken both users and industry experts by surprise, further pushing the boundaries of what AI can achieve.\n\n3. The article clarifies the distinctions among artificial intelligence, machine learning, and deep learning, using the analogy of nested dolls to simplify the complex relationships and dependencies between these technologies.\n\n4. The unexpected departure of a leading AI expert from Meta has caught the attention of the tech world, including Mark Zuckerberg, signaling potential shifts in the company's AI strategy and the industry's competitive landscape.\n\n5. Michael Levin's insights into the future of AI and humanity suggest a transformative impact of AI technologies on society, emphasizing the need for ethical considerations and the potential for AI to redefine human existence.",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-20\n\n### Top Stories\n\n1. [Nvidia revolutionizes hospitals with AI robots and voice assistants to address worker shortage](https://www.foxbusiness.com/technology/nvidia-revolutionizes-hospitals-ai-robots-voice-assistants-address-worker-shortage)\n\n2. [LARRY KUDLOW: Free market capitalism is worth fighting for](https://www.foxbusiness.com/politics/larry-kudlow-free-market-capitalism-worth-fighting)\n\n3. [Netflix enters MLB space in groundbreaking new media deal; games to return to NBC](https://www.foxbusiness.com/sports/netflix-enters-mlb-space-groundbreaking-new-media-deal-games-return-nbc)\n\n4. [National Debt Tracker: American taxpayers (you) are now on the hook for $38,265,355,580,035.02 as of 11/19/25](https://www.foxbusiness.com/economy/us-national-debt-tracker)\n\n5. [Trump slams Federal Reserve renovation as 'building a basement in the Potomac River'](https://www.foxbusiness.com/politics/trump-slams-federal-reserve-renovation-building-basement-potomac-river)\n\n6. [Costco recalls popular ready-to-eat food items over plastic contamination concerns](https://www.foxbusiness.com/retail/costco-recalls-popular-prepared-food-items-plastic-contamination-concerns)\n\n7. [Transportation secretary launches civility campaign as unruly passenger incidents surge 400%](https://www.foxbusiness.com/politics/transportation-secretary-launches-civility-campaign-unruly-passenger-incidents-surge-400)\n\n8. [Elon Musk predicts work will be 'optional' in coming decades](https://www.foxbusiness.com/economy/elon-musk-predicts-work-optional-coming-decades)\n\n9. [Trump calls Fed Chair Powell a ‘clown’ and slams Fed renovation](https://www.foxbusiness.com/politics/fed-meeting-puts-spotlight-back-trumps-rift-chairman-powell)\n\n10. [Musk predicts 'money will stop being relevant in the future' as AI, robotics progress](https://www.foxbusiness.com/technology/musk-predicts-money-stop-being-relevant-future-ai-robotics-progress)\n\n### Summary\n\nNvidia is innovating in healthcare by deploying AI robots and voice assistants in hospitals to mitigate the impact of worker shortages. In the realm of economics and policy, Larry Kudlow champions the cause of free market capitalism, highlighting its enduring value. In entertainment and sports, Netflix has made a significant leap by entering into a new media deal with MLB, bringing games back to NBC, which marks a notable development in sports broadcasting. The National Debt Tracker reveals a staggering figure of over $38 trillion in debt, placing a significant burden on American taxpayers as of late November 2025. Meanwhile, former President Trump criticizes the Federal Reserve's renovation plans, likening them to an unnecessary and expensive project. These items collectively underscore advancements in technology and healthcare, debates over economic principles, significant shifts in media and sports broadcasting, concerns over national financial health, and political critiques of federal spending.\n",
+    "stories": [
+      {
+        "title": "Nvidia revolutionizes hospitals with AI robots and voice assistants to address worker shortage",
+        "url": "https://www.foxbusiness.com/technology/nvidia-revolutionizes-hospitals-ai-robots-voice-assistants-address-worker-shortage",
+        "source": "Fox Business",
+        "author": "Brooke Curto",
+        "published": "Wed, 19 Nov 2025 23:38:44 GMT"
+      },
+      {
+        "title": "LARRY KUDLOW: Free market capitalism is worth fighting for",
+        "url": "https://www.foxbusiness.com/politics/larry-kudlow-free-market-capitalism-worth-fighting",
+        "source": "Fox Business",
+        "author": "Larry Kudlow",
+        "published": "Wed, 19 Nov 2025 23:09:00 GMT"
+      },
+      {
+        "title": "Netflix enters MLB space in groundbreaking new media deal; games to return to NBC",
+        "url": "https://www.foxbusiness.com/sports/netflix-enters-mlb-space-groundbreaking-new-media-deal-games-return-nbc",
+        "source": "Fox Business",
+        "author": "Ryan Morik",
+        "published": "Wed, 19 Nov 2025 22:13:07 GMT"
+      },
+      {
+        "title": "National Debt Tracker: American taxpayers (you) are now on the hook for $38,265,355,580,035.02 as of 11/19/25",
+        "url": "https://www.foxbusiness.com/economy/us-national-debt-tracker",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Wed, 19 Nov 2025 21:44:42 GMT"
+      },
+      {
+        "title": "Trump slams Federal Reserve renovation as 'building a basement in the Potomac River'",
+        "url": "https://www.foxbusiness.com/politics/trump-slams-federal-reserve-renovation-building-basement-potomac-river",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Wed, 19 Nov 2025 21:31:13 GMT"
+      },
+      {
+        "title": "Costco recalls popular ready-to-eat food items over plastic contamination concerns",
+        "url": "https://www.foxbusiness.com/retail/costco-recalls-popular-prepared-food-items-plastic-contamination-concerns",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Wed, 19 Nov 2025 21:05:14 GMT"
+      },
+      {
+        "title": "Transportation secretary launches civility campaign as unruly passenger incidents surge 400%",
+        "url": "https://www.foxbusiness.com/politics/transportation-secretary-launches-civility-campaign-unruly-passenger-incidents-surge-400",
+        "source": "Fox Business",
+        "author": "Kristen Altus",
+        "published": "Wed, 19 Nov 2025 21:00:59 GMT"
+      },
+      {
+        "title": "Elon Musk predicts work will be 'optional' in coming decades",
+        "url": "https://www.foxbusiness.com/economy/elon-musk-predicts-work-optional-coming-decades",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Wed, 19 Nov 2025 20:44:33 GMT"
+      },
+      {
+        "title": "Trump calls Fed Chair Powell a ‘clown’ and slams Fed renovation",
+        "url": "https://www.foxbusiness.com/politics/fed-meeting-puts-spotlight-back-trumps-rift-chairman-powell",
+        "source": "Fox Business",
+        "author": "Amanda Macias",
+        "published": "Wed, 19 Nov 2025 20:34:36 GMT"
+      },
+      {
+        "title": "Musk predicts 'money will stop being relevant in the future' as AI, robotics progress",
+        "url": "https://www.foxbusiness.com/technology/musk-predicts-money-stop-being-relevant-future-ai-robotics-progress",
+        "source": "Fox Business",
+        "author": "Alexandra Koch",
+        "published": "Wed, 19 Nov 2025 19:20:18 GMT"
+      }
+    ],
+    "summary": "Nvidia is innovating in healthcare by deploying AI robots and voice assistants in hospitals to mitigate the impact of worker shortages. In the realm of economics and policy, Larry Kudlow champions the cause of free market capitalism, highlighting its enduring value. In entertainment and sports, Netflix has made a significant leap by entering into a new media deal with MLB, bringing games back to NBC, which marks a notable development in sports broadcasting. The National Debt Tracker reveals a staggering figure of over $38 trillion in debt, placing a significant burden on American taxpayers as of late November 2025. Meanwhile, former President Trump criticizes the Federal Reserve's renovation plans, likening them to an unnecessary and expensive project. These items collectively underscore advancements in technology and healthcare, debates over economic principles, significant shifts in media and sports broadcasting, concerns over national financial health, and political critiques of federal spending."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-20\n\n### Top Stories\n\n1. [Nanoscale Mirrorless Superradiant Lasing](https://journals.aps.org/prl/abstract/10.1103/rbs2-2pd5)\n\n2. [Histone variants and chromatin structure, update of advances(2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9764139/)\n\n3. [Histone acetylation and CpG methylation on nucleosomes(2012)](https://www.sciencedirect.com/science/article/abs/pii/S1570963912000957)\n\n4. [Microtubules as Fractal Time Crystals: implications for life and consciousness [video]](https://www.youtube.com/watch?v=YusrOYGAhqM)\n\n5. [Ask HN: Struggling founders, pls share your startup struggle](https://news.ycombinator.com/item?id=45987662)\n\n6. [I Hate Journalism's Culture of Casual Calumny](https://jessesingal.substack.com/p/i-hate-journalisms-culture-of-casual)\n\n7. [Truth Window](https://en.wikipedia.org/wiki/Truth_window)\n\n8. [Perennial Technical Reading List](https://parallelprogrammer.substack.com/p/a-reading-list-for-metalheads)\n\n9. [A fast and powerful log viewer that turns JSON/logfmt into human-readable form](https://github.com/pamburus/hl)\n\n10. [Reproducing UMI with a UR5 Robot Arm and a 3D-Printed Gripper](https://twitter.com/raulgarreta/status/1987679358409203921)\n\n### Summary\n\n1. Researchers have developed a mirrorless superradiant laser at the nanoscale, marking a significant advancement in miniaturizing laser technology, potentially enhancing optical communication and computing systems by offering faster and more efficient data transmission capabilities.\n\n2. The 2022 update on histone variants and chromatin structure highlights the evolving understanding of how these elements influence gene expression and cellular function, emphasizing their critical roles in genetics and the potential for novel therapeutic approaches targeting epigenetic mechanisms.\n\n3. The 2012 study on histone acetylation and CpG methylation on nucleosomes shed light on the intricate interplay between these epigenetic modifications and their collective impact on gene regulation, providing foundational insights into the complex mechanisms governing gene expression and epigenetic inheritance.\n\n4. The concept of microtubules functioning as fractal time crystals presents a groundbreaking perspective on the structures within cells, suggesting that they may play a vital role in the processes of life and consciousness by enabling temporal coherence at the\n",
+    "stories": [
+      {
+        "title": "Nanoscale Mirrorless Superradiant Lasing",
+        "url": "https://journals.aps.org/prl/abstract/10.1103/rbs2-2pd5",
+        "points": 1,
+        "comments": 0,
+        "author": "PaulHoule",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Histone variants and chromatin structure, update of advances(2022)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9764139/",
+        "points": 1,
+        "comments": 0,
+        "author": "rolph",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Histone acetylation and CpG methylation on nucleosomes(2012)",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1570963912000957",
+        "points": 1,
+        "comments": 0,
+        "author": "rolph",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Microtubules as Fractal Time Crystals: implications for life and consciousness [video]",
+        "url": "https://www.youtube.com/watch?v=YusrOYGAhqM",
+        "points": 1,
+        "comments": 0,
+        "author": "jakeogh",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Ask HN: Struggling founders, pls share your startup struggle",
+        "url": "https://news.ycombinator.com/item?id=45987662",
+        "points": 1,
+        "comments": 0,
+        "author": "vieews",
+        "source": "Hacker News"
+      },
+      {
+        "title": "I Hate Journalism's Culture of Casual Calumny",
+        "url": "https://jessesingal.substack.com/p/i-hate-journalisms-culture-of-casual",
+        "points": 1,
+        "comments": 0,
+        "author": "aidenn0",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Truth Window",
+        "url": "https://en.wikipedia.org/wiki/Truth_window",
+        "points": 1,
+        "comments": 0,
+        "author": "lukas099",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Perennial Technical Reading List",
+        "url": "https://parallelprogrammer.substack.com/p/a-reading-list-for-metalheads",
+        "points": 1,
+        "comments": 0,
+        "author": "Karrot_Kream",
+        "source": "Hacker News"
+      },
+      {
+        "title": "A fast and powerful log viewer that turns JSON/logfmt into human-readable form",
+        "url": "https://github.com/pamburus/hl",
+        "points": 1,
+        "comments": 0,
+        "author": "lwhsiao",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Reproducing UMI with a UR5 Robot Arm and a 3D-Printed Gripper",
+        "url": "https://twitter.com/raulgarreta/status/1987679358409203921",
+        "points": 1,
+        "comments": 1,
+        "author": "rgarreta",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. Researchers have developed a mirrorless superradiant laser at the nanoscale, marking a significant advancement in miniaturizing laser technology, potentially enhancing optical communication and computing systems by offering faster and more efficient data transmission capabilities.\n\n2. The 2022 update on histone variants and chromatin structure highlights the evolving understanding of how these elements influence gene expression and cellular function, emphasizing their critical roles in genetics and the potential for novel therapeutic approaches targeting epigenetic mechanisms.\n\n3. The 2012 study on histone acetylation and CpG methylation on nucleosomes shed light on the intricate interplay between these epigenetic modifications and their collective impact on gene regulation, providing foundational insights into the complex mechanisms governing gene expression and epigenetic inheritance.\n\n4. The concept of microtubules functioning as fractal time crystals presents a groundbreaking perspective on the structures within cells, suggesting that they may play a vital role in the processes of life and consciousness by enabling temporal coherence at the"
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-20\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-20\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-20-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-20-pointillism.png)\n"
+}
