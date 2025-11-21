@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-21",
+  "ai_news": {
+    "markdown": "## 🤖 AI Industry Snapshot - 2025-11-21\n\n### Top AI Stories\n\n1. [Local AI just leveled up... Llama.cpp vs Ollama](https://www.youtube.com/watch?v=2t9XrPcAiHg)\n\n2. [Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)](https://www.youtube.com/watch?v=G2zI6tNTDeg)\n\n3. [When Did LLMs Get This Good At Physics?](https://www.youtube.com/watch?v=njNrTUMC6qE)\n\n4. [The biggest Mystery of LLMs have just been solved](https://www.youtube.com/watch?v=BbI8n9XZJo4)\n\n5. [This Chip Could Give OpenAI an Unfair Advantage.](https://www.youtube.com/watch?v=eQqCUJGDr-U)\n\n6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)\n\n7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)\n\n8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)\n\n9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)\n\n10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)\n\n### AI Trends Summary\n\nRecent advancements in AI have significantly enhanced local AI capabilities, as evidenced by the development and comparison of Llama.cpp and Ollama. Researchers have made a groundbreaking discovery that challenges the foundational assumptions about Large Language Models (LLMs), revealing a misunderstanding of their capabilities, particularly in physics, which LLMs are now excelling in unexpectedly. Furthermore, the resolution of a major mystery surrounding LLMs marks a pivotal moment in our understanding of these technologies. Additionally, the introduction of a new chip could potentially provide OpenAI with a considerable edge in the AI field, indicating a shift towards more powerful and specialized hardware to support AI development.\n",
+    "stories": [
+      {
+        "title": "Local AI just leveled up... Llama.cpp vs Ollama",
+        "url": "https://www.youtube.com/watch?v=2t9XrPcAiHg",
+        "points": 0,
+        "comments": 0,
+        "author": "Alex Ziskind",
+        "source": "YouTube"
+      },
+      {
+        "title": "Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)",
+        "url": "https://www.youtube.com/watch?v=G2zI6tNTDeg",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "When Did LLMs Get This Good At Physics?",
+        "url": "https://www.youtube.com/watch?v=njNrTUMC6qE",
+        "points": 0,
+        "comments": 0,
+        "author": "Sabine Hossenfelder",
+        "source": "YouTube"
+      },
+      {
+        "title": "The biggest Mystery of LLMs have just been solved",
+        "url": "https://www.youtube.com/watch?v=BbI8n9XZJo4",
+        "points": 0,
+        "comments": 0,
+        "author": "bycloud",
+        "source": "YouTube"
+      },
+      {
+        "title": "This Chip Could Give OpenAI an Unfair Advantage.",
+        "url": "https://www.youtube.com/watch?v=eQqCUJGDr-U",
+        "points": 0,
+        "comments": 0,
+        "author": "TheAIGRID",
+        "source": "YouTube"
+      },
+      {
+        "title": "Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/18/experiments-in-llms.html",
+        "points": 3,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36381832",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – OpenAI Functions",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/2023/06/30/experiments-in-llms-3.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36534635",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Experiments in LLMs – Vector DBs and Embeddings",
+        "url": "https://adamfallon.com/ai/llms/deep-learning/machine-learning/artificial-intelligence/openai/vector/embeddings/2023/06/23/experiments-in-llms-2.html",
+        "points": 2,
+        "comments": 0,
+        "author": "AJRF",
+        "hn_url": "https://news.ycombinator.com/item?id=36447740",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI-Powered Twitter Filter",
+        "url": "https://news.ycombinator.com/item?id=39210964",
+        "points": 1,
+        "comments": 0,
+        "author": "hazard",
+        "hn_url": "https://news.ycombinator.com/item?id=39210964",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed",
+        "url": "https://hn-ai-newsletter.beehiiv.com/p/last-weeks-ai-highlights-hn-20",
+        "points": 5,
+        "comments": 2,
+        "author": "floydax",
+        "hn_url": "https://news.ycombinator.com/item?id=37954932",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "Recent advancements in AI have significantly enhanced local AI capabilities, as evidenced by the development and comparison of Llama.cpp and Ollama. Researchers have made a groundbreaking discovery that challenges the foundational assumptions about Large Language Models (LLMs), revealing a misunderstanding of their capabilities, particularly in physics, which LLMs are now excelling in unexpectedly. Furthermore, the resolution of a major mystery surrounding LLMs marks a pivotal moment in our understanding of these technologies. Additionally, the introduction of a new chip could potentially provide OpenAI with a considerable edge in the AI field, indicating a shift towards more powerful and specialized hardware to support AI development.",
+    "image_path": null
+  },
+  "business_news": {
+    "markdown": "## 💼 Business News - 2025-11-21\n\n### Top Stories\n\n1. [Two Americans, 2 Chinese nationals accused of illegally exporting Nvidia GPUs to China](https://www.foxbusiness.com/technology/two-americans-2-chinese-nationals-accused-illegally-exporting-nvidia-gpus-china)\n\n2. [Nvidia CEO urges improved US-China trade relations amid AI chip ban: 'Significant source of revenue'](https://www.foxbusiness.com/markets/nvidia-ceo-urges-improved-u-s-china-trade-relations-amid-ai-chip-ban-significant-source-revenue)\n\n3. [Another fire ignites at Ford aluminum supplier’s New York plant, months after first blaze](https://www.foxbusiness.com/retail/another-fire-ignites-ford-aluminum-suppliers-new-york-plant-months-after-first-blaze)\n\n4. [LARRY KUDLOW: America is open for business](https://www.foxbusiness.com/politics/larry-kudlow-america-open-business)\n\n5. [Voters express economic worries over inflation as costs rise, Fox News poll finds](https://www.foxbusiness.com/economy/voters-express-economic-worries-over-inflation-costs-rise-fox-news-poll-finds)\n\n6. [National Debt Tracker: American taxpayers (you) are now on the hook for $38,299,373,085,978.18 as of 11/20/25](https://www.foxbusiness.com/economy/us-national-debt-tracker)\n\n7. [Trump slams Fed Chair Jerome Powell, says he has ‘mental problems’ and should be fired](https://www.foxbusiness.com/politics/trump-slams-fed-chair-jerome-powell-says-mental-problems-fired)\n\n8. [DEI consultant resigns from Cracker Barrel board after heated proxy fight](https://www.foxbusiness.com/economy/dei-consultant-resigns-cracker-barrel-board-heated-proxy-fight)\n\n9. [Housing affordability crisis hammering rural America](https://www.foxbusiness.com/real-estate/housing-affordability-crisis-hammering-rural-america)\n\n10. [Labor secretary hails delayed September jobs report as ‘solid' news for the American people](https://www.foxbusiness.com/media/labor-secretary-hails-delayed-september-jobs-report-solid-news-american-people)\n\n### Summary\n\nFour individuals, including two Americans and two Chinese nationals, have been accused of illegally exporting Nvidia GPUs to China, highlighting the ongoing tensions and complexities in US-China technology trade. Amidst these tensions, Nvidia's CEO has called for improved trade relations between the US and China, emphasizing the significant revenue generated from AI chips amidst a US ban on their export. Meanwhile, operational challenges persist domestically, as evidenced by another fire at a Ford aluminum supplier's plant in New York, marking the second such incident in recent months. Amidst these business developments, economic concerns loom large for American voters, with a Fox News poll revealing widespread worries over inflation and rising costs, even as figures like Larry Kudlow assert that America remains open for business.\n",
+    "stories": [
+      {
+        "title": "Two Americans, 2 Chinese nationals accused of illegally exporting Nvidia GPUs to China",
+        "url": "https://www.foxbusiness.com/technology/two-americans-2-chinese-nationals-accused-illegally-exporting-nvidia-gpus-china",
+        "source": "Fox Business",
+        "author": "Greg Wehner",
+        "published": "Fri, 21 Nov 2025 00:01:36 GMT"
+      },
+      {
+        "title": "Nvidia CEO urges improved US-China trade relations amid AI chip ban: 'Significant source of revenue'",
+        "url": "https://www.foxbusiness.com/markets/nvidia-ceo-urges-improved-u-s-china-trade-relations-amid-ai-chip-ban-significant-source-revenue",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Thu, 20 Nov 2025 23:51:50 GMT"
+      },
+      {
+        "title": "Another fire ignites at Ford aluminum supplier’s New York plant, months after first blaze",
+        "url": "https://www.foxbusiness.com/retail/another-fire-ignites-ford-aluminum-suppliers-new-york-plant-months-after-first-blaze",
+        "source": "Fox Business",
+        "author": "Sophia Compton",
+        "published": "Thu, 20 Nov 2025 22:50:43 GMT"
+      },
+      {
+        "title": "LARRY KUDLOW: America is open for business",
+        "url": "https://www.foxbusiness.com/politics/larry-kudlow-america-open-business",
+        "source": "Fox Business",
+        "author": "Larry Kudlow",
+        "published": "Thu, 20 Nov 2025 22:33:51 GMT"
+      },
+      {
+        "title": "Voters express economic worries over inflation as costs rise, Fox News poll finds",
+        "url": "https://www.foxbusiness.com/economy/voters-express-economic-worries-over-inflation-costs-rise-fox-news-poll-finds",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Thu, 20 Nov 2025 22:25:24 GMT"
+      },
+      {
+        "title": "National Debt Tracker: American taxpayers (you) are now on the hook for $38,299,373,085,978.18 as of 11/20/25",
+        "url": "https://www.foxbusiness.com/economy/us-national-debt-tracker",
+        "source": "Fox Business",
+        "author": "Eric Revell",
+        "published": "Thu, 20 Nov 2025 21:31:56 GMT"
+      },
+      {
+        "title": "Trump slams Fed Chair Jerome Powell, says he has ‘mental problems’ and should be fired",
+        "url": "https://www.foxbusiness.com/politics/trump-slams-fed-chair-jerome-powell-says-mental-problems-fired",
+        "source": "Fox Business",
+        "author": "Louis Casiano",
+        "published": "Thu, 20 Nov 2025 21:18:15 GMT"
+      },
+      {
+        "title": "DEI consultant resigns from Cracker Barrel board after heated proxy fight",
+        "url": "https://www.foxbusiness.com/economy/dei-consultant-resigns-cracker-barrel-board-heated-proxy-fight",
+        "source": "Fox Business",
+        "author": "Ashley Carnahan",
+        "published": "Thu, 20 Nov 2025 18:20:53 GMT"
+      },
+      {
+        "title": "Housing affordability crisis hammering rural America",
+        "url": "https://www.foxbusiness.com/real-estate/housing-affordability-crisis-hammering-rural-america",
+        "source": "Fox Business",
+        "author": "Daniella Genovese",
+        "published": "Thu, 20 Nov 2025 16:49:01 GMT"
+      },
+      {
+        "title": "Labor secretary hails delayed September jobs report as ‘solid' news for the American people",
+        "url": "https://www.foxbusiness.com/media/labor-secretary-hails-delayed-september-jobs-report-solid-news-american-people",
+        "source": "Fox Business",
+        "author": "Taylor Penley",
+        "published": "Thu, 20 Nov 2025 16:26:43 GMT"
+      }
+    ],
+    "summary": "Four individuals, including two Americans and two Chinese nationals, have been accused of illegally exporting Nvidia GPUs to China, highlighting the ongoing tensions and complexities in US-China technology trade. Amidst these tensions, Nvidia's CEO has called for improved trade relations between the US and China, emphasizing the significant revenue generated from AI chips amidst a US ban on their export. Meanwhile, operational challenges persist domestically, as evidenced by another fire at a Ford aluminum supplier's plant in New York, marking the second such incident in recent months. Amidst these business developments, economic concerns loom large for American voters, with a Fox News poll revealing widespread worries over inflation and rising costs, even as figures like Larry Kudlow assert that America remains open for business."
+  },
+  "tech_news": {
+    "markdown": "## 💻 Tech News - 2025-11-21\n\n### Top Stories\n\n1. [Microsoft admits almost all major Windows 11 core features are broken](https://www.neowin.net/news/microsoft-finally-admits-almost-all-major-windows-11-core-features-are-broken/)\n\n2. [Testing Out Time Travel with DuckLake](https://datamethods.substack.com/p/testing-out-time-travel-with-ducklake)\n\n3. [In Case of Death Case: Bricks your iPad when you die](https://www.zugucase.com/pages/incaseofdeath)\n\n4. [Ask HN: How would you architect a RAG system for 10M+ documents today?](https://news.ycombinator.com/item?id=46000077)\n\n5. [Cell-Free Platform for 1-Alkene Production Using Engineered Metalloenzyme UndB](https://pubs.acs.org/doi/10.1021/acscentsci.5c01099)\n\n6. [Al-Shabaab Hacks MN Welfare Process](https://www.thecentersquare.com/minnesota/article_4ec1e3b3-1503-451d-8e50-25d2607568e5.html)\n\n7. [Paris court blocks auction of earliest-known calculator](https://www.bbc.com/news/articles/c2kpkq90ygno)\n\n8. [Show HN: DeepSite – Transform Simple Text to Website](https://deepsite.design)\n\n9. [Release: iEscaper – iOS MobileGestalt Exploit for iOS 17.0 – 26.1](https://idevicecentral.com/jailbreak-tools/download-iescaper-ios-mobilegestalt-tweaker-for-ios-17-0-26-1-for-all-devices/)\n\n10. [Rust: No Linux/Proton, says games supporting them 'not serious about anti-cheat'](https://www.pcgamer.com/games/survival-crafting/rust-developer-has-no-plans-for-linux-or-proton-support-says-games-that-support-them-are-not-serious-about-anti-cheat/)\n\n### Summary\n\n1. Microsoft has acknowledged significant issues with Windows 11, revealing that nearly all its core features are currently malfunctioning, indicating a major setback for the tech giant's latest operating system. \n\n2. DuckLake presents an innovative concept, experimenting with the notion of time travel through a new technological approach, showcasing a forward-thinking exploration into altering perceptions of time.\n\n3. The \"In Case of Death Case\" introduces a controversial technology designed to permanently disable an iPad upon the owner's death, raising ethical and practical questions about digital legacy and device security.\n\n4. A Hacker News inquiry into designing a robust, scalable system for managing over 10 million documents highlights the ongoing challenges and complexities in building efficient, large-scale information retrieval and storage solutions.\n\n5. Research into a cell-free platform utilizing the engineered metalloenzyme UndB for producing 1-alkenes represents a significant advancement in biotechnology and synthetic biology, offering a sustainable alternative for chemical production.\n",
+    "stories": [
+      {
+        "title": "Microsoft admits almost all major Windows 11 core features are broken",
+        "url": "https://www.neowin.net/news/microsoft-finally-admits-almost-all-major-windows-11-core-features-are-broken/",
+        "points": 5,
+        "comments": 1,
+        "author": "josephcsible",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Testing Out Time Travel with DuckLake",
+        "url": "https://datamethods.substack.com/p/testing-out-time-travel-with-ducklake",
+        "points": 3,
+        "comments": 0,
+        "author": "zekrom",
+        "source": "Hacker News"
+      },
+      {
+        "title": "In Case of Death Case: Bricks your iPad when you die",
+        "url": "https://www.zugucase.com/pages/incaseofdeath",
+        "points": 2,
+        "comments": 0,
+        "author": "nateb2022",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Ask HN: How would you architect a RAG system for 10M+ documents today?",
+        "url": "https://news.ycombinator.com/item?id=46000077",
+        "points": 2,
+        "comments": 0,
+        "author": "Ftrea",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Cell-Free Platform for 1-Alkene Production Using Engineered Metalloenzyme UndB",
+        "url": "https://pubs.acs.org/doi/10.1021/acscentsci.5c01099",
+        "points": 2,
+        "comments": 0,
+        "author": "PaulHoule",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Al-Shabaab Hacks MN Welfare Process",
+        "url": "https://www.thecentersquare.com/minnesota/article_4ec1e3b3-1503-451d-8e50-25d2607568e5.html",
+        "points": 2,
+        "comments": 0,
+        "author": "mensetmanusman",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Paris court blocks auction of earliest-known calculator",
+        "url": "https://www.bbc.com/news/articles/c2kpkq90ygno",
+        "points": 1,
+        "comments": 1,
+        "author": "throwaway81523",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: DeepSite – Transform Simple Text to Website",
+        "url": "https://deepsite.design",
+        "points": 1,
+        "comments": 0,
+        "author": "niliu123",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Release: iEscaper – iOS MobileGestalt Exploit for iOS 17.0 – 26.1",
+        "url": "https://idevicecentral.com/jailbreak-tools/download-iescaper-ios-mobilegestalt-tweaker-for-ios-17-0-26-1-for-all-devices/",
+        "points": 1,
+        "comments": 0,
+        "author": "suckablyat",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Rust: No Linux/Proton, says games supporting them 'not serious about anti-cheat'",
+        "url": "https://www.pcgamer.com/games/survival-crafting/rust-developer-has-no-plans-for-linux-or-proton-support-says-games-that-support-them-are-not-serious-about-anti-cheat/",
+        "points": 1,
+        "comments": 0,
+        "author": "josephcsible",
+        "source": "Hacker News"
+      }
+    ],
+    "summary": "1. Microsoft has acknowledged significant issues with Windows 11, revealing that nearly all its core features are currently malfunctioning, indicating a major setback for the tech giant's latest operating system. \n\n2. DuckLake presents an innovative concept, experimenting with the notion of time travel through a new technological approach, showcasing a forward-thinking exploration into altering perceptions of time.\n\n3. The \"In Case of Death Case\" introduces a controversial technology designed to permanently disable an iPad upon the owner's death, raising ethical and practical questions about digital legacy and device security.\n\n4. A Hacker News inquiry into designing a robust, scalable system for managing over 10 million documents highlights the ongoing challenges and complexities in building efficient, large-scale information retrieval and storage solutions.\n\n5. Research into a cell-free platform utilizing the engineered metalloenzyme UndB for producing 1-alkenes represents a significant advancement in biotechnology and synthetic biology, offering a sustainable alternative for chemical production."
+  },
+  "podcasts": {
+    "markdown": "",
+    "podcasts": [],
+    "summary": ""
+  },
+  "motivation_quotes": {
+    "markdown": "## 💪 Motivation Quotes - 2025-11-21\n\n### Top Items\n\n### Summary\n\nNo motivation quotes found today.\n",
+    "items": [],
+    "summary": "No motivation quotes found today."
+  },
+  "wise_knowledge": {
+    "markdown": "## 🧠 Wise Knowledge - 2025-11-21\n\n### Top Items\n\n### Summary\n\nNo wise knowledge found today.\n",
+    "items": [],
+    "summary": "No wise knowledge found today."
+  },
+  "image_path": "image/daily-digest/2025-11-21-pointillism.png",
+  "digital_art_markdown": "### 🎨 Digital Art: Pointillism & Motion Design\n\n*Inspired by today's news trends across AI, Business, Tech, and Podcasts*\n\n![Digital Pointillism Artwork](image/daily-digest/2025-11-21-pointillism.png)\n"
+}
