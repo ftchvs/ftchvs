@@ -27,7 +27,7 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 ## Professional Experience
 
-### Resmed - (July 2025 - Present) - **Marketing Lead, Incubation & Growth** at Resmed (July 2025 - Present)
+** Resmed - (July 2025 - Present) - **Marketing Lead, Incubation & Growth** at Resmed (July 2025 - Present)**
 ### HCLTech - (March 2025 - July 2025) - **Product Marketing Manager, AI** at HCLTech (March 2025 - July 2025)
 
 ### Consulting & Contract Experience (2023 - 2024)
