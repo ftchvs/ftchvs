@@ -15,58 +15,11 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
   </tr>
 </table>
 
-
-
 ## Strengths
 
 - **Builder's Mindset**: I build and deploy end‑to‑end solutions, aligning product, engineering, and GTM teams to unlock new revenue streams.
 - **Systems Thinking**: I connect system-level constraints, build strategic roadmaps, and lead execution to turn complexity into business value.
 - **GTM Strategy**: I craft data‑backed stories that aligns stakeholders, accelerate adoption, and turn customers into advocates.
-
-<hr>
-
-## Professional Experience
-
-Resmed - (July 2025 - Present) - **Marketing Lead, Incubation & Growth** at Resmed (July 2025 - Present)
-HCLTech - (March 2025 - July 2025) - **Product Marketing Manager, AI** at HCLTech (March 2025 - July 2025)
-
-Consulting & Contract Experience (2023 - 2024)
-- **Marketing Technology Manager** at Intuit (Contract, 2024)
-- **Product Marketing Manager** at Qualcomm (Contract, 2023-2024)
-
-Meta Platforms, Inc. (fka Facebook) - (2016 - 2023)
-- **Product Marketing Manager** at WhatsApp (2019-2023)
-- **Digital Marketing Manager** at Facebook (2018-2019)
-- **Client Solutions Manager** at Facebook (2016-2018)
-
-
-Nike, Inc. - (2014 - 2016) - **Digital Marketing Specialist** at Nike (2014-2016)
-
-Previous Experience (2009 - 2014)
-- **E-Commerce Manager** at Marcyn (2012-2014)
-- **Business Intelligence Analyst** at Rocket Internet (2011-2012)
-- **Web Analytics Specialist** at 3YZ (2009-2010)
-
----
-
-## Career Highlights
-
-- **WhatsApp "It's Between You"** - First global brand campaign launched in Brazil
-- **WhatsApp US Privacy Campaign** - First US campaign highlighting message privacy features
-- **WhatsApp "Sunbeams"** - Award-winning campaign directed by Courtney Hoffman
-- **WhatsApp "Dream Job"** - Campaign showcasing meaningful connections
-- **Nike FIFA World Cup Brazil** (2014) - Led digital campaigns for nike.com (e-commerce) during the event
-- **Nike Rio Olympic Games** (2016) - Led digital campaigns for nike.com (e-commerce) during the event
-
----
-
-## Education
-
-- **Google Advanced Data Analytics Certificate** - Google, USA (2024)
-- **Product Management Bootcamp** - General Assembly, San Francisco - USA (2021)
-- **CORe: Business Analytics, Economics for Managers, Financial Accounting** - Harvard Business School Online, USA (2020)
-- **Business and Academic English** - University of Western Australia, Perth - Australia (2009)
-- **Business Administration & Marketing (Bachelor)** - Anhembi Morumbi University, São Paulo - Brazil (2008-2013)
 
 ---
 
