@@ -34,62 +34,23 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 - **Product Marketing Manager, AI** at HCLTech (March 2025 - July 2025)
 
 ### Consulting & Contract Experience (2023 - 2024)
-
-
 - **Marketing Technology Manager** at Intuit (Contract, 2024)
-  - Managing data systems and integration for marketing campaigns
-  - Working with Adobe Experience Platform and Segment/Twilio
-  - Overseeing end-to-end data ingestion and processing
-
 - **Product Marketing Manager** at Qualcomm (Contract, 2023-2024)
-  - Partnered in driving sales enablement for compute, XR, and IoT
-  - Collaborated across teams to launch the Snapdragon X series products
-  - Developed B2B marketing campaigns across digital, content, and events
-  - Implemented automated product briefing workflows to accelerate time-to-market
 
 ### Meta Platforms, Inc. (fka Facebook) - (2016 - 2023)
-
 - **Product Marketing Manager** at WhatsApp (2019-2023)
-  - Led global marketing campaigns including WhatsApp's first brand campaign in Brazil
-  - Managed strategic media planning for major international campaigns
-  - Oversaw campaign approvals and media strategy for US privacy campaign
-  - Developed Marketing Mix Modeling tool for campaign optimization
-  - Collaborated with agencies like BBDO and AlmapBBDO on creative direction
-
 - **Digital Marketing Manager** at Facebook (2018-2019)
-  - Directed targeted digital campaigns to elevate product visibility
-  - Led global user research initiatives to inform product roadmaps
-  - Gathered market insights for content strategy development
-
 - **Client Solutions Manager** at Facebook (2016-2018)
-  - Developed custom solutions that increased client lifetime value by 10%
-  - Created a real-time revenue monitoring dashboard using SQL and Python
-  - Optimized ad spending strategies resulting in 25% increase in ad revenue
+
 
 ### Nike, Inc. - (2014 - 2016)
-
 - **Digital Marketing Specialist** at Nike (2014-2016)
-  - Led digital strategy for World Cup and Olympics, aligning marketing to business growth (30% revenue increase).
-  - Developed campaign frameworks that boosted traffic by 20% and improved conversion by 25%.
-  - Applied A/B testing and behavioral insights to optimize customer journeys across digital touchpoints.
-  - Reduced content production costs by 15% through data-driven process optimization.
 
 ### Previous Experience (2009 - 2014)
 
 - **E-Commerce Manager** at Marcyn (2012-2014)
-  - Managed all aspects of e-commerce operations and digital marketing
-  - Implemented data-driven strategies to improve online sales performance
-  - Led website optimization for improved user experience
-
 - **Business Intelligence Analyst** at Rocket Internet (2011-2012)
-  - Analyzed business data to identify market trends and opportunities
-  - Developed reporting systems for performance tracking
-  - Supported strategic decision-making with data insights
-
 - **Web Analytics Specialist** at 3YZ (2009-2010)
-  - Implemented web analytics tracking for client websites
-  - Analyzed user behavior and traffic patterns
-  - Provided data-driven recommendations for website optimization
 
 ---
 
@@ -104,6 +65,16 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 ---
 
+## Education
+
+- **Google Advanced Data Analytics Certificate** - Google, USA (2024)
+- **Product Management Bootcamp** - General Assembly, San Francisco - USA (2021)
+- **CORe: Business Analytics, Economics for Managers, Financial Accounting** - Harvard Business School Online, USA (2020)
+- **Business and Academic English** - University of Western Australia, Perth - Australia (2009)
+- **Business Administration & Marketing (Bachelor)** - Anhembi Morumbi University, São Paulo - Brazil (2008-2013)
+
+---
+
 ## Technical Skills
 
 ![AI / ML](https://img.shields.io/badge/AI%20%2F%20ML-%2300A1E0.svg?style=flat-square) ![OpenAI](https://img.shields.io/badge/OpenAI-black?style=flat-square&logo=openai&logoColor=white) ![Anthropic](https://img.shields.io/badge/Anthropic-%231A1A1A?style=flat-square&logo=anthropic&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-%234285F4?style=flat-square&logo=google-gemini&logoColor=white) ![Grok](https://img.shields.io/badge/Grok-black?style=flat-square&logo=x&logoColor=white)
@@ -115,25 +86,6 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 - **Technical Tools**: Adobe Experience Platform (AEP), Adobe Analytics, Segment/Twilio Engage, Braze, Marketo, SQL, Databricks
 - **Programming**: Python, TypeScript, HTML, Data pipelines, System integration
 - **AI & Machine Learning**: OpenAI API, Anthropic (Claude), Claude Code, Google Gemini, Grok, Cursor AI, AI-assisted development workflows, LLM integration and orchestration, AI workflow automation, Practical implementation of AI for marketing solutions
-
----
-
-## Featured Projects
-
-- [**Advanced Email Marketing Performance Analysis**](https://docs.google.com/presentation/d/1wyMAvwm7e2zxo-VR9r4Jp_Q33vASafhXJ23wVBCDPD4/edit?slide=id.p#slide=id.p): Conducted an in-depth analysis of email campaign metrics using advanced data analytics to uncover actionable insights and optimize ROI.
-- [**Airbnb Product Fundamentals Project**](https://drive.google.com/file/d/1ofrAL9o0u7IYPhml03J88iFUnMkTrKIN/view): Developed a comprehensive academic study of Airbnb's product fundamentals, synthesizing market trends and user feedback to drive strategic recommendations.
-- [**Volkswagen - Brand and Marketing Strategy**](https://drive.google.com/file/d/1LCnm5AwtmQrBvJ93RgqJj3eQfEFthtjF/view): Crafted a strategic brand and marketing plan for Volkswagen as a personal project, leveraging market research and creative ideation to propose innovative positioning.
-- [**GitHub Repositories**](https://github.com/ftchvs?tab=repositories): Curated a portfolio of personal projects on GitHub that showcase technical proficiency in data analysis, coding, and innovative problem-solving.
-
----
-
-## Education
-
-- **Google Advanced Data Analytics Certificate** - Google, USA (2024)
-- **Product Management Bootcamp** - General Assembly, San Francisco - USA (2021)
-- **CORe: Business Analytics, Economics for Managers, Financial Accounting** - Harvard Business School Online, USA (2020)
-- **Business and Academic English** - University of Western Australia, Perth - Australia (2009)
-- **Business Administration & Marketing (Bachelor)** - Anhembi Morumbi University, São Paulo - Brazil (2008-2013)
 
 ---
 
@@ -154,48 +106,3 @@ My work centers on leveraging technology, particularly AI, to solve marketing ch
 > "The best results always come when you understand both the technical details and the marketing goals."
 
 ---
-
-<!--START_SECTION:disclaimer-->
-**Last Updated:** 2025-11-21 01:41:13 UTC
-
-*Disclaimer: All sections are automatically generated by AI and updated daily via GitHub Actions. Content is aggregated from multiple sources:*
-
-- **AI News**: YouTube, Twitter/X, Reddit (r/MachineLearning, r/artificial), TechCrunch, Hacker News
-- **Business News**: CNN Business, Fox Business, NBC News, WSJ, NYTimes
-- **Tech News**: TechCrunch, Hacker News, Reddit (r/technology, r/programming)
-- **Podcasts**: All In, Pivot, Lenny Podcast, Joe Rogan Experience (YouTube)
-
-*All content is summarized using AI. Stories, quotes, and knowledge snippets are compiled without human review.*
-<!--END_SECTION:disclaimer-->
-
-<!--START_SECTION:ai_news-->
-
-## 🤖 AI Industry Snapshot - 2025-11-21
-
-### Top AI Stories
-
-1. [Local AI just leveled up... Llama.cpp vs Ollama](https://www.youtube.com/watch?v=2t9XrPcAiHg)
-
-2. [Researchers Just Broke AI’s Most Important Assumption. (We Were Wrong About LLMs)](https://www.youtube.com/watch?v=G2zI6tNTDeg)
-
-3. [When Did LLMs Get This Good At Physics?](https://www.youtube.com/watch?v=njNrTUMC6qE)
-
-4. [The biggest Mystery of LLMs have just been solved](https://www.youtube.com/watch?v=BbI8n9XZJo4)
-
-5. [This Chip Could Give OpenAI an Unfair Advantage.](https://www.youtube.com/watch?v=eQqCUJGDr-U)
-
-6. [Experiments in LLMs – Everything I've learned (so far) – Part One – Fine tuning](https://news.ycombinator.com/item?id=36381832)
-
-7. [Experiments in LLMs – OpenAI Functions](https://news.ycombinator.com/item?id=36534635)
-
-8. [Experiments in LLMs – Vector DBs and Embeddings](https://news.ycombinator.com/item?id=36447740)
-
-9. [Show HN: AI-Powered Twitter Filter](https://news.ycombinator.com/item?id=39210964)
-
-10. [Show HN: AI/ML Weekly Digest – Curated by LLM, Summarized and Sentiment-Analyzed](https://news.ycombinator.com/item?id=37954932)
-
-### AI Trends Summary
-
-Recent advancements in AI have significantly enhanced local AI capabilities, as evidenced by the development and comparison of Llama.cpp and Ollama. Researchers have made a groundbreaking discovery that challenges the foundational assumptions about Large Language Models (LLMs), revealing a misunderstanding of their capabilities, particularly in physics, which LLMs are now excelling in unexpectedly. Furthermore, the resolution of a major mystery surrounding LLMs marks a pivotal moment in our understanding of these technologies. Additionally, the introduction of a new chip could potentially provide OpenAI with a considerable edge in the AI field, indicating a shift towards more powerful and specialized hardware to support AI development.
-
-<!--END_SECTION:ai_news-->
