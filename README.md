@@ -27,23 +27,22 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 ## Professional Experience
 
-** Resmed - (July 2025 - Present) - **Marketing Lead, Incubation & Growth** at Resmed (July 2025 - Present)**
-### HCLTech - (March 2025 - July 2025) - **Product Marketing Manager, AI** at HCLTech (March 2025 - July 2025)
+Resmed - (July 2025 - Present) - **Marketing Lead, Incubation & Growth** at Resmed (July 2025 - Present)
+HCLTech - (March 2025 - July 2025) - **Product Marketing Manager, AI** at HCLTech (March 2025 - July 2025)
 
-### Consulting & Contract Experience (2023 - 2024)
+Consulting & Contract Experience (2023 - 2024)
 - **Marketing Technology Manager** at Intuit (Contract, 2024)
 - **Product Marketing Manager** at Qualcomm (Contract, 2023-2024)
 
-### Meta Platforms, Inc. (fka Facebook) - (2016 - 2023)
+Meta Platforms, Inc. (fka Facebook) - (2016 - 2023)
 - **Product Marketing Manager** at WhatsApp (2019-2023)
 - **Digital Marketing Manager** at Facebook (2018-2019)
 - **Client Solutions Manager** at Facebook (2016-2018)
 
 
-### Nike, Inc. - (2014 - 2016) - **Digital Marketing Specialist** at Nike (2014-2016)
+Nike, Inc. - (2014 - 2016) - **Digital Marketing Specialist** at Nike (2014-2016)
 
-### Previous Experience (2009 - 2014)
-
+Previous Experience (2009 - 2014)
 - **E-Commerce Manager** at Marcyn (2012-2014)
 - **Business Intelligence Analyst** at Rocket Internet (2011-2012)
 - **Web Analytics Specialist** at 3YZ (2009-2010)
