@@ -9,9 +9,6 @@ I'm a strategic marketing leader with 14+ years driving data-driven growth for g
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ftchvs&color=blue&style=flat-square) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipetavaresch/) [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:felipetavareschaves@gmail.com) [![X](https://img.shields.io/badge/X-%23000000.svg?style=flat-square&logo=x&logoColor=white)](https://x.com/felipetchaves)
     </td>
-    <td valign="top" align="right">
-      <img src="felipe.jpeg" width="200" style="border-radius: 15px;" alt="Felipe Tavares Chaves profile picture">
-    </td>
   </tr>
 </table>
 
